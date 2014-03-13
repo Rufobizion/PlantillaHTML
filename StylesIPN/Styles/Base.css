@@ -306,6 +306,14 @@ body{
 	color: gray;
 }
 
+#Contenedor .Contenido {
+	display:block;
+	min-width:240px;
+	width:100%;
+	height:100%;
+	float:left;
+}
+
 .mediosSociales{
 	width: 100%;
 	height: 43px;
@@ -512,7 +520,10 @@ body{
 	.CabeceraContenido .LogoIPN span a { font-size: 12px; }
 	.CabeceraContenido .LogoIPN span span { font-size: 11px; }
 	.MenuPrincipal .MenuPrincipalContenido ul  { margin:0 auto;}
-	.MenuPrincipal .MenuPrincipalContenido ul li { width:25%;}
+	.MenuPrincipal .MenuPrincipalContenido ul li { width:30%;}
 	
+	#Contenedor .MenuVertical {	width: 90%; margin:0 auto; bottom:1px; position:relative;	}
+	
+	.RastroNavegacion .TituloPagina h1 { font-size: 18px; bottom: 5px; left: 40%;}
 	
 }
