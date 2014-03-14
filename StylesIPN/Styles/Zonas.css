@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+.zona_1 {
+	display:block;
+	width:90%;
+	height: 100%;
+	padding:5px 10px 5px 10px;
+}
+
+.zona_2 {
+	display:block;
+	width:40%;
+	height: 100%;
+	padding:5px 10px 5px 10px;
+	}
+
+.zona_3 {
+	display:block;
+	width:40%;
+	height: 100%;
+	padding:5px 10px 5px 10px;
+}
