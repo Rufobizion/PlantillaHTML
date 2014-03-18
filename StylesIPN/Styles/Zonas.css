@@ -4,6 +4,7 @@
 
 .contenedorl{
 	width:100%;
+	max-width:790px;
 	height:auto;
 	display:block;
 	margin:0 auto;
@@ -11,29 +12,37 @@
 }
 
 .zona_1 {
-	display:table-cell;
-	width:770px;
+	display:inline-block;
+	max-width:790px;
+	width:100%;
 	padding:5px;
 	border:1px solid #CCC;
+	float:left
 }
 
 .zona_2 {
-	display:table-cell;
-	width:385px;
+	display:inline-block;
+	max-width:390px;
+	width:100%;
 	padding:5px;
 	border:1px solid #CCC;
+	float:left;
 }
 
 .zona_3 {
-	display:table-cell;
-	width:256px;
+	display:inline-block;
+	max-width:260px;
+	width:100%;
 	padding:5px;
 	border:1px solid #CCC;
+	float:left;
 }
 
 .zona_4 {
-	display:table-cell;
-	width:192px;
+	display:inline-block;
+	max-width:195px;
+	width:100%;
 	padding:5px;
 	border:1px solid #CCC;
+	float:left;
 }
