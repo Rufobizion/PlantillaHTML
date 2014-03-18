@@ -2,32 +2,38 @@
 /* CSS Document */
 
 
-
+.contenedorl{
+	width:100%;
+	height:auto;
+	display:block;
+	margin:0 auto;
+	padding:5px;
+}
 
 .zona_1 {
-	display:block;
-	width:100%;
+	display:table-cell;
+	width:770px;
 	padding:5px;
 	border:1px solid #CCC;
 }
 
 .zona_2 {
-	display:block;
-	width:50%;
+	display:table-cell;
+	width:385px;
 	padding:5px;
 	border:1px solid #CCC;
 }
 
 .zona_3 {
-	display:block;
-	width:33%;
+	display:table-cell;
+	width:256px;
 	padding:5px;
 	border:1px solid #CCC;
 }
 
 .zona_4 {
-	display:block;
-	width:25%;
+	display:table-cell;
+	width:192px;
 	padding:5px;
 	border:1px solid #CCC;
 }
