@@ -15,55 +15,34 @@ p{
 }
 
 .zona_780 {
-	display:inline-block;
 	max-width:790px;
-	width:100%;
-	padding:5px;
-	border:1px solid #CCC;
-	float:left
 }
 
 .zona_585 {
-	display:inline-block;
 	max-width:585px;
-	width:100%;
-	padding:5px;
-	border:1px solid #CCC;
-	float:left
 }
 
 .zona_520 {
-	display:inline-block;
 	max-width:520px;
+}
+
+.zona_385 {
+	max-width:390px;
+}
+
+.zona_253 {
+	max-width:260px;
+}
+
+.zona_187 {
+	max-width:195px;
+}
+
+.zona_187, .zona_253, .zona_385, .zona_520, .zona_585, .zona_780
+	{
+	display:inline-block;
 	width:100%;
 	padding:5px;
 	border:1px solid #CCC;
 	float:left
-}
-
-.zona_385 {
-	display:inline-block;
-	max-width:390px;
-	width:100%;
-	padding:5px;
-	border:1px solid #CCC;
-	float:left;
-}
-
-.zona_253 {
-	display:inline-block;
-	max-width:260px;
-	width:100%;
-	padding:5px;
-	border:1px solid #CCC;
-	float:left;
-}
-
-.zona_187 {
-	display:inline-block;
-	max-width:195px;
-	width:100%;
-	padding:5px;
-	border:1px solid #CCC;
-	float:left;
-}
+	}
