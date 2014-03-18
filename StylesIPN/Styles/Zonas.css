@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 
+p{
+	border:1px solid #CCC;
+ }
 
 .contenedorl{
 	width:100%;
@@ -11,7 +14,7 @@
 	padding:5px;
 }
 
-.zona_1 {
+.zona_780 {
 	display:inline-block;
 	max-width:790px;
 	width:100%;
@@ -20,7 +23,25 @@
 	float:left
 }
 
-.zona_2 {
+.zona_585 {
+	display:inline-block;
+	max-width:585px;
+	width:100%;
+	padding:5px;
+	border:1px solid #CCC;
+	float:left
+}
+
+.zona_520 {
+	display:inline-block;
+	max-width:520px;
+	width:100%;
+	padding:5px;
+	border:1px solid #CCC;
+	float:left
+}
+
+.zona_385 {
 	display:inline-block;
 	max-width:390px;
 	width:100%;
@@ -29,7 +50,7 @@
 	float:left;
 }
 
-.zona_3 {
+.zona_253 {
 	display:inline-block;
 	max-width:260px;
 	width:100%;
@@ -38,7 +59,7 @@
 	float:left;
 }
 
-.zona_4 {
+.zona_187 {
 	display:inline-block;
 	max-width:195px;
 	width:100%;
