@@ -1,23 +1,33 @@
 @charset "utf-8";
 /* CSS Document */
 
+
+
+
 .zona_1 {
 	display:block;
-	width:90%;
-	height: 100%;
-	padding:5px 10px 5px 10px;
+	width:100%;
+	padding:5px;
+	border:1px solid #CCC;
 }
 
 .zona_2 {
 	display:block;
-	width:40%;
-	height: 100%;
-	padding:5px 10px 5px 10px;
-	}
+	width:50%;
+	padding:5px;
+	border:1px solid #CCC;
+}
 
 .zona_3 {
 	display:block;
-	width:40%;
-	height: 100%;
-	padding:5px 10px 5px 10px;
+	width:33%;
+	padding:5px;
+	border:1px solid #CCC;
+}
+
+.zona_4 {
+	display:block;
+	width:25%;
+	padding:5px;
+	border:1px solid #CCC;
 }
