@@ -7,6 +7,8 @@
     <title>Instituto Politécnico Nacional - La técnica al servicio de la Patria</title>
     <link href="StylesIPN/Styles/Base.css" rel="stylesheet" type="text/css" />
     <link href="StylesIPN/Styles/Zonas.css" rel="stylesheet" type="text/css" />
+    <script src="StylesIPN/Scripts/Modernizr.js"></script>
+        <script src="StylesIPN/Scripts/jquery.min.js"></script>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <!--[if lt IE 9]> <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> < ![endif]-->
     <script type="text/javascript">
@@ -19,42 +21,32 @@
         function  cgsi(){window.open('http://www.cgsi.ipn.mx');}
         function  blog(){window.open('http://ipn-mx.blogspot.mx');}
     </script>
+    
     <script type="text/javascript">
-	$(document).ready(function(){
-    $("#carousel .es-carousel").after("<div class='es-nav'><span class='es-nav-prev'>Previous</span><span class='es-nav-next'>Next</span></div>");
-    $(".es-nav-next").hover(function(){
-    $("#carousel .es-carousel ul").animate({marginLeft:-1000},500);
-    $(this).first("li").after
-    });
-/**/
-var menuva = ".MenuPrincipalContenido ul li";
-var menuv = "#s4-leftpanel";
-var menuh = ".MenuPrincipalContenido";
-var activo = ".menu-vertical ul li ul li.selected";
-$(menuv).before("<div class='triggerv'></div>");
-$(menuh).before("<div class='triggerh'>Men&uacute;</div>");
-
-/*Si est� activo*/
-    $(activo).closest("ul").css({"display":"block"});
-    $(activo).parents("li").find("span.static").addClass("on"); 
-    /*Si presionan el bot�n*/
-    $(menuva).click(function(){
-    $(this).parent().find("ul").stop().slideToggle();
-    $(this).toggleClass("on");      
-    });
-    $(".triggerh").click(function(){
-    $(menuh).stop().slideToggle();
-    });
-    $(".triggerv").click(function(){
-    $(menuv).stop().toggle("slide");
-    });
-
-
-    
-    
-});
-
+		/* MOBILE COLLAPSE MENU */
+		(function($) {
+		  $.fn.collapsable = function(options) {
+			// iterate and reformat each matched element
+			return this.each(function() {
+			  // cache this:
+			  var obj = $(this);
+			  var tree = obj.next('.MenuPrincipalContenido');
+			  obj.click(function(){
+				if( obj.is(':visible') ){tree.toggle();}
+			  });
+			  $(window).resize(function(){
+				 if ( $(window).width() <= 570 ){tree.attr('style','');};
+			  });
+			});
+		  };
+		})(jQuery);
 	</script>
+    
+    <script type="text/javascript">$(document).ready(function(){
+    $('.slide-trigger').collapsable();
+});
+</script>
+    
 </head>
 <body>
 	<div class="Cabecera">
@@ -84,9 +76,9 @@ $(menuh).before("<div class='triggerh'>Men&uacute;</div>");
     
 	</div>
     <div class="MenuPrincipal">
-    	<div class="triggerh">Menú</div>
-    	<div class="MenuPrincipalContenido">
-        	<ul>   
+    	 <h2 class="navheader slide-trigger">Menu <span></span></h2>
+<!--    	<div class="MenuPrincipalContenido"> -->
+        	<ul class="MenuPrincipalContenido">   
                 <li><a accesskey="1" href="/sites/ipn2014/Paginas/inicio.aspx">Inicio</a></li>           
                 <li><a href="/sites/ipn2014/Acerca-de-IPN/Paginas/Acerca-de-IPN.aspx">Acerca de</a></li>
       			<li><a href="/sites/ipn2014/Oferta-Educativa/Paginas/Oferta-Educativa.aspx">Oferta educativa</a></li>
@@ -96,7 +88,7 @@ $(menuh).before("<div class='triggerh'>Men&uacute;</div>");
       			<li><a href="/sites/ipn2014/Recursos-y-Servicios/Paginas/Recursos-y-Servicios.aspx">Recursos y Servicios</a></li>
                 <li><a href="/sites/ipn2014/Transparencia/Paginas/Transparencia.aspx">Transparencia</a></li>
             </ul>
-        </div>
+<!--        </div> -->
     </div>
 <!-- Contenido 1--> 
 <!-- Rastro de Navegacion 1-->
