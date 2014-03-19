@@ -171,6 +171,9 @@ body{
 .MenuPrincipal {	
 	background:rgb(211,211,211);
 }
+.triggerh, .triggerv {
+display: none;
+}
 .MenuPrincipal .MenuPrincipalContenido {
 	display: table;
 	width: 100%;
@@ -568,17 +571,18 @@ border-radius: 0 0 0 50px;
     .RastroNavegacion .TituloPagina h1{width:90%;left:0;right:0;margin: auto;text-align: center;}
 }
 @media screen and (max-width: 533px){
-.menu-horizontal ul li{width: 98%;/* display: table; */}
-    .logosep,.derechos{display:none;}
-    .escudoipn{margin-right: 10px;}
-    .menu-horizontal {position:relative;margin: auto;display:none;}
-    .menu-horizontal ul li{margin:auto;}
-    .menu-horizontal ul li.selected{display:block;}
-    .menu-horizontal ul.on{height:auto;-moz-transition: all 0.2s ease-in-out 0s;
+.MenuPrincipalContenido ul li{width: 98%;/* display: table; */}
+.Cabecera .CabeceraTitulo .LogoSEP { display:none;}	
+    .derechos{display:none;}
+    .EscudoIPN{margin-right: 10px;}
+    .MenuPrincipalContenido {position:relative;margin: auto;display:none;}
+    .MenuPrincipalContenido ul li{margin:auto;}
+    .MenuPrincipalContenido ul li.selected{display:block;}
+    .MenuPrincipalContenido ul.on{height:auto;-moz-transition: all 0.2s ease-in-out 0s;
     transition: all 0.2s ease-in-out 0s;/* CSS3 */
     -webkit-transition: all 0.2s ease-in-out 0s; /* Safari and Chrome */
     -o-transition: all 0.2s ease-in-out 0s; /* Opera */}
-    .menu-horizontal ul.on li{display:block;-moz-transition: all 0.2s ease-in-out 0s;
+    .MenuPrincipalContenido ul.on li{display:block;-moz-transition: all 0.2s ease-in-out 0s;
     transition: all 0.2s ease-in-out 0s;/* CSS3 */
     -webkit-transition: all 0.2s ease-in-out 0s; /* Safari and Chrome */
     -o-transition: all 0.2s ease-in-out 0s; /* Opera */}
