@@ -7,38 +7,36 @@ p{
 
 .contenedorl{
 	width:100%;
-	max-width:790px;
+	max-width:770px;
 	height:auto;
 	display:block;
-	margin:0 auto;
-	padding:10px;
 }
 
-.zona_780 {
-	max-width:768px;
+.zona_770 {
+	max-width:770px;
 }
 
-.zona_585 {
-	max-width:576px;
+.zona_558 {
+	max-width:577.5px;
 }
 
-.zona_520 {
-	max-width:512px;
+.zona_494 {
+	max-width:513.35px;
 }
 
-.zona_385 {
-	max-width:384px;
+.zona_365 {
+	max-width:385px;
 }
 
-.zona_253 {
-	max-width:256px;
+.zona_236 {
+	max-width:256.67px;
 }
 
-.zona_187 {
-	max-width:192px;
+.zona_172 {
+	max-width:192.5px;
 }
 
-.zona_187, .zona_253, .zona_385, .zona_520, .zona_585, .zona_780
+.zona_172, .zona_236, .zona_365, .zona_494, .zona_558, .zona_770
 	{
 	display:inline-block;
 	width:100%;
