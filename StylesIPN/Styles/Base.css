@@ -267,9 +267,10 @@ display: none;
 	background: white;
 }
 #Contenedor .MenuVertical {
-	width: 180px;
+	display:block;/*No existia*/
+	width: 177px;
 	float: left;
-	position: absolute;
+	position: relative;/*Tenia absolute*/
 	min-height: 100%;
 	z-index: 1;
 	background-color: white;
