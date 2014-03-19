@@ -11,38 +11,38 @@ p{
 	height:auto;
 	display:block;
 	margin:0 auto;
-	padding:5px;
+	padding:10px;
 }
 
 .zona_780 {
-	max-width:790px;
+	max-width:768px;
 }
 
 .zona_585 {
-	max-width:585px;
+	max-width:576px;
 }
 
 .zona_520 {
-	max-width:520px;
+	max-width:512px;
 }
 
 .zona_385 {
-	max-width:390px;
+	max-width:384px;
 }
 
 .zona_253 {
-	max-width:260px;
+	max-width:256px;
 }
 
 .zona_187 {
-	max-width:195px;
+	max-width:192px;
 }
 
 .zona_187, .zona_253, .zona_385, .zona_520, .zona_585, .zona_780
 	{
 	display:inline-block;
 	width:100%;
-	padding:5px;
+	padding:10px;
 	border:1px solid #CCC;
 	float:left
 	}
