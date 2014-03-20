@@ -289,10 +289,10 @@ body{
 	background: white;
 }
 #Contenedor .MenuVertical {
-	display:block;/*No existia*/
+	/*display: block;*//*No existia*/
 	width: 177px;
 	float: left;
-	position: relative;/*Tenia absolute*/
+	position: absoluto;/*Tenia absolute*/
 	min-height: 100%;
 	z-index: 1;
 	background-color: white;
@@ -311,7 +311,7 @@ body{
 #Contenedor .MenuVertical ul li:first-child {
     border-top: solid 1px rgb(210,210,210);
 }
-.MenuVertical ul li a {
+#Contenedor .MenuVertical ul li a {
 	display: block;
 	background: none;
 	padding: 5px 4px 5px 15px;
@@ -333,24 +333,18 @@ body{
 }
 
 #Contenedor .Contenido {
-/*	float:right;
-	max-width: 790px;
 	width:100%;
-	height: 0px;
-	display: table;
-	min-height: 350px;
-	box-shadow: 0px 0px 5px;
-	clear:both;*/
-	width:100%;
-	height: 0px;
-	display: table;
-	min-height: 350px;
-	box-shadow: 0px 0px 5px;
 	max-width: 790px;
-background: white;
-float: right;
-border-radius: 0 0 0 50px;
-padding: 10px 10px 30px 10px;
+	min-width: 240px;
+	min-height: 350px;
+	height: 100%;
+	display: table;
+/*display:block;*/
+	box-shadow: 0px 0px 5px;
+	background: white;
+	float: right;
+	border-radius: 0 0 0 50px;
+	padding: 10px 10px 30px 10px;
 }
 
 .mediosSociales{
@@ -586,13 +580,13 @@ padding: 10px 10px 30px 10px;
 }
 /*43.75em = 700px; 60.625 em = 970px; 25 em = 400px; 20 em = 320 */
 @media screen and (max-width: 970px){
-    .completa790{max-width:100%;}
+/*    .completa790{max-width:100%;}
     body #s4-leftpanel{display:none;background: transparent;top:0;box-shadow: none;}
     .triggerv{display:block;position:absolute;width: 30px;  height:30px;    padding: 8px;z-index: 2;background: url("/Style%20Library/Images/assets/MenuResponsive.png") no-repeat 5px;top: -35px;}
     #Contenedor .menu-vertical ul{margin:0}
     #Contenedor .menu-vertical{background:rgba(255,255,255,.8); min-height: 110px;box-shadow:0px 0px 5px -1px}
     .RastroNavegacion .MenuRastroNavegacion{height:70px;}
-    .RastroNavegacion .TituloPagina h1{width:90%;left:0;right:0;margin: auto;text-align: center;}
+    .RastroNavegacion .TituloPagina h1{width:90%;left:0;right:0;margin: auto;text-align: center;}*/
 }
 @media screen and (max-width: 560px){
 .MenuPrincipalContenido ul li{width: 98%;/* display: table; */}

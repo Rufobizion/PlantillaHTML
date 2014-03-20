@@ -7,6 +7,8 @@
     <title>Instituto Politécnico Nacional - La técnica al servicio de la Patria</title>
     <link href="StylesIPN/Styles/Base.css" rel="stylesheet" type="text/css" />
     <link href="StylesIPN/Styles/Zonas.css" rel="stylesheet" type="text/css" />
+    <script src="StylesIPN/Scripts/Modernizr.js"></script>
+    <script src="StylesIPN/Scripts/jquery.min.js"></script>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <!--[if lt IE 9]> <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> < ![endif]-->
     <script type="text/javascript">
@@ -19,6 +21,30 @@
         function  cgsi(){window.open('http://www.cgsi.ipn.mx');}
         function  blog(){window.open('http://ipn-mx.blogspot.mx');}
     </script>
+      <script type="text/javascript">
+		/* MOBILE COLLAPSE MENU */
+		(function($) {
+		  $.fn.collapsable = function(options) {
+			// iterate and reformat each matched element
+			return this.each(function() {
+			  // cache this:
+			  var obj = $(this);
+			  var tree = obj.next('.MenuPrincipalContenido');
+			  obj.click(function(){
+				if( obj.is(':visible') ){tree.toggle();}
+			  });
+			  $(window).resize(function(){
+				 if ( $(window).width() <= 570 ){tree.attr('style','');};
+			  });
+			});
+		  };
+		})(jQuery);
+	</script>
+    
+    <script type="text/javascript">$(document).ready(function(){
+    $('.slide-trigger').collapsable();
+});
+</script>
 </head>
 <body>
 	<div class="Cabecera">
@@ -48,8 +74,9 @@
     
 	</div>
     <div class="MenuPrincipal">
-    	<div class="MenuPrincipalContenido">
-        	<ul>   
+    	 <h2 class="navheader slide-trigger">Menu <span></span></h2>
+<!--    	<div class="MenuPrincipalContenido"> -->
+        	<ul class="MenuPrincipalContenido">   
                 <li><a accesskey="1" href="/sites/ipn2014/Paginas/inicio.aspx">Inicio</a></li>           
                 <li><a href="/sites/ipn2014/Acerca-de-IPN/Paginas/Acerca-de-IPN.aspx">Acerca de</a></li>
       			<li><a href="/sites/ipn2014/Oferta-Educativa/Paginas/Oferta-Educativa.aspx">Oferta educativa</a></li>
@@ -59,7 +86,7 @@
       			<li><a href="/sites/ipn2014/Recursos-y-Servicios/Paginas/Recursos-y-Servicios.aspx">Recursos y Servicios</a></li>
                 <li><a href="/sites/ipn2014/Transparencia/Paginas/Transparencia.aspx">Transparencia</a></li>
             </ul>
-        </div>
+<!--        </div> -->
     </div>
 <!-- Contenido 1--> 
 <!-- Rastro de Navegacion 1-->
