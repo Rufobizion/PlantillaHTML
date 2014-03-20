@@ -10,33 +10,34 @@ p{
 	max-width:770px;
 	height:auto;
 	display:block;
+	margin:0 auto;
 }
 
-.zona_770 {
+.zona_747 {
 	max-width:770px;
 }
 
-.zona_558 {
-	max-width:577.5px;
+.zona_554 {
+	max-width:75%;
 }
 
-.zona_494 {
-	max-width:513px;
+.zona_490 {
+	max-width:66.66%;
 }
 
-.zona_365 {
-	max-width:385px;
+.zona_362 {
+	max-width:50%;
 }
 
-.zona_236 {
-	max-width:256.67px;
+.zona_234 {
+	max-width:33.33%;
 }
 
-.zona_172 {
-	max-width:192.5px;
+.zona_170 {
+	max-width:25%;
 }
 
-.zona_172, .zona_236, .zona_365, .zona_494, .zona_558, .zona_770
+.zona_170, .zona_234, .zona_362, .zona_490, .zona_554, .zona_747
 	{
 	display:inline-block;
 	width:100%;
