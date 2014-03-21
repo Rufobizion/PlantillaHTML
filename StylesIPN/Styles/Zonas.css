@@ -13,31 +13,31 @@ p{
 	margin:0 auto;
 }
 
-.zona_747 {
-	max-width:770px;
+.zona_750 {
+	max-width:100%;
 }
 
-.zona_554 {
+.zona_558 {
 	max-width:75%;
 }
 
-.zona_490 {
+.zona_494 {
 	max-width:66.66%;
 }
 
-.zona_362 {
+.zona_365 {
 	max-width:50%;
 }
 
-.zona_234 {
+.zona_236 {
 	max-width:33.33%;
 }
 
-.zona_170 {
+.zona_172 {
 	max-width:25%;
 }
 
-.zona_170, .zona_234, .zona_362, .zona_490, .zona_554, .zona_747
+.zona_172, .zona_236, .zona_365, .zona_494, .zona_558, .zona_750
 	{
 	display:inline-block;
 	width:100%;
