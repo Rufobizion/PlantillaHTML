@@ -288,30 +288,42 @@ body{
 	position: relative;
 	background: white;
 }
-#Contenedor .MenuVertical {
+/*#Contenedor .MenuVertical { */
 	/*display: block;*//*No existia*/
-	width: 177px;
+/*	width: 177px;
 	float: left;
-	position: absoluto;/*Tenia absolute */
+	position: absoluto;
 	min-height: 100%;
 	z-index: 1;
 	background-color: white;
 	box-shadow: 0 -7px 5px -1px rgba(0,0,0,.4);
 	bottom: 33px;
+}*/
+.MenuVertical {
+  
+	width: 180px;
+	float: left;
+	position: absolute;
+	min-height: 100%;
+	z-index: 1;
+	background-color: white;
+	box-shadow: 0 -7px 5px -1px rgba(0,0,0,.4);
+	bottom: 33px;
+	  
 }
-#Contenedor .MenuVertical ul {
-    margin-top: 32px;
+.MenuVertical ul {
+	margin-top: 32px;
 }
-#Contenedor .MenuVertical ul li {
+.MenuVertical li {
 	border-bottom: solid 1px rgb(210,210,210);
 	position: relative;
 	word-wrap: break-word;
 	font-weight: bold;	
 }
-#Contenedor .MenuVertical ul li:first-child {
+.MenuVertical li:first-child {
     border-top: solid 1px rgb(210,210,210);
 }
-#Contenedor .MenuVertical ul li a {
+.MenuVertical li a {
 	display: block;
 	background: none;
 	padding: 5px 4px 5px 15px;
@@ -320,7 +332,7 @@ body{
 	color: #444444;
 	margin-left: 3px;
 }
-#Contenedor .MenuVertical ul > li a:before {
+.MenuVertical > li a:before {
 	content: ">";
 	display: block;
 	top: 8px;
@@ -335,10 +347,9 @@ body{
 #Contenedor .Contenido {
 	width:100%;
 	max-width: 790px;
-	min-width: 240px;
 	min-height: 350px;
 	height: 100%;
-	display: table;
+
 /*display:block;*/
 	box-shadow: 0px 0px 5px;
 	background: white;
