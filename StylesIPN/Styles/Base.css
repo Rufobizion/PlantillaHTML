@@ -602,7 +602,7 @@ display:block;
 	
 	.RastroNavegacion .MenuRastroNavegacion span span { display:none;}
 
-	.RastroNavegacion .TituloPagina h1 {	bottom: 10px; left: 55%; }
+	.RastroNavegacion .TituloPagina h1 {font-size: 17px; bottom: 10px; left: 55%; }
 
 	
 	.Cabecera .CabeceraTitulo .LogoSEP { display:none;}	
@@ -629,6 +629,8 @@ display:block;
 		border-bottom: 0;
 /*		width:100%;*/
 		min-height:30px;
+		height:height: 30px;
+		height: 30px;
 /*		display:none;*/
 	}
 	.MenuVertical ul {
@@ -677,13 +679,25 @@ display:block;
    
 }
 
+@media screen and (max-width: 480px){
+	
+	.RastroNavegacion .TituloPagina h1 { bottom: 10px; left: 30%; font-size: 17px; }
+	
+}
+
 @media screen and (max-width: 320px){
 .Cabecera .CabeceraTitulo .LogoSEP { display:none;}	
-.Cabecera .CabeceraTitulo .LogoIPN > span{
-    right:0;left:0;top:70px;margin:auto;text-align:center;
-}
-    .Cabecera .CabeceraTitulo .LogoIPN h1{text-align: center;width: 100%;right: auto;top: auto;bottom: 5px;}
-    .EscudoIPN{float: none;margin: 2px auto;}
+.Cabecera .CabeceraTitulo .LogoIPN > span{ right:0;left:0;top:70px;margin:auto;text-align:center; }
+.CabeceraContenido .LogoIPN span a { font-size: 12px;}
+.Cabecera .CabeceraTitulo .LogoIPN h1{text-align: center;width: 100%;right: auto;top: auto;bottom: 5px;}
+
+.RastroNavegacion .MenuRastroNavegacion { height: 55px; }
+
+.RastroNavegacion .TituloPagina h1 { bottom: 10px; left: 30%; font-size: 16px; }
+.EscudoIPN{float: none;margin: 2px auto; width: 40px; height: 60px; }
+
+.MenuPrincipalContenido li{ width:48%;}  		
+
 }
 @media print {
     * {
