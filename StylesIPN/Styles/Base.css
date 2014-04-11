@@ -630,7 +630,7 @@ display:block;
     .derechos{display:none;}
     .EscudoIPN{margin-right: 10px;}
 	
-	 .slide-trigger { display: block; text-align:center; line-height:30px; font-size:12; height:30px;  background: #3F0722; color: white; border: none; }
+	 .slide-trigger { display: block; text-align:center; line-height:30px; font-size:12px; height:30px;  background: #3F0722; color: white; border: none; }
 
      .no-js .slide-trigger { display: none; }
 
@@ -739,7 +739,7 @@ display:block;
         text-shadow: none !important;
  
         /* Images, vectors and such */
-        filter: Gray();                          /* IE4-8: depreciated */
+        filter: gray();                          /* IE4-8: depreciated */
         filter: url('desaturate.svg#grayscale'); /* SVG version for IE10, Firefox, Safari 5 and Opera */
         -webkit-filter: grayscale(100%);         /* Chrome + Safari 6 */
         -moz-filter: grayscale(100%);            /* Future proof */
