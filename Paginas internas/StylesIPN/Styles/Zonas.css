@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+p{
+	border:1px solid #CCC;
+ }
+
+.contenedorl{
+	width:100%;
+	max-width:770px;
+	height:auto;
+	display:block;
+	margin:0 auto;
+	float:left;
+	
+}
+
+.contenedorP{
+	width:100%;
+	max-width:970px;
+	height:auto;
+	display:block;
+	margin:0 auto;
+	float:left;
+	
+}
+
+
+.zona_192, .zona_256, .zona_385, .zona_514, .zona_578, .zona_770, .zona_950, .zona_760, .zona_713, .zona_634, .zona_570, .zona_475, .zona_316, .zona_237, .zona_190
+	{
+	display:inline-block;
+	width:100%;
+	padding:10px;
+	border:1px solid #CCC;
+	float:left
+}
+/*Zonas de la pagina menu lateral*/
+.zona_770 {
+	max-width:770px;
+}
+
+.zona_578 {
+	max-width:578px;
+}
+
+.zona_514 {
+	max-width:514px;
+}
+
+.zona_385 {
+	max-width:385px;
+}
+
+.zona_256 {
+	max-width:256px;
+}
+
+.zona_192 {
+	max-width:192px;
+}
+/*Terminan zonas de la pagina menu lateral*/
+/*Zonas de la pagina principal*/
+.zona_950 {
+	max-width:950px;
+}
+
+.zona_760 {
+	max-width:760px;
+}
+
+.zona_713 {
+	max-width:713px;
+}
+
+.zona_634 {
+	max-width:634px;
+}
+
+.zona_570 {
+	max-width:570px;
+}
+
+.zona_475 {
+	max-width:475px;
+}
+
+.zona_316 {
+	max-width:316px;
+}
+
+.zona_237 {
+	max-width:237px;
+}
+
+.zona_190 {
+	max-width:190px;
+}
+
+
+/*Terminan zonas de la pagina principal*/
+
