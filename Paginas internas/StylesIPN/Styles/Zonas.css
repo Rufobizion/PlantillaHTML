@@ -3,6 +3,7 @@
 
 p{
 	border:1px solid #CCC;
+	line-height:18px;
  }
 
 .contenedorl{
@@ -59,6 +60,7 @@ p{
 	max-width:192px;
 }
 /*Terminan zonas de la pagina menu lateral*/
+
 /*Zonas de la pagina principal*/
 .zona_950 {
 	max-width:950px;
