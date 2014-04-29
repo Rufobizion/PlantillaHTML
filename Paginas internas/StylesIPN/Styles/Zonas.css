@@ -4,6 +4,8 @@
 p{
 	border:1px solid #CCC;
 	line-height:18px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
  }
 
 .contenedorl{
@@ -31,13 +33,13 @@ p{
 	{
 	display:inline-block;
 	width:100%;
-	padding:10px;
+	margin:10px;
 	border:1px solid #CCC;
 	float:left
 }
 /*Zonas de la pagina menu lateral*/
 .zona_770 {
-	max-width:770px;
+	max-width:750px;
 }
 
 .zona_578 {
@@ -53,7 +55,7 @@ p{
 }
 
 .zona_256 {
-	max-width:256px;
+	max-width:236px;
 }
 
 .zona_192 {

@@ -3,9 +3,30 @@
 
 .vinculos{
 	float:right;
+	padding-right:10px;
 }
 
-img{
-	position:relative;
+.ContenedorTxt{
+	height:179px;
+	overflow:hidden;
 }
+
+p{
+	border:none !important;
+}
+
+.zona_256{
+	height:330px !important;
+}
+
+.zona_256 span{
+	float: left;
+	position: absolute;
+	padding-top: 40px;
+	padding-left: 10px;
+	font-size: 18px;
+}
+
+.slidershow {height:300px; width:750px; margin:auto}
+.slidershow img {padding:15px; border:1px solid #CCC; background-color:#eee}
 
