@@ -1,10 +1,12 @@
 @charset "utf-8";
 /* CSS Document */
-.zona_770 {
+.zona_770,.Texto p {
 	border:none !important;
 }
+.ContenedorImg,.ContenedorTxt, .ContenedorImgDer, .Descargar span{
+position:relative;
+}
 .ContenedorTxt{
-    position:relative;
 	padding: 15px;
 }
 .ContenedorTxt h2{
@@ -19,15 +21,13 @@
     line-height: 20px;
     margin-top: 20px;
     text-align: justify;
-	border:none !important;
 }
 .ContenedorImg{
-	position:relative;
-	margin-right:15px;
 	float:left;
+	margin-right:15px;
+	
 }
 .ContenedorImgDer{
-	position:relative;
 	float:right;
 	margin-left:15px;
 }
@@ -41,19 +41,10 @@
 	font-style:italic;
 	font-size:11px;
 	float: left;
-	position: relative;
 	top: 11px;
 	right: 3px;
 
 }
-/*.DescargarIzq{
-	float: right;
-	margin-top: -13px;
-	margin-right: 6px;
-}
-.Descargar img{
-	/*margin-right:-2px;
-}*/
 
 
 
