@@ -5,59 +5,46 @@ p{
 	border:none !important;
 }
 
-.zona_256{
-	height:330px !important;
-}
-
-.slidershow {width:100%; height:100%; margin:auto}
-.slidershow img {padding:15px; border:1px solid #CCC; background-color:#eee}
-
-
 .Webpart01, .Webpart02, .Webpart03, .Webpart04{
 		position:relative;	
-		border:1px solid #CCC;
 		width:100%;
-		height:100%;
+		height:330px; /*¿Por definirse...?*/
 }
 
 .ContenedorImgWp1, .ContenedorImgWp2, .ContenedorImgWp3{
 	position:absolute;
 	top:0px;
-	background-repeat:no-repeat;
 	width:100%;
 	height:30%;
 }
 
 .ContenedorImgWp1{
 	background-image:url('file:///C|/Users/Hugo%20D%C3%ADaz/Documents/GitHub/PlantillaHTML/Paginas%20internas/Imagenes/ima01.jpg');
+	background-repeat:no-repeat;
 }
 
 .ContenedorImgWp2{
 	background-image:url('file:///C|/Users/Hugo%20D%C3%ADaz/Documents/GitHub/PlantillaHTML/Paginas%20internas/Imagenes/ima02.jpg');
+	background-repeat:no-repeat;
 }
 
 .ContenedorImgWp3{
 	background-image:url('file:///C|/Users/Hugo%20D%C3%ADaz/Documents/GitHub/PlantillaHTML/Paginas%20internas/Imagenes/ima03.jpg');
+	background-repeat:no-repeat;
 }
 
-span{
+.Webpart01 span, .Webpart02 span, .Webpart03 span{
+	position:absolute;
 	float: left;
-	position: absolute;
-	}
-
-.zona_256 span{
 	padding-top: 32px;
 	padding-left: 15px;
 	font-size: 18px;
+	width:160px;
 }
 
-.ContenedorTxt{
+.Webpart01 .ContenedorTxt, .Webpart02 .ContenedorTxt, .Webpart03 .ContenedorTxt{
 	position:absolute;
-	display:block;
 	overflow:hidden;
-}
-
-.zona_256 .ContenedorTxt{
 	top:30%;
 	bottom:20%;
 	padding:15px;
@@ -78,6 +65,7 @@ span{
 	font-weight:bold;
 	color:#664759;	
 	padding: 0px;
-	right: 35px;
+	right: 0px;
 	top: 10px;
+	width:90px;
 }
