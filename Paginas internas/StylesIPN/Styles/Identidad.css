@@ -64,8 +64,19 @@ p{
 	position:absolute;
 	right:15px;
 	bottom:15px;
+	width:32px;
+	height:32px;
 }
 
+.Webpart01 .vinculos{
+	background-image:url('file:///C|/Users/Hugo%20D%C3%ADaz/Documents/GitHub/PlantillaHTML/Paginas%20internas/Imagenes/descargar.png');
+	background-repeat:no-repeat;
+}
+
+.Webpart03 .vinculos{
+	background-image:url('file:///C|/Users/Hugo%20D%C3%ADaz/Documents/GitHub/PlantillaHTML/Paginas%20internas/Imagenes/leer.png');
+	background-repeat:no-repeat;
+}
 
 .vinculos span{
 	font-size: 12px;
@@ -77,4 +88,5 @@ p{
 	right: 0px;
 	top: 10px;
 	width:90px;
+	float:right;
 }
