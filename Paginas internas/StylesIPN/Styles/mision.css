@@ -1,83 +1,59 @@
 @charset "utf-8";
 /* CSS Document */
 .zona_770 {
-	max-width:770px;
 	border:none !important;
-	width:100%;
-	padding:10px;
-	float:left;
 }
 .ContenedorTxt{
     position:relative;
-	left: 10px;
-}
-.ContenedorTxtObj{
-    position:relative;
-	left: 2px;
-}
-.Texto p{
-    font-size: 12px;
-	font-family:arial;
-    line-height: 20px;
-    margin-top: 10px;
-    text-align: justify;
-	padding: 10px;
-	border:none !important;
-}
-.TextoObj p{
-    font-size: 12px;
-	font-family:arial;
-    line-height: 20px;
-    margin-top: 10px;
-    text-align: justify;
-	padding: 10px;
-	margin-left:-7px;
-	border:none !important;
+	padding: 15px;
 }
 .ContenedorTxt h2{
 	font-family:Arial;
-	font-size:19px;
-	color:#c7854b;
+	font-size:16px;
+	color:#ff9933;
+	font-weight:bold;
 }
-.ContenedorTxtObj h2{
+.Texto p{
+    font-size: 13px;
 	font-family:Arial;
-	font-size:19px;
-	color:#c7854b;
-}
-.ContenedorTxtIzq h2{
-	font-family:Arial;
-	font-size:19px;
-	color:#c7854b;
-	margin-left:8px;
+    line-height: 20px;
+    margin-top: 20px;
+    text-align: justify;
+	border:none !important;
 }
 .ContenedorImg{
 	position:relative;
-	left: 0px;
+	margin-right:15px;
 	float:left;
 }
-.Descargar{
-	float: right;
-	margin-top: 24px;
+.ContenedorImgDer{
+	position:relative;
+	float:right;
+	margin-left:15px;
 }
-.DescargarIzq{
+.Descargar{
+	float: right;	
+}
+.Descargar span{
+	font-family:"Myriad Pro";
+	font-weight:bold;
+	color:#664759;
+	font-style:italic;
+	font-size:11px;
+	float: left;
+	position: relative;
+	top: 11px;
+	right: 3px;
+
+}
+/*.DescargarIzq{
 	float: right;
 	margin-top: -13px;
 	margin-right: 6px;
 }
 .Descargar img{
-	margin-right:-2px;
-}
-.ContenedorImgDer{
-	position:relative;
-	float:right;
-	margin-left:10px;
-}
-.ContenedorTxtIzq{
-    position:relative;
-	left:-8px;
-}
-.ContenedorTxt{
-    position:relative;
-}
+	/*margin-right:-2px;
+}*/
+
 
 
