@@ -1,38 +1,68 @@
 @charset "utf-8";
 /* CSS Document */
-.zona_770,.Texto p {
+.zona_770{
 	border:none !important;
 }
-.ContenedorImg,.ContenedorTxt, .ContenedorImgDer, .Descargar span{
-position:relative;
+.wpMision,.wpVision,.wpObjetivo{
+	position:relative;
+	width:100%;
+	border-bottom:1px solid #ccc !important;	
 }
-.ContenedorTxt{
+.wpMision{
+	height:240px;
+}
+.wpVision{
+	height:210px;
+}
+.wpObjetivo{
+	height:150px;
+}
+.wpMision .ContenedorTxt,wpObjetivo .ContenedorTxt {
+	width:75%;
+	height:233px;
 	padding: 15px;
+	position:absolute;
+	right:0px;
 }
-.ContenedorTxt h2{
+.wpVision .ContenedorTxt {
+	height:191px;
+	width:75%;
+	padding: 15px;
+	position:absolute;
+	/*right:0px;*/
+}
+
+.wpMision .ContenedorTxt h2, .wpVision .ContenedorTxt h2,.wpObjetivo .ContenedorTxt h2{
 	font-family:Arial;
 	font-size:16px;
 	color:#ff9933;
 	font-weight:bold;
+	margin-bottom:20px;
 }
 .Texto p{
     font-size: 13px;
 	font-family:Arial;
     line-height: 20px;
-    margin-top: 20px;
     text-align: justify;
+	border:none !important;
 }
-.ContenedorImg{
+.wpMision .ContenedorImg{
+	width:25%;
 	float:left;
-	margin-right:15px;
+	position:absolute;
 	
 }
-.ContenedorImgDer{
+.wpVision .ContenedorImgDer{
 	float:right;
-	margin-left:15px;
+	/*position:absolute;*/
 }
 .Descargar{
-	float: right;	
+	position:absolute;
+	width:32px;
+	height:	31px;
+	background:url(../../IMAGENES/descargar.png) no-repeat;	
+	right:15px;
+	bottom:15px;
 }
 .Descargar span{
 	font-family:"Myriad Pro";
@@ -40,9 +70,9 @@ position:relative;
 	color:#664759;
 	font-style:italic;
 	font-size:11px;
-	float: left;
-	top: 11px;
-	right: 3px;
+	float: right;
+	margin-right: 36px;
+	margin-top: 11px;
 
 }
 
