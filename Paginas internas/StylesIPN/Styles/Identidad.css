@@ -55,8 +55,14 @@ p{
 	position:absolute;
 	overflow:hidden;
 	top:30%;
+	height:70%	
+}
+
+.ContenedorTxt .Texto{
 	bottom:20%;
 	padding:15px;
+	overflow:hidden;
+	height:72%
 }
 
 .vinculos{
