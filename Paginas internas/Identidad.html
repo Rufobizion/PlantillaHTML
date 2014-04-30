@@ -8,10 +8,10 @@
     <link href="StylesIPN/Styles/Base.css" rel="stylesheet" type="text/css" />
     <link href="StylesIPN/Styles/Zonas.css" rel="stylesheet" type="text/css" />
     <link href="StylesIPN/Styles/Identidad.css" rel="stylesheet" type="text/css" />
+    <link href="StylesIPN/Styles/Carrusel.css" rel="stylesheet" type="text/css" />
     <script src="StylesIPN/Scripts/Modernizr.js" type="text/jscript"></script>
     <script src="StylesIPN/Scripts/jquery.min.js" type="text/jscript"></script>
-    <script src="StylesIPN/Scripts/jquery.js" type="text/jscript"></script>
-    <script src="StylesIPN/Scripts/cycle.js" type="text/jscript"></script>
+    <script src="StylesIPN/Scripts/general.js" type="text/jscript"></script>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js" type="text/jscript"></script>
     <!--[if lt IE 9]> <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> < ![endif]-->
     <script type="text/javascript">
@@ -71,17 +71,6 @@
 		});
 </script>
  
-<!--Slider-->
-<script>
-$(document).ready(function(){
-	
-	$('.slidershow').cycle({
-		fx: 'fade'
-		});
-	
-	});
-</script>
-
 </head>
 <body>
 	<div class="Cabecera">
@@ -165,59 +154,88 @@ $(document).ready(function(){
       	</div>
 <!--Contenido-->        
         <div class="Contenido">
-        	<div>
-            	<div class="zona_770">          
+
+            	<div class="zona_770">  
+                	<div class="Webpart04">      
                 <p>El IPN es hoy por hoy una de las instituciones educativas líderes en América Latina y el resto del mundo</p>
-                <br/>
-               	<div class="slidershow">
-					<img src="Imagenes/slider01.jpg" alt="" height="299px" width="749px"/>
-					<img src="Imagenes/slider02.jpg" alt="" height="299px" width="749px"/>
-                    <img src="Imagenes/slider01.jpg" alt="" height="299px" width="749px"/>
-				</div>  
-           		</div>
-            
+                <div id="Header">
+            <div id="carrusel">
+                <h2 class="titulosCarrusel">Carrusel</h2>
+                <div id="elemento_1" class="elemento_carrusel">
+                    <div class="imagen_carrusel">
+                        <a href="http://www.ipn.mx" target="_blank">
+                        <img src="Imagenes/slider01.jpg" alt=""/></a>
+                    </div>
+                </div>
+                <div id="elemento_2" class="elemento_carrusel" style="display: none; ">
+                    <div class="imagen_carrusel">
+                        <img src="Imagenes/slider02.jpg" alt=""/>
+                    </div>
+                </div>
+                <div id="elemento_3" class="elemento_carrusel" style="display: none; ">
+                    <div class="imagen_carrusel">
+                        <img src="Imagenes/slider01.jpg" alt=""/>
+                    </div>
+                </div>
+
+            </div>
+		<!--Aqui se encuentran los botones-->
+            <div id="navega_carrusel">
+                <ul id="botones_navega_carrusel" class="barra_botones">
+                    <li class="primera"><a rel="1" class="bot_carrusel" id="carrusel_n1" href="#" style="color: rgb(255, 255, 255); background-color: rgb(108, 26, 66); "></a></li>
+                    <li><a rel="2" class="bot_carrusel" id="carrusel_n2" href="#" style="color: rgb(102, 102, 102); "></a></li>
+                    <li><a rel="3" class="bot_carrusel" id="carrusel_n3" href="#" style="color: rgb(102, 102, 102); "></a></li>
+                </ul>
+            </div>
+        </div>
+           	</div>   
+        </div>     
             	<div class="zona_256">
                     <div class="Webpart01">
-                        <div class="ContenedorImg">
+                        <div class="ContenedorImgWp1">
                         	<span>¿Sabías que...?</span>
                         </div>
                         <div class="ContenedorTxt">
-                        	<p>En el 2001 se autorizó la nueva estructura orgánica y funcional del IPN, por la cual se dio rango de dirección a varias coordinaciones como la de Blibliotecas y la de Servicios de Información; otra dependencia que cambió de categoría fue la Dirección de Cómputo y se creó la Dirección de Tecnología Educativa.</p>
-                            <div class="vinculos">
-                        		<a href="Imagenes/descargar.png" target="_blank">Descargar<img src="Imagenes/descargar.png" alt="" /></a>
-                    		</div>
+                        	<p>En el 2001 se autorizó la nueva estructura orgánica y funcional del IPN, por la cual se dio rango de dirección a varias coordinaciones como la de Blibliotecas y la de Servicios de Información; otra dependencia que cambió de categoría fue la Dirección de Cómputo y se creó la Dirección de Tecnología Educativa.
+                            </p>
+                    	</div>
+                        <div class="vinculos">
+                        		<a href="Imagenes/descargar.png" target="_blank"><span>Descargar</span><img src="Imagenes/descargar.png" alt="Descargar PDF" /></a>
                         </div>
                     </div>
                 </div>
                                
                 <div class="zona_256">
-                	<div>
-                    	<span>Nuestra Estructura</span>
-                        <img src="Imagenes/ima02.jpg"/>
-                    </div>
-                    <div class="ContenedorTxt">
-                    	<p><br />La Secretaría de Gestión Estratégica (SGE) tiene 3 direcciones principales que son las encargadas de planear, programar y evaluar el presupuesto otorgado a cada área. Conoce su objetivo y sus funciones en:<br /><br />	
-                        </p>
-                        <br/><a href="http://www.secacademica.ipn.mx/" target="_blank">www.secacademica.ipn.mx</a>
-                    </div>
-                </div>
+                	<div class="Webpart02">
+                    	<div class="ContenedorImgWp2">
+                    		<span>Nuestra <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estructura</span>
+                        </div>
+                    	<div class="ContenedorTxt">
+                    		<p>La Secretaría de Gestión Estratégica (SGE) tiene 3 direcciones principales que son las encargadas de planear, programar y evaluar el presupuesto otorgado a cada área. Conoce su objetivo y sus funciones en:	
+                        	</p>
+                        	<br /><a href="http://www.secacademica.ipn.mx/" target="_blank">www.secacademica.ipn.mx</a>
+                    	</div>
+               		</div>
+				</div>
                 
                 <div class="zona_256">
-                	<div>
-                    <span>Historia del IPN</span>
-                    <img src="Imagenes/ima03.jpg"/>
-                    </div>
-                    <div class="ContenedorTxt">
-                    	<p><br />El 26 de Febrero de 1917 el Ing.Miguel Bernard es nombrado director de la Escuela Práctica de Ingenieros Mecánicos Electricistas, y se dio a la tarea de modificar los planes de estudio.<br /><br /></p>
-                    </div>
-                    <div class="vinculos">
-                        <a href="Imagenes/leer.png" target="_blank">Leer más<img src="Imagenes/leer.png" alt="" /></a>
-                    </div>
-                </div>
-           	</div>
-        </div>
+                	<div class="Webpart03">
+                    	<div class="ContenedorImgWp3">
+                    		<span>Historia del IPN</span>
+                        </div>
+                   		<div class="ContenedorTxt">
+                    		<p>El 26 de Febrero de 1917 el Ing.Miguel Bernard es nombrado director de la Escuela Práctica de Ingenieros Mecánicos Electricistas, y se dio a la tarea de modificar los planes de estudio.
+                        	</p>
+                    	</div>
+                        <div class="vinculos">
+                        	<a href="Imagenes/leer.png" target="_blank"><span>Leer&nbsp;más</span><img src="Imagenes/leer.png" alt="Leer Más" /></a>
+                        </div>
+                	</div>
+           		</div>
 	</div><!-- Fin del ContenedorPrincipal-->
-    
+  
+</div>
+
 	<div class="mediosSociales"><!-- Medios Sociales-->
         <div class="canalOnce">
             <ul>

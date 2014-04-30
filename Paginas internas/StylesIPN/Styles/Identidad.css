@@ -1,16 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-/*.vinculos{
-	float:right;
-	padding-right:10px;
-}*/
-
-/*.ContenedorTxt{
-	height:179px;
-	overflow:hidden;
-}*/
-
 p{
 	border:none !important;
 }
@@ -22,48 +12,72 @@ p{
 .slidershow {width:100%; height:100%; margin:auto}
 .slidershow img {padding:15px; border:1px solid #CCC; background-color:#eee}
 
-.Webpart01{
-	border:1px solid #CCC;
-	position:relative;
-	width:100%;
-	height:100%;
+
+.Webpart01, .Webpart02, .Webpart03, .Webpart04{
+		position:relative;	
+		border:1px solid #CCC;
+		width:100%;
+		height:100%;
 }
 
-.ContenedorImg{
+.ContenedorImgWp1, .ContenedorImgWp2, .ContenedorImgWp3{
 	position:absolute;
 	top:0px;
-	background-image:url('file:///C|/Users/Hugo%20D%C3%ADaz/Documents/GitHub/PlantillaHTML/Paginas%20internas/Imagenes/ima01.jpg');
 	background-repeat:no-repeat;
 	width:100%;
 	height:30%;
 }
 
-.zona_256 span{
+.ContenedorImgWp1{
+	background-image:url('file:///C|/Users/Hugo%20D%C3%ADaz/Documents/GitHub/PlantillaHTML/Paginas%20internas/Imagenes/ima01.jpg');
+}
+
+.ContenedorImgWp2{
+	background-image:url('file:///C|/Users/Hugo%20D%C3%ADaz/Documents/GitHub/PlantillaHTML/Paginas%20internas/Imagenes/ima02.jpg');
+}
+
+.ContenedorImgWp3{
+	background-image:url('file:///C|/Users/Hugo%20D%C3%ADaz/Documents/GitHub/PlantillaHTML/Paginas%20internas/Imagenes/ima03.jpg');
+}
+
+span{
 	float: left;
 	position: absolute;
-	padding-top: 40px;
-	padding-left: 10px;
+	}
+
+.zona_256 span{
+	padding-top: 32px;
+	padding-left: 15px;
 	font-size: 18px;
 }
 
 .ContenedorTxt{
-	position:relative;
+	position:absolute;
 	display:block;
-	bottom:0px;
-	padding:0px;
+	overflow:hidden;
+}
+
+.zona_256 .ContenedorTxt{
+	top:30%;
+	bottom:20%;
+	padding:15px;
 }
 
 .vinculos{
-	position:relative;
+	float:right;
+	position:absolute;
 	right:15px;
 	bottom:15px;
 }
 
 
-.vinculos a{
-	float:right;
+.vinculos span{
+	font-size: 12px;
 	font-family:"Myriad Pro";
 	font-style:italic;
-	font:bold;
+	font-weight:bold;
 	color:#664759;	
+	padding: 0px;
+	right: 35px;
+	top: 10px;
 }
