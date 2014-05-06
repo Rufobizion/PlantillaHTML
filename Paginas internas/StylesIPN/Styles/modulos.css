@@ -12,7 +12,7 @@
 .Texto p{
     font-size: 13px;
 	font-family:Arial;
-    line-height: 20px;
+    line-height: 15px;
     text-align: justify;
 	border:none !important;
 }
@@ -83,7 +83,6 @@
 	position:absolute;
 	right:0px;
 }
-
 .wpVision .vinculos, .wpMision .vinculos{
 	background:url('../../IMAGENES/descargar.png') no-repeat;	
 }
@@ -114,31 +113,39 @@
 }
 
 .ContenedorImgWp1{
-	background-image:url('../../IMAGENES/ima01.jpg') no-repeat;
+	background:url('../../IMAGENES/ima01.jpg') no-repeat;
 }
 
 .ContenedorImgWp2{
-	background-image:url('../../IMAGENES/ima02.jpg') no-repeat;
+	background:url('../../IMAGENES/ima02.jpg') no-repeat;
 }
 
 .ContenedorImgWp3{
-	background-image:url('../../IMAGENES/ima03.jpg') no-repeat;
+	background:url('../../IMAGENES/ima03.jpg') no-repeat;
 }
 
-.Webpart01 .ContenedorTxt, .Webpart02 .ContenedorTxt, .Webpart03 .ContenedorTxt{
+.Webpart01 .ContenedorTxt .Texto, .Webpart02 .ContenedorTxt .Texto, .Webpart03 .ContenedorTxt .Texto{
 	position:absolute;
 	overflow:hidden;
 	top:30%;
 	bottom:20%;
 	padding:15px;
+	height:70%;
 }
-
+.ContenedorImgWp1 span, .ContenedorImgWp2 span, .ContenedorImgWp3 span{
+	position:absolute;
+	float: left;
+	padding-top: 32px;
+	padding-left: 15px;
+	font-size: 18px;
+	width:160px;
+}
 .Webpart01 .vinculos{
-	background-image:url(../../IMAGENES/descargar.png) no-repeat;
+	background:url('../../IMAGENES/descargar.png') no-repeat;
 }
 
 .Webpart03 .vinculos{
-	background-image:url(../../IMAGENES/leer.png) no-repeat;
+	background:url('../../IMAGENES/leer.png') no-repeat;
 }
 
 .Webpart01 .vinculos span, .Webpart03 .vinculos span{
