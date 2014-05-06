@@ -1,14 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-p{
-	border:1px solid #CCC;
-	line-height:16px;
-	font-size:12px;
-	font-family:Arial, Helvetica, sans-serif;
-	text-align:justify;
- }
-
 .contenedorl{
 	width:100%;
 	max-width:770px;

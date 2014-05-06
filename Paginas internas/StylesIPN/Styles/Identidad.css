@@ -4,8 +4,13 @@
 	border:none !important;
 }
 
-p{
+.Webpart01 p, .Webpart02 p, .Webpart03 p{
 	border:none !important;
+	border:1px solid #CCC;
+	line-height:15px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
 }
 
 .Webpart01, .Webpart02, .Webpart03{
@@ -75,12 +80,12 @@ p{
 }
 
 .Webpart01 .vinculos{
-	background-image:url('file:///C|/Users/Hugo%20D%C3%ADaz/Documents/GitHub/PlantillaHTML/Paginas%20internas/Imagenes/descargar.png');
+	background-image:url('../../../../../../Desktop/Sitio%20sin%20nombre%202/descargar.png');
 	background-repeat:no-repeat;
 }
 
 .Webpart03 .vinculos{
-	background-image:url('file:///C|/Users/Hugo%20D%C3%ADaz/Documents/GitHub/PlantillaHTML/Paginas%20internas/Imagenes/leer.png');
+	background-image:url('../../../../../../Desktop/Sitio%20sin%20nombre%202/leer.png');
 	background-repeat:no-repeat;
 }
 
