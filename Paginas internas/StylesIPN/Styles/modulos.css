@@ -4,10 +4,14 @@
 .zona_256, .zona_770{
 	border:none !important;
 }
-.wpMision,.wpVision,.wpObjetivo,.Webpart01, .Webpart02, .Webpart03, .Webpart04{
+.wpMision,.wpVision,.wpObjetivo{
 	position:relative;
 	width:100%;
 	border-bottom:1px solid #ccc !important;	
+}
+.Webpart01, .Webpart02, .Webpart03, .Webpart04{
+	position:relative;
+	width:100%;
 }
 .Texto p{
     font-size: 13px;
@@ -102,7 +106,7 @@
 		height:290px; /*¿Por definirse...?*/
 }
 .Webpart04{
-		height:340px; /*¿Por definirse...?*/
+		height:350px; /*¿Por definirse...?*/
 }
 
 .ContenedorImgWp1, .ContenedorImgWp2, .ContenedorImgWp3{
@@ -124,7 +128,7 @@
 	background:url('../../IMAGENES/ima03.jpg') no-repeat;
 }
 
-.Webpart01 .ContenedorTxt .Texto, .Webpart02 .ContenedorTxt .Texto, .Webpart03 .ContenedorTxt .Texto{
+.Webpart01 .Texto p, .Webpart02 .Texto p, .Webpart03 .Texto p{
 	position:absolute;
 	overflow:hidden;
 	top:30%;
@@ -132,9 +136,10 @@
 	padding:15px;
 	height:70%;
 }
+
 .ContenedorImgWp1 span, .ContenedorImgWp2 span, .ContenedorImgWp3 span{
 	position:absolute;
-	float: left;
+	float:left;
 	padding-top: 32px;
 	padding-left: 15px;
 	font-size: 18px;
@@ -148,11 +153,16 @@
 	background:url('../../IMAGENES/leer.png') no-repeat;
 }
 
+.Webpart01 .vinculos, .Webpart03 .vinculos{
+	bottom:0px;
+}
+
 .Webpart01 .vinculos span, .Webpart03 .vinculos span{
-	padding: 0px;
+	width: 85px;
+	height: 15px;
+	position: absolute;
 	right: 0px;
 	top: 10px;
-	width:90px;
 }
 
 
