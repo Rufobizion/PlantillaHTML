@@ -1,17 +1,29 @@
 @charset "utf-8";
 /* CSS Document */
 /*********************Estilos Grles**********************/
-.zona_256, .zona_770{
+.zona_256, .zona_770, .zona_385{
 	border:none !important;
 }
-.wpMision,.wpVision,.wpObjetivo{
+.wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores{
 	position:relative;
 	width:100%;
 	border-bottom:1px solid #ccc !important;	
 }
-.Webpart01, .Webpart02, .Webpart03, .Webpart04{
+.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono{
 	position:relative;
 	width:100%;
+}
+.ContenedorTxt{
+	padding: 15px;
+	position:absolute;
+	right:0px;
+}
+.ContenedorTxt h2{
+	font-family:Arial;
+	font-size:16px;
+	color:#ff9933;
+	font-weight:bold;
+	margin-bottom:20px;
 }
 .Texto p{
     font-size: 13px;
@@ -19,6 +31,15 @@
     line-height: 15px;
     text-align: justify;
 	border:none !important;
+}
+.ContenedorImg{
+	float:left;
+	position:absolute;
+}
+.ContenedorImgDer{
+	float:right;
+	position:absolute;
+	right:0px;
 }
 .vinculos{
 	float:right;
@@ -35,72 +56,40 @@
 	font-style:italic;
 	font-size:11px;
 	float: right;
+	position: absolute;
+	right: 0px;
+	top: 10px;
+	width:85px;
+	height:15px;
 }
 
 /*************************Fin esitlos Grles****************************************************/
-/*******************Inicio wpMision, wpVision, wpObjetivo*********************************/
 
-/*.zona_770{
-	border:none !important;
-}*/
+/*********************Mision, Vision, Objetivo*********************************/
+
 .wpMision,.wpVision,.wpObjetivo{
-	/*position:relative;*/
 	height:240px;
-	/*width:100%;*/
-	/*border-bottom:1px solid #ccc !important;	*/
 }
 .wpMision .ContenedorTxt,.wpVision .ContenedorTxt, wpObjetivo .ContenedorTxt{
 	width:75%;
 	height:233px;
-	padding: 15px;
-	position:absolute;
-	right:0px;
 }
 .wpVision .ContenedorTxt {
 	height:191px !important;
 	left:0px !important;
 }
-
-.wpMision .ContenedorTxt h2, .wpVision .ContenedorTxt h2,.wpObjetivo .ContenedorTxt h2{
-	font-family:Arial;
-	font-size:16px;
-	color:#ff9933;
-	font-weight:bold;
-	margin-bottom:20px;
-}
-/*.Texto p{
-    font-size: 13px;
-	font-family:Arial;
-    line-height: 20px;
-    text-align: justify;
-	border:none !important;
-}*/
 .wpMision .ContenedorImg{
-	width:25%;
-	float:left;
-	position:absolute;
-	
+	width:25%;	
 }
 .wpVision .ContenedorImgDer{
-	float:right;
 	width:25%;
-	position:absolute;
-	right:0px;
 }
 .wpVision .vinculos, .wpMision .vinculos{
 	background:url('../../IMAGENES/descargar.png') no-repeat;	
 }
+/*********************Fin Mision, Vision, Objetivo********************************/
 
-.wpMision .vinculos span, .wpVision .vinculos span{
-	margin-right: 36px;
-	margin-top: 11px;
-}
-/*********************Fin wpMision, wpVision, wpObjetivo********************************/
-
-/*****************************Inicio Identidad******************************************/
-/*p{
-	border:none !important;
-}*/
+/*****************************Identidad******************************************/
 
 .Webpart01, .Webpart02, .Webpart03{
 		height:290px; /*¿Por definirse...?*/
@@ -109,35 +98,35 @@
 		height:350px; /*¿Por definirse...?*/
 }
 
-.ContenedorImgWp1, .ContenedorImgWp2, .ContenedorImgWp3{
-	position:absolute;
-	top:0px;
+.Webpart01 .ContenedorImg,.Webpart02 .ContenedorImg,.Webpart03 .ContenedorImg{
+	position:absolute ;
+	top:0px ;
 	width:100%;
 	height:30%;
 }
 
-.ContenedorImgWp1{
+.Webpart01 .ContenedorImg{
 	background:url('../../IMAGENES/ima01.jpg') no-repeat;
 }
 
-.ContenedorImgWp2{
+.Webpart02 .ContenedorImg{
 	background:url('../../IMAGENES/ima02.jpg') no-repeat;
 }
 
-.ContenedorImgWp3{
+.Webpart03 .ContenedorImg{
 	background:url('../../IMAGENES/ima03.jpg') no-repeat;
 }
-
+.Webpart01 .ContenedorTxt, .Webpart02 .ContenedorTxt, .Webpart03 .ContenedorTxt{
+	height:222px;
+	bottom:-18px;
+}
 .Webpart01 .Texto p, .Webpart02 .Texto p, .Webpart03 .Texto p{
-	position:absolute;
 	overflow:hidden;
 	top:30%;
 	bottom:20%;
-	padding:15px;
-	height:70%;
 }
 
-.ContenedorImgWp1 span, .ContenedorImgWp2 span, .ContenedorImgWp3 span{
+.Webpart01 .ContenedorImg span,.Webpart02 .ContenedorImg span,.Webpart03 .ContenedorImg span{
 	position:absolute;
 	float:left;
 	padding-top: 32px;
@@ -145,6 +134,7 @@
 	font-size: 18px;
 	width:160px;
 }
+
 .Webpart01 .vinculos{
 	background:url('../../IMAGENES/descargar.png') no-repeat;
 }
@@ -152,17 +142,61 @@
 .Webpart03 .vinculos{
 	background:url('../../IMAGENES/leer.png') no-repeat;
 }
-
-.Webpart01 .vinculos, .Webpart03 .vinculos{
-	bottom:0px;
+/**********************************Fin Identidad************************************/
+/***********************************Historia******************************/
+.wpHistoria, .wpCrono{
+	height:440px;
+}
+.wpDirectores{
+	height:132px;
+}
+.wpPersonajes{
+	height:170px;
+}
+.wpCrono{
+	border:1px solid #ccc;
+}
+.wpDirectores, .wpPersonajes{
+	border-bottom: 1px solid #ccc;
+}
+.wpHistoria .ContenedorTxt{
+	height:440px;
+	width:100%;
+}
+.wpCrono .ContenedorTxt{
+	position:relative;
+}
+.wpDirectores .ContenedorTxt{
+	height:125px;
+	width:68%;
+}
+.wpPersonajes .ContenedorTxt{
+	height:163px;
+	width:67%;
+	left:0px;
+}
+.wpCrono .ContenedorImg{
+	width:100%;
+	height:372px;
+	padding:0 15px 15px 15px;
+}
+.wpCrono .ContenedorImg img{
+	float:right;
+	margin-right:3px;
+}
+.wpDirectores .ContenedorImg{
+	width:32%;
+}
+.wpPersonajes .ContenedorImgDer{
+	width:33%;
+}
+.wpHistoria .vinculos, .wpDirectores .vinculos{
+	background:url(../../IMAGENES/leer.png) no-repeat;	
 }
 
-.Webpart01 .vinculos span, .Webpart03 .vinculos span{
-	width: 85px;
-	height: 15px;
-	position: absolute;
-	right: 0px;
-	top: 10px;
-}
+
+/**********************************Fin Historia***************************/
+
+
 
 
