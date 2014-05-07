@@ -28,8 +28,10 @@ p{
 
 .zona_192, .zona_256, .zona_385, .zona_514, .zona_578, .zona_770, .zona_950, .zona_760, .zona_713, .zona_634, .zona_570, .zona_475, .zona_316, .zona_237, .zona_190
 	{
-	display:inline-block;
+/*	display:inline-block;*/
+	position:relative;
 	width:100%;
+	height:100%;
 	padding:10px;
 	border:1px solid #CCC;
 	float:left
