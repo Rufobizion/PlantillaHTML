@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 /*********************Estilos Grles**********************/
+.zona_256 p, .zona_770 p, .zona_385 p{
+	border:none !important;
+}
 .zona_256, .zona_770, .zona_385{
 	border:none !important;
 }

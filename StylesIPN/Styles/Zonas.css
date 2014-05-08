@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+
 .contenedorl{
 	width:100%;
 	max-width:770px;
@@ -20,7 +21,7 @@
 	float:left;
 	
 }
-
+.zona_192 p, .zona_256 p, .zona_385 p, .zona_514 p, .zona_578 p, .zona_770 p, .zona_950 p, .zona_760 p, .zona_713 p, .zona_634 p, .zona_570 p, .zona_475 p, .zona_316 p, .zona_237 p, .zona_190 p{border:1px solid #CCC;}
 
 .zona_192, .zona_256, .zona_385, .zona_514, .zona_578, .zona_770, .zona_950, .zona_760, .zona_713, .zona_634, .zona_570, .zona_475, .zona_316, .zona_237, .zona_190
 	{

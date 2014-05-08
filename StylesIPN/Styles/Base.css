@@ -118,7 +118,7 @@ body{
 	width: 400px;	
 }
 .LogoSEP, .EscudoIPN, .onceTV, .face, .twt, .gplus, .yutu, .blog, .rss{
-	background:url('../Imagenes/Icons.png');
+	background:url('../../Imagenes/Icons.png');
 	float: right;
 }
 .CabeceraContenido .LogoSEP {
@@ -579,6 +579,7 @@ display:block;
 /**************************************************/
 
 .Parte01 { padding:0px; }
+.Parte01 p{ border:none !important }
 
 .Parte01img { position: relative ! important; float: left ! important; padding: 10px ! important; }
 
@@ -587,21 +588,22 @@ display:block;
 .Parte01cp p {text-align: justify; line-height: 17px ! important;}
 
 
-.Parte02 { width:100%; height:250px; display:block; clear:both; }
-.Parte02_img { float:left; width:138px; height:230px; }
-.Parte02_img img { width:138px; border-style: none; margin: 0px; padding: 0px;}
-.Parte02_cp { width:68%; height:100%; float:left; line-height: 17px; text-align: justify;  margin-left: 5px; margin-right: 5px;}
-.Parte02_cp h2 { width:78%; font-size: 16px; line-height: 20px; margin: 0px; padding-bottom: 5px; padding-top: 10px; color:#f9bd8f;}
-.Parte02_cp p {text-align: justify; line-height: 17px ! important; font-size: 13px; border: none;}
-.LeerMas { width:8%; height:230px; display:block; background:#cab4af; float:left;}
-.LeerMas a { line-height: 200px; text-decoration:none; color:#665652; margin:0 auto;}
+.Parte02 { width:100%; height:230px; clear:both; position:relative;}
+/*.Parte02 p{ border:none !important }*/
+.Parte02_img { position: absolute; top: 0px; float: left; width: 15.7%; height: 100%; }
+.Parte02_img img { width:142px; height:230px; border-style: none; margin: 0px; padding: 0px;}
+.Parte02_cp { padding: 15px; position: absolute; top: 0px; right: 50px; width: 79%; height: 100%; float: left; line-height: 17px; text-align: justify;}
+.Parte02_cp h2 { width:79%; font-size: 16px; line-height: 20px; color:#f9bd8f;}
+.Parte02_cp p { text-align: justify; line-height: 17px ! important; font-size: 13px; border: none; }
+.LeerMas { top: 0px; position: absolute; right: 0px; width: 5.5%; height: 230px; display: block; background: #CAB4AF; float: right;}
+.LeerMas a { position: absolute; margin: 0 auto; top: 100px; font-size: 10px; font-weight: bold; font-style: oblique; line-height: 40px; text-decoration: none; color: #665652;}
 
 /**************************************************/
 
 
 @media screen and (max-width: 960px){
 
-.MenuVertical {
+/*.MenuVertical {
 	   display:block;
 	   position:static;
 	   height:100%;
@@ -610,9 +612,11 @@ display:block;
 
 #Contenedor .Contenido {
 	width:82%;
-}
+}*/
 
-}
+
+
+
 @media screen and (max-width:640px){
 	.MenuPrincipalContenido ul li{width: 98%;/* display: table; */}
 	
