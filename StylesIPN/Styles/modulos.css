@@ -4,7 +4,7 @@
 .zona_256, .zona_770, .zona_385{
 	border:none !important;
 }
-.wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores{
+.wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo{
 	position:relative;
 	width:100%;
 	border-bottom:1px solid #ccc !important;	
@@ -89,7 +89,7 @@
 }
 /*********************Fin Mision, Vision, Objetivo********************************/
 
-/*****************************Identidad******************************************/
+/*****************************Acerca de******************************************/
 
 .Webpart01, .Webpart02, .Webpart03{
 		height:290px; /*¿Por definirse...?*/
@@ -142,7 +142,7 @@
 .Webpart03 .vinculos{
 	background:url('../../IMAGENES/leer.png') no-repeat;
 }
-/**********************************Fin Identidad************************************/
+/**********************************Fin Acerca de************************************/
 /***********************************Historia******************************/
 .wpHistoria, .wpCrono{
 	height:440px;
@@ -196,7 +196,99 @@
 
 
 /**********************************Fin Historia***************************/
+/***********************************Identidad*****************************/
+.wpTecnica{
+	height:215px;	
+}
+.wpTecnica .ContenedorTxt{
+	width:66%;
+	height:215px;	
+}
+.wpTecnica .ContenedorImg{
+	width: 33%;
+}
+.wpEscudo{
+	height:210px;	
+}
+.wpEscudo .ContenedorImgDer{
+	width:36%;
+}
+.wpEscudo .ContenedorTxt{
+	width:64%;
+	height:207px;
+	left:0px !important;	
+}
+.wpHimno{
+	height:210px;
+}
+.wpHimno .ContenedorTxt{
+	height:210px;
+}
+.wpHimno .vinculos{
+	background:url('../../Imagenes/escuchar.png')no-repeat;
+}
 
-
-
+/********************************Fin Identidad*****************************/
+/***********************************Hechos*****************************/
+.wpHechos{
+	height:190px;	
+}
+.wpHechos .ContenedorTxt{
+	width:66%;
+	height:190px;	
+}
+.wpHechos .ContenedorImg{
+	width: 35%;
+}
+.wpDecanato{
+	height:171px;	
+}
+.wpDecanato .ContenedorTxt{
+	width:64%;
+	height:171px;
+	left:0px !important;	
+}
+.wpDecanato .ContenedorImgDer{
+	width:36%;
+}
+.wpHechos .vinculos{
+	background:url('../../Imagenes/leer.png') no-repeat;
+}
+.wpDecanato .vinculos{
+	background:url('../../Imagenes/ver.png') no-repeat;
+}
+/********************************Fin Hechos*****************************/
+/***********************************Elementos*****************************/
+.wpMascota{
+	height:259px;	
+}
+.wpMascota .ContenedorTxt{
+	width:66%;
+	height:250px;	
+}
+.wpMascota .ContenedorImg{
+	width: 35%;
+}
+.wpPorra{
+	height:338px;	
+}
+.wpPorra .ContenedorImgDer{
+	width:35%;
+}
+.wpPorra .ContenedorTxt{
+	width:65%;
+	height:331px;
+	left:0px !important;	
+}
+.wpDecalogo{
+	height:268px;
+}
+.wpDecalogo .ContenedorTxt{
+	width:100%;
+	height:265px;
+}
+.wpDecalogo .ContenedorTxt .Texto p{
+	line-height:20px;
+	font-style:italic;
+/********************************Fin Elementos*****************************/
 
