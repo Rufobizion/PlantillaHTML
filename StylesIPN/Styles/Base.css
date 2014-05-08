@@ -603,7 +603,7 @@ display:block;
 
 @media screen and (max-width: 960px){
 
-/*.MenuVertical {
+.MenuVertical {
 	   display:block;
 	   position:static;
 	   height:100%;
@@ -612,7 +612,7 @@ display:block;
 
 #Contenedor .Contenido {
 	width:82%;
-}*/
+}
 
 
 
