@@ -118,7 +118,7 @@ body{
 	width: 400px;	
 }
 .LogoSEP, .EscudoIPN, .onceTV, .face, .twt, .gplus, .yutu, .blog, .rss{
-	background:url('../Imagenes/Icons.png');
+	background:url(../../Imagenes/Icons.png);
 	float: right;
 }
 .CabeceraContenido .LogoSEP {
