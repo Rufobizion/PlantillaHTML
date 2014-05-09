@@ -171,6 +171,7 @@
 }
 .wpCrono .ContenedorTxt{
 	position:relative;
+	padding-bottom:0px;
 }
 .wpDirectores .ContenedorTxt{
 	height:125px;
