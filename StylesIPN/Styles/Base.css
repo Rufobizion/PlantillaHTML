@@ -625,7 +625,11 @@ display:block;
 	.LeerMas { width: 75%; height: 13%; top: 200px; right: 15px; }
 	.LeerMas a {top: 9px; right: 0px; margin-right: 10px; line-height:12px;} 
 }
-@media screen and (max-width:770px){
+@media screen and (max-width:715px){
+	.Parte02 { height:100%; }
+	.Parte02_img { display:none; }
+	.Parte02_cp{ width:100%}
+	.LeerMas { width: 100%; top:200px; right: inherit; }
 	
 }
 
