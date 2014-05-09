@@ -5,15 +5,15 @@
 .zona_256, .zona_770, .zona_385, .zona_256 p, .zona_770 p, .zona_385 p{
 	border:none !important;
 }
-.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos{
+.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos{
 	position:relative;
 	width:100%;
 }
-.wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos{
+.wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos{
 	border-bottom:1px solid #ccc !important;	
 }
 .ContenedorTxt{
-	padding: 15px;
+	/*padding: 15px;*/
 	position:absolute;
 	right:0px;
 }
@@ -74,7 +74,7 @@
 	padding-bottom:10px;
 }
 .wpMision .ContenedorTxt,.wpVision .ContenedorTxt, wpObjetivo .ContenedorTxt{
-	width:75%;
+	width:73%;
 	height:233px;
 }
 .wpVision .ContenedorTxt {
@@ -119,6 +119,7 @@
 	background:url('../../IMAGENES/ima03.jpg') no-repeat;
 }
 .Webpart01 .ContenedorTxt, .Webpart02 .ContenedorTxt, .Webpart03 .ContenedorTxt{
+	padding:10px;
 	height:222px;
 	bottom:-18px;
 }
@@ -168,11 +169,11 @@
 }
 .wpDirectores .ContenedorTxt{
 	height:125px;
-	width:68%;
+	width:66%;
 }
 .wpPersonajes .ContenedorTxt{
 	height:159px;
-	width:67%;
+	width:65%;
 	left:0px;
 }
 .wpPersonajes .Texto p{
@@ -193,10 +194,10 @@
 .wpPersonajes .ContenedorImgDer{
 	width:33%;
 }
-.wpHistoria .vinculos, .wpDirectores .vinculos, .wpElementos .vinculos{
+.wpHistoria .vinculos, .wpDirectores .vinculos, .wpElementos .vinculos, .wpPersonajes .vinculos, .wpHistoricos .vinculos{
 	background:url(../../IMAGENES/leer.png) no-repeat;	
 }
-.wpElementos, .wpDirectores, .wpPersonajes{
+.wpElementos, .wpDirectores, .wpPersonajes, .wpHistoricos{
 	padding-bottom:10px
 }
 
@@ -204,11 +205,23 @@
 	height:145px;
 }
 .wpElementos .ContenedorTxt{
-	height:144px;
-	width:66%;
+	height:134px;
+	width:64%;
 	right:0px;
 }
 .wpElementos .ContenedorImg{
+	width:34%;
+}
+
+.wpHistoricos{
+	height:191px;
+}
+.wpHistoricos .ContenedorTxt{
+	height:180px;
+	width:64%;
+	left:0px;
+}
+.wpHistoricos .ContenedorImg{
 	width:34%;
 }
 
@@ -218,7 +231,7 @@
 	height:215px;	
 }
 .wpTecnica .ContenedorTxt{
-	width:66%;
+	width:64%;
 	height:215px;	
 }
 .wpTecnica .ContenedorImg{
@@ -231,7 +244,7 @@
 	width:36%;
 }
 .wpEscudo .ContenedorTxt{
-	width:64%;
+	width:62%;
 	height:207px;
 	left:0px !important;	
 }
@@ -251,7 +264,7 @@
 	height:190px;	
 }
 .wpHechos .ContenedorTxt{
-	width:66%;
+	width:64%;
 	height:190px;	
 }
 .wpHechos .ContenedorImg{
@@ -261,7 +274,7 @@
 	height:171px;	
 }
 .wpDecanato .ContenedorTxt{
-	width:64%;
+	width:62%;
 	height:171px;
 	left:0px !important;	
 }
@@ -280,7 +293,7 @@
 	height:259px;	
 }
 .wpMascota .ContenedorTxt{
-	width:66%;
+	width:64%;
 	height:250px;	
 }
 .wpMascota .ContenedorImg{
@@ -293,7 +306,7 @@
 	width:35%;
 }
 .wpPorra .ContenedorTxt{
-	width:65%;
+	width:63%;
 	height:331px;
 	left:0px !important;	
 }
