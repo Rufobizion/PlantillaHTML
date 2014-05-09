@@ -7,7 +7,9 @@
     <title>Instituto Politécnico Nacional - La técnica al servicio de la Patria</title>
     <link href="../StylesIPN/Styles/Base.css" rel="stylesheet" type="text/css" />
     <link href="../StylesIPN/Styles/Zonas.css" rel="stylesheet" type="text/css" />
-    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <!--<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>-->
+    <script src="../StylesIPN/Scripts/Modernizr.js" type="text/jscript"></script>
+    <script src="../StylesIPN/Scripts/jquery.min.js" type="text/jscript"></script>
     <!--[if lt IE 9]> <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script> < ![endif]-->
     <script type="text/javascript">
         function  link1(){window.open('http://www.ipn.mx/Documents/Directorio.pdf');}
@@ -19,6 +21,53 @@
         function  cgsi(){window.open('http://www.cgsi.ipn.mx');}
         function  blog(){window.open('http://ipn-mx.blogspot.mx');}
     </script>
+    
+    <script type="text/javascript">
+		/* MOBILE COLLAPSE MENU */
+		(function($) {
+		  $.fn.collapsable = function(options) {
+			// iterate and reformat each matched element
+			return this.each(function() {
+			  // cache this:
+			  var obj = $(this);
+			  var tree = obj.next('.MenuPrincipalContenido');
+			  obj.click(function(){
+				if( obj.is(':visible') ){tree.toggle();}
+			  });
+			  $(window).resize(function(){
+				 if ( $(window).width() <= 570 ){tree.attr('style','');};
+			  });
+			});
+		  };
+		})(jQuery);
+	</script>
+    
+    <script type="text/javascript">$(document).ready(function(){
+    $('.slide-trigger').collapsable();
+});
+</script>
+
+<!-- Menu vertical-->
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('.MenuVertical ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>
+
 </head>
 <body>
 	<div class="Cabecera">
