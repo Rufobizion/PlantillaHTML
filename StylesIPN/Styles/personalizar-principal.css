@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*Zonas y contenedores*/
+.zona230,.content970,.zona470{
+	padding:0px;
+}
+#ContPrincipal{	min-height: 100%;height: 100%;}
+.completa970{	min-height: 0;	box-shadow: none;}
+/*Agenda*/
+.HomeagendaPolitecnica{height:110px;width:100%;background:none;border-right:1px solid #C7C2C2;overflow: hidden;background: white;max-width: 100%;}
+.HomeagendaPolitecnica h2 a,#Contenedor .NoticiasIPN h2 {box-shadow: none;background:transparent;border-left: none;color: #0072bc;padding: 0px 10px 15px;font-size: 16px;font-weight: normal;}
+.HomeagendaPolitecnica ul {margin-top: 0px;overflow: hidden;height: 70px;}
+.HomeagendaPolitecnica .Actividad{display: block;float: left;max-width: 70%;}
+.HomeagendaPolitecnica ul li {width: 90%;height:100%;margin-top: 10px;border-bottom: none;}
+.HomeagendaPolitecnica li .Tipo a{color: #6d1a42;font-size: 79%;}
+.HomeagendaPolitecnica .ConsultaMas {display: none;}
+/*Noticias*/
+#Contenedor .NoticiasIPN{width:100%;overflow:hidden;height: 110px;background: white;}
+#Contenedor .NoticiasIPN h2{}
+#Contenedor .NoticiasIPN ul{width:100%;height: 80px;overflow:hidden;padding: 0 10px;}
+#Contenedor .NoticiasIPN ul li{width:100%;height:100%;float:left;}
+#Contenedor .NoticiasIPN ul li a{text-transform:uppercase;font-size:12px;color:gray!important;line-height:15px;}
+/*Interes*/
+.InteresIPN{width:100%;background: white;min-height:110px;}
+.InteresIPN ul li h2 {font-weight:normal;text-align: center; display:block;font-size:12px;padding:5px 0;word-wrap: break-word;color: red!important;}
+.InteresIPN ul li h2 a{color: #0072bc;font-size: 14px;line-height: 15px;display: block;}
+.InteresIPN ul{width:100%;height:100%}
+.salto{clear:both}
+.InteresIPN ul{height: 110px;}
+.InteresIPN ul li{width: 16%;float:left; overflow:hidden;border-left: 1px solid #C7C2C2;height:100%;position: relative;}
+.InteresIPN ul li > a{position:absolute;bottom: 0px;left:0;right:0;}
+.InteresIPN ul li a img{margin: 0 auto 15px;display:block;}
+.InteresIPN ul li.IntFull{width: 36%;}
+.InteresIPN ul li.IntFull a{width: 100%;height:100%}
+.InteresIPN ul li.IntFull img{width:100%;height:100%;bottom:0;margin: 0;}
+@media screen and (max-width: 970px){
+.MenuPrinDer,.MenuPrinIzq{overflow-y: auto;overflow-x: hidden;}
+}
+@media screen and (max-width: 640px){
+.MenuPrinIzq{max-width:30%;}
+#SliderIPN ul li span{width: 46%;right:22%;bottom:0;}
+
+}
+@media screen and (max-width: 533px){
+   
+	.MenuPrinDer,.MenuPrinIzq{max-width: 100%;float:left;height: auto;clear:both;background: url("../assets/bkgn.png");overflow:hidden;}
+	#MenuIPN ul li ul{display:none;}
+	#MenuIPN {height:330px;max-width: 35%;float: left;overflow-y:auto;}
+	#MenuIPN .MenuPrinDer li:first-child .SubTit:before{display:block;}
+	#SliderIPN{height:330px;}
+	#SliderIPN ul li span{right:0;bottom:0;max-width:50%}
+	.zona230{max-width:50%}
+	.zona470{max-width:100%}
+}
+@media screen and (max-width: 480px){
+    .zona230{max-width: 100%;}
+    }
+@media screen and (max-width: 320px){
+	#Contenedor{padding:0;}
+	#fondos{height:346px;}
+	#fondos DIV a{width:55%;}
+	#fondos DIV IMG{margin-left:-170px;}
+	#ContPrincipal{max-height: 345px;}
+	.menu-vertical, .menuprin{width:54%;}
+	#fondos DIV a{bottom:0;right:0px;width: 40%;}
+	.menu-vertical{height:170px!important;}
+	.m-oculto{display:none;}
+	.banner .contbanner .logoipn{right:0px;}
+	.banner .contbanner .logoipn h1{text-align:center; top:75px; right:0px; width:100%;}
+	.banner .contbanner .logoipn img{top: 5px;right: 0px;left: 0px;margin: auto;}
+	.zona230{max-width: 100%;}
+    .zona470{max-width:100%;}
+	.InteresIPN ul li{width:33.3%}
+	.InteresIPN ul li.IntFull{width:66.6%}
+}
+
