@@ -1,20 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
 /*********************Estilos Grles**********************/
-.zona_256 p, .zona_770 p, .zona_385 p{
+
+.zona_256, .zona_770, .zona_385, .zona_256 p, .zona_770 p, .zona_385 p{
 	border:none !important;
 }
-.zona_256, .zona_770, .zona_385{
-	border:none !important;
+.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo{
+	position:relative;
+	width:100%;
 }
 .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo{
-	position:relative;
-	width:100%;
 	border-bottom:1px solid #ccc !important;	
-}
-.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono{
-	position:relative;
-	width:100%;
 }
 .ContenedorTxt{
 	padding: 15px;
@@ -105,7 +101,6 @@
 }
 
 .Webpart01 .ContenedorImg,.Webpart02 .ContenedorImg,.Webpart03 .ContenedorImg{
-	position:absolute ;
 	top:0px ;
 	width:100%;
 	height:30%;
@@ -161,9 +156,6 @@
 }
 .wpCrono{
 	border:1px solid #ccc;
-}
-.wpDirectores, .wpPersonajes{
-	border-bottom: 1px solid #ccc;
 }
 .wpHistoria .ContenedorTxt{
 	height:440px;
