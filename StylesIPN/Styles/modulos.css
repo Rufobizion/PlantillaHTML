@@ -5,11 +5,11 @@
 .zona_256, .zona_770, .zona_385, .zona_256 p, .zona_770 p, .zona_385 p{
 	border:none !important;
 }
-.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo{
+.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos{
 	position:relative;
 	width:100%;
 }
-.wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo{
+.wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos{
 	border-bottom:1px solid #ccc !important;	
 }
 .ContenedorTxt{
@@ -70,7 +70,8 @@
 /*********************Mision, Vision, Objetivo*********************************/
 
 .wpMision,.wpVision,.wpObjetivo{
-	height:240px;
+	height:244px;
+	padding-bottom:10px;
 }
 .wpMision .ContenedorTxt,.wpVision .ContenedorTxt, wpObjetivo .ContenedorTxt{
 	width:75%;
@@ -149,7 +150,7 @@
 	height:440px;
 }
 .wpDirectores{
-	height:132px;
+	height:136px;
 }
 .wpPersonajes{
 	height:170px;
@@ -170,7 +171,7 @@
 	width:68%;
 }
 .wpPersonajes .ContenedorTxt{
-	height:163px;
+	height:159px;
 	width:67%;
 	left:0px;
 }
@@ -192,10 +193,24 @@
 .wpPersonajes .ContenedorImgDer{
 	width:33%;
 }
-.wpHistoria .vinculos, .wpDirectores .vinculos{
+.wpHistoria .vinculos, .wpDirectores .vinculos, .wpElementos .vinculos{
 	background:url(../../IMAGENES/leer.png) no-repeat;	
 }
+.wpElementos, .wpDirectores, .wpPersonajes{
+	padding-bottom:10px
+}
 
+.wpElementos{
+	height:145px;
+}
+.wpElementos .ContenedorTxt{
+	height:144px;
+	width:66%;
+	right:0px;
+}
+.wpElementos .ContenedorImg{
+	width:34%;
+}
 
 /**********************************Fin Historia***************************/
 /***********************************Identidad*****************************/
