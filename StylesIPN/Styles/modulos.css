@@ -24,10 +24,13 @@
 .ContenedorTxt h2{
 	font-family:Arial;
 	font-size:16px;
-	color:#ff9933;
+	color:#c28954;
 	font-weight:bold;
 	margin-bottom:20px;
 }
+.wpTecnica .ContenedorTxt h2,.wpEscudo .ContenedorTxt h2, .wpHimno .ContenedorTxt h2, .wpHechos .ContenedorTxt h2, .wpDecanato .ContenedorTxt h2, .wpMascota .ContenedorTxt h2, .wpPorra .ContenedorTxt h2, .wpDecalogo .ContenedorTxt h2{
+	color:#000;
+	}
 .Texto p{
     font-size: 13px;
 	font-family:Arial;
@@ -177,6 +180,9 @@
 	height:163px;
 	width:67%;
 	left:0px;
+}
+.wpPersonajes .Texto p{
+	line-height:25px;
 }
 .wpCrono .ContenedorImg{
 	width:100%;
