@@ -615,7 +615,19 @@ display:block;
 }
 
 
-
+@media screen and (max-width:930px){
+	.Parte02_cp{ right:25px;}
+	.LeerMas{ width:3.5%; }
+	.LeerMas a{top:75px; line-height:40px;}
+	}
+@media screen and (max-width:827px){
+	.Parte02_cp{right:0px;}
+	.LeerMas { width: 75%; height: 13%; top: 200px; right: 15px; }
+	.LeerMas a {top: 9px; right: 0px; margin-right: 10px; line-height:12px;} 
+}
+@media screen and (max-width:770px){
+	
+}
 
 @media screen and (max-width:640px){
 	.MenuPrincipalContenido ul li{width: 98%;/* display: table; */}
