@@ -12,7 +12,7 @@ ul { list-style:none;}
 #SliderIPN ul li{max-width: 740px;width:100%;float:left;position: absolute;height:100%;opacity:0;z-index:-1;}
 #SliderIPN ul li.active{opacity:1;z-index: 1;}
 #SliderIPN ul li.last-active{z-index: 0;}
-#SliderIPN ul li span{position:absolute;bottom: 10px;right: 5%;display:block;z-index:0;width: 51%;background: rgba(158, 87, 127, 0.7);}
+#SliderIPN ul li span{position:absolute;bottom: 10px;right: 15%;display:block;z-index:0;width: 51%;background: rgba(158, 87, 127, 0.7);}
 #SliderIPN ul li span h2 a{font-size:13px;font-weight:bold;color:white;padding:10px; display:block;}
 #SliderIPN ul li span .infoSlid{background:white;height: 30px;width:90%;display:none;}
 #SliderIPN ul li span .infoSlid p{width:75%;display:block;float:left;color:#000;padding:7px;}
