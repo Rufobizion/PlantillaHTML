@@ -5,7 +5,7 @@
 .zona_256, .zona_770, .zona_385, .zona_256 p, .zona_770 p, .zona_385 p{
 	border:none !important;
 }
-.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias, .wpGenero, .wpViolentometro, .wpCivil, .wpPOI , .wpCOFAA, .wpDerechos{
+.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias, .wpGenero, .wpViolentometro, .wpCivil, .wpPOI , .wpCOFAA, .wpDerechos, wpNormatividad{
 	position:relative;
 	width:100%;
 }
@@ -178,7 +178,7 @@
 	bottom:20%;
 }
 
-.Webpart01 .ContenedorImg span,.Webpart02 .ContenedorImg span,.Webpart03 .ContenedorImg span, .wpSustenta .ContenedorImg span, .wpDenuncia .ContenedorImg span, .wpMujer .ContenedorImg span, .wpAero .ContenedorImg span, .wpClima .ContenedorImg span, .wpTutorias .ContenedorImg span, .wpGenero .ContenedorImg span, .wpViolentometro .ContenedorImg span, .wpCivil .ContenedorImg span, .wpPOI .ContenedorImg span, .wpCOFAA .ContenedorImg span, .wpDerechos .ContenedorImg span{
+.Webpart01 .ContenedorImg span,.Webpart02 .ContenedorImg span,.Webpart03 .ContenedorImg span, .wpSustenta .ContenedorImg span, .wpDenuncia .ContenedorImg span, .wpMujer .ContenedorImg span, .wpAero .ContenedorImg span, .wpClima .ContenedorImg span, .wpTutorias .ContenedorImg span, .wpGenero .ContenedorImg span, .wpViolentometro .ContenedorImg span, .wpCivil .ContenedorImg span, .wpPOI .ContenedorImg span, .wpCOFAA .ContenedorImg span, .wpDerechos .ContenedorImg span, .wpNormatividad .ContenedorImg span{
 	position:absolute;
 	float:left;
 	padding-top: 25px;
@@ -373,4 +373,9 @@
 	line-height:20px;
 	font-style:italic;
 /********************************Fin Elementos*****************************/
+
+/********************************Normatividad******************************/
+
+/*****************************Fin Normatividad*****************************/
+
 
