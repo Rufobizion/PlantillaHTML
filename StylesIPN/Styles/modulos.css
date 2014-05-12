@@ -5,7 +5,7 @@
 .zona_256, .zona_770, .zona_385, .zona_256 p, .zona_770 p, .zona_385 p{
 	border:none !important;
 }
-.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias{
+.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias, .wpGenero, .wpViolentometro, .wpCivil, .wpPOI , .wpCOFAA, .wpDerechos{
 	position:relative;
 	width:100%;
 }
@@ -94,14 +94,14 @@
 
 /*****************************Acerca de******************************************/
 
-.Webpart01, .Webpart02, .Webpart03, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias{
+.Webpart01, .Webpart02, .Webpart03, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias, .wpGenero, .wpViolentometro, .wpCivil, .wpPOI, .wpCOFAA, .wpDerechos{
 		height:290px; /*¿Por definirse...?*/
 }
 .Webpart04{
 		height:350px; /*¿Por definirse...?*/
 }
 
-.Webpart01 .ContenedorImg,.Webpart02 .ContenedorImg,.Webpart03 .ContenedorImg, .wpSustenta .ContenedorImg, .wpDenuncia .ContenedorImg, .wpMujer .ContenedorImg, .wpAero .ContenedorImg, .wpClima .ContenedorImg, .wpTutorias .ContenedorImg{
+.Webpart01 .ContenedorImg,.Webpart02 .ContenedorImg,.Webpart03 .ContenedorImg, .wpSustenta .ContenedorImg, .wpDenuncia .ContenedorImg, .wpMujer .ContenedorImg, .wpAero .ContenedorImg, .wpClima .ContenedorImg, .wpTutorias .ContenedorImg, .wpGenero .ContenedorImg, .wpViolentometro .ContenedorImg, .wpCivil .ContenedorImg, .wpPOI .ContenedorImg, .wpCOFAA .ContenedorImg, .wpDerechos .ContenedorImg{
 	top:0px ;
 	width:100%;
 	height:30%;
@@ -136,29 +136,53 @@
 .wpTutorias .ContenedorImg {
 	background:url('../../Imagenes/Tutorias.jpg') no-repeat;
 }
-.Webpart01 .ContenedorTxt, .Webpart02 .ContenedorTxt, .Webpart03 .ContenedorTxt, .wpSustenta .ContenedorTxt, .wpDenuncia .ContenedorTxt, .wpMujer .ContenedorTxt, .wpAero .ContenedorTxt, .wpClima .ContenedorTxt, .wpTutorias .ContenedorTxt{
+.wpGenero .ContenedorImg{
+	background:url('../../../../../Desktop/Sitio%20sin%20nombre%202/ProgramaGenero.jpg') no-repeat;
+}
+
+.wpViolentometro .ContenedorImg{
+	background:url('../../../../../Desktop/Sitio%20sin%20nombre%202/Violentometro.jpg') no-repeat;
+}
+
+.wpCivil .ContenedorImg{
+	background:url('../../../../../Desktop/Sitio%20sin%20nombre%202/ProteccionCivil.jpg') no-repeat;
+}
+
+.wpPOI .ContenedorImg{
+	background:url('../../../../../Desktop/Sitio%20sin%20nombre%202/POI.jpg') no-repeat;
+}
+
+.wpCOFAA .ContenedorImg{
+	background:url('../../../../../Desktop/Sitio%20sin%20nombre%202/COFAA.jpg') no-repeat;
+}
+
+.wpDerechos .ContenedorImg{
+	background:url('../../../../../Desktop/Sitio%20sin%20nombre%202/DerechosPolitecnicos.jpg') no-repeat;
+}
+
+.Webpart01 .ContenedorTxt, .Webpart02 .ContenedorTxt, .Webpart03 .ContenedorTxt, .wpSustenta .ContenedorTxt, .wpDenuncia .ContenedorTxt, .wpMujer .ContenedorTxt, .wpAero .ContenedorTxt, .wpClima .ContenedorTxt, .wpTutorias .ContenedorTxt, .wpGenero .ContenedorTxt, .wpViolentometro .ContenedorTxt, .wpCivil .ContenedorTxt, .wpPOI .ContenedorTxt, .wpCOFAA .ContenedorTxt, .wpDerechos .ContenedorTxt{
 	padding:10px;
 	height:222px;
 	bottom:-18px;
 }
-.Webpart01 .Texto p, .Webpart02 .Texto p, .Webpart03 .Texto p, .wpSustenta .Texto p, .wpDenuncia .Texto p, .wpMujer .Texto p, .wpAero .Texto p, .wpClima .Texto p, .wpTutorias .Texto p{
+.Webpart01 .Texto p, .Webpart02 .Texto p, .Webpart03 .Texto p, .wpSustenta .Texto p, .wpDenuncia .Texto p, .wpMujer .Texto p, .wpAero .Texto p, .wpClima .Texto p, .wpTutorias .Texto p, .wpGenero .Texto p, .wpViolentometro .Texto p, .wpCivil .Texto p, .wpPOI .Texto p, .wpCOFAA .Texto p, .wpDerechos .Texto p{
 	overflow:hidden;
 	top:30%;
 	bottom:20%;
 }
 
-.Webpart01 .ContenedorImg span,.Webpart02 .ContenedorImg span,.Webpart03 .ContenedorImg span, .wpSustenta .ContenedorImg span, .wpDenuncia .ContenedorImg span, .wpMujer .ContenedorImg span, .wpAero .ContenedorImg span, .wpClima .ContenedorImg span, .wpTutorias .ContenedorImg span{
+.Webpart01 .ContenedorImg span,.Webpart02 .ContenedorImg span,.Webpart03 .ContenedorImg span, .wpSustenta .ContenedorImg span, .wpDenuncia .ContenedorImg span, .wpMujer .ContenedorImg span, .wpAero .ContenedorImg span, .wpClima .ContenedorImg span, .wpTutorias .ContenedorImg span, .wpGenero .ContenedorImg span, .wpViolentometro .ContenedorImg span, .wpCivil .ContenedorImg span, .wpPOI .ContenedorImg span, .wpCOFAA .ContenedorImg span, .wpDerechos .ContenedorImg span{
 	position:absolute;
 	float:left;
-	padding-top: 32px;
-	padding-left: 15px;
+	padding-top: 25px;
+	padding-left: 5px;
 	font-size: 18px;
-	width:160px;
+	width:177px;
 }
 .wpSustenta .ContenedorImg span{
 	padding-top: 17px !important;
 }
-.Webpart01 .vinculos, .wpSustenta .vinculos, .wpDenuncia .vinculos, .wpMujer .vinculos{
+.Webpart01 .vinculos, .wpSustenta .vinculos, .wpDenuncia .vinculos, .wpMujer .vinculos, .wpGenero .vinculos, .wpViolentometro .vinculos, .wpCivil .vinculos, .wpPOI .vinculos, .wpCOFAA .vinculos, .wpDerechos .vinculos{
 	background:url('../../IMAGENES/descargar.png') no-repeat;
 }
 
