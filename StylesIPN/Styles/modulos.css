@@ -5,11 +5,7 @@
 .zona_256, .zona_770, .zona_385, .zona_256 p, .zona_770 p, .zona_385 p{
 	border:none !important;
 }
-<<<<<<< HEAD
-.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos, .wpGenero, .wpViolentometro, .wpCivil, .wpPOI, .wpCOFAA, .wpDerechos {
-=======
 .Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias{
->>>>>>> 706b0fdcbcc16e6c648ed8ffe9d6c0814b9e5846
 	position:relative;
 	width:100%;
 }
@@ -98,22 +94,14 @@
 
 /*****************************Acerca de******************************************/
 
-<<<<<<< HEAD
-.Webpart01, .Webpart02, .Webpart03, .wpGenero, .wpViolentometro, .wpCivil, .wpPOI, .wpCOFAA, .wpDerechos{
-=======
 .Webpart01, .Webpart02, .Webpart03, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias{
->>>>>>> 706b0fdcbcc16e6c648ed8ffe9d6c0814b9e5846
 		height:290px; /*¿Por definirse...?*/
 }
 .Webpart04{
 		height:350px; /*¿Por definirse...?*/
 }
 
-<<<<<<< HEAD
-.Webpart01 .ContenedorImg,.Webpart02 .ContenedorImg,.Webpart03 .ContenedorImg, .wpGenero .ContenedorImg, .wpViolentometro .ContenedorImg, .wpCivil .ContenedorImg, .wpPOI .ContenedorImg, .wpCOFAA .ContenedorImg, .wpDerechos .ContenedorImg{
-=======
 .Webpart01 .ContenedorImg,.Webpart02 .ContenedorImg,.Webpart03 .ContenedorImg, .wpSustenta .ContenedorImg, .wpDenuncia .ContenedorImg, .wpMujer .ContenedorImg, .wpAero .ContenedorImg, .wpClima .ContenedorImg, .wpTutorias .ContenedorImg{
->>>>>>> 706b0fdcbcc16e6c648ed8ffe9d6c0814b9e5846
 	top:0px ;
 	width:100%;
 	height:30%;
@@ -130,35 +118,6 @@
 .Webpart03 .ContenedorImg{
 	background:url('../../IMAGENES/ima03.jpg') no-repeat;
 }
-<<<<<<< HEAD
-
-.wpGenero .ContenedorImg{
-	background:url('../../Imagenes/ProgramaGenero.jpg') no repeat;
-}
-
-.wpViolentometro .ContenedorImg{
-	background:url('../../Imagenes/Violentometro.jpg') no repeat;
-}
-
-.wpCivil .ContenedorImg{
-	background:url('../../Imagenes/ProteccionCivil.jpg') no repeat;
-}
-
-.wpPOI .ContenedorImg{
-	background:url('../../Imagenes/POI.jpg') no repeat;
-}
-
-.wpCOFAA .ContenedorImg{
-	background:url('../../Imagenes/COFAA.jpg') no repeat;
-}
-
-.wpDerechos .ContenedorImg{
-	background: url('../../Imagenes/DerechosPolitecnicos.jpg') no repeat;
-}
-
-
-.Webpart01 .ContenedorTxt, .Webpart02 .ContenedorTxt, .Webpart03 .ContenedorTxt, .wpGenero .ContenedorTxt, .wpViolentometro .ContenedorTxt, .wpCivil .ContenedorTxt, .wpPOI .ContenedorTxt, .wpCOFAA .ContenedorTxt, .wpDerechos .ContenedorTxt{
-=======
 .wpSustenta .ContenedorImg {
 	background:url('../../Imagenes/cps.jpg') no-repeat;
 }
@@ -178,26 +137,17 @@
 	background:url('../../Imagenes/Tutorias.jpg') no-repeat;
 }
 .Webpart01 .ContenedorTxt, .Webpart02 .ContenedorTxt, .Webpart03 .ContenedorTxt, .wpSustenta .ContenedorTxt, .wpDenuncia .ContenedorTxt, .wpMujer .ContenedorTxt, .wpAero .ContenedorTxt, .wpClima .ContenedorTxt, .wpTutorias .ContenedorTxt{
->>>>>>> 706b0fdcbcc16e6c648ed8ffe9d6c0814b9e5846
 	padding:10px;
 	height:222px;
 	bottom:-18px;
 }
-<<<<<<< HEAD
-.Webpart01 .Texto p, .Webpart02 .Texto p, .Webpart03 .Texto p, .wpGenero .Texto p, .wpViolentometro .Texto p, .wpCivil .Texto p, .wpPOI .Texto p, .wpCOFAA .Texto p, .wpDerechos .Texto p{
-=======
 .Webpart01 .Texto p, .Webpart02 .Texto p, .Webpart03 .Texto p, .wpSustenta .Texto p, .wpDenuncia .Texto p, .wpMujer .Texto p, .wpAero .Texto p, .wpClima .Texto p, .wpTutorias .Texto p{
->>>>>>> 706b0fdcbcc16e6c648ed8ffe9d6c0814b9e5846
 	overflow:hidden;
 	top:30%;
 	bottom:20%;
 }
 
-<<<<<<< HEAD
-.Webpart01 .ContenedorImg span,.Webpart02 .ContenedorImg span,.Webpart03 .ContenedorImg span, .wpGenero .ContenedorImg span, .wpViolentometro .ContenedorImg span, .wpCivil .ContenedorImg span, .wpPOI .ContenedorImg span, .wpCOFAA .ContenedorImg span, .wpDerechos .ContenedorImg span{
-=======
 .Webpart01 .ContenedorImg span,.Webpart02 .ContenedorImg span,.Webpart03 .ContenedorImg span, .wpSustenta .ContenedorImg span, .wpDenuncia .ContenedorImg span, .wpMujer .ContenedorImg span, .wpAero .ContenedorImg span, .wpClima .ContenedorImg span, .wpTutorias .ContenedorImg span{
->>>>>>> 706b0fdcbcc16e6c648ed8ffe9d6c0814b9e5846
 	position:absolute;
 	float:left;
 	padding-top: 32px;
@@ -205,15 +155,10 @@
 	font-size: 18px;
 	width:160px;
 }
-<<<<<<< HEAD
-
-.Webpart01 .vinculos, .wpGenero .vinculos, .wpViolentometro .vinculos, .wpCivil .vinculos, .wpPOI .vinculos, .wpCOFAA .vinculos, .wpDerechos .vinculos{
-=======
 .wpSustenta .ContenedorImg span{
 	padding-top: 17px !important;
 }
 .Webpart01 .vinculos, .wpSustenta .vinculos, .wpDenuncia .vinculos, .wpMujer .vinculos{
->>>>>>> 706b0fdcbcc16e6c648ed8ffe9d6c0814b9e5846
 	background:url('../../IMAGENES/descargar.png') no-repeat;
 }
 
@@ -370,6 +315,7 @@
 .wpMascota .ContenedorTxt{
 	width:64%;
 	height:250px;	
+
 }
 .wpMascota .ContenedorImg{
 	width: 35%;
