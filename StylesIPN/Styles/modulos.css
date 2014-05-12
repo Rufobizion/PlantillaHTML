@@ -47,7 +47,7 @@
 	float:right;
 	position:absolute;
 	right:15px;
-	bottom:15px;
+	bottom:0px;
 	width:32px;
 	height:32px;
 }
@@ -372,6 +372,7 @@
 .wpDecalogo .ContenedorTxt .Texto p{
 	line-height:20px;
 	font-style:italic;
+}
 /********************************Fin Elementos*****************************/
 /********************************Vida Politécnico*****************************/
 .wpCiencia, .wpCultura, .wpDeportes, .wpCanal{
