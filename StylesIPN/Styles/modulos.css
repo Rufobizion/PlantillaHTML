@@ -5,11 +5,11 @@
 .zona_256, .zona_770, .zona_385, .zona_256 p, .zona_770 p, .zona_385 p{
 	border:none !important;
 }
-.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias, .wpGenero, .wpViolentometro, .wpCivil, .wpPOI , .wpCOFAA, .wpDerechos{
+.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias, .wpGenero, .wpViolentometro, .wpCivil, .wpPOI , .wpCOFAA, .wpDerechos, .wpCiencia, .wpCultura, .wpDeportes, .wpCanal {
 	position:relative;
 	width:100%;
 }
-.wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos{
+.wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos, .wpCiencia, .wpCultura, .wpDeportes, .wpCanal{
 	border-bottom:1px solid #ccc !important;	
 }
 .ContenedorTxt{
@@ -47,7 +47,7 @@
 	float:right;
 	position:absolute;
 	right:15px;
-	bottom:15px;
+	bottom:0px;
 	width:32px;
 	height:32px;
 }
@@ -372,5 +372,24 @@
 .wpDecalogo .ContenedorTxt .Texto p{
 	line-height:20px;
 	font-style:italic;
+}
 /********************************Fin Elementos*****************************/
+/***********************************Vida******************************/
+.wpCiencia, .wpCultura, .wpDeportes, .wpCanal{
+	height:190px;
+}
+.wpCiencia .ContenedorTxt, .wpCultura .ContenedorTxt, .wpDeportes .ContenedorTxt, .wpCanal .ContenedorTxt{
+	height:178px;
+	width:64%;
+}
+.wpCultura .ContenedorTxt, .wpCanal .ContenedorTxt{
+	left:0px;
+}
+.wpCiencia .ContenedorImg, .wpCultura .ContenedorImgDer, .wpDeportes .ContenedorImg, .wpCanal .ContenedorImgDer{
+	width:34%;
+}
+.wpCiencia .vinculos, .wpCultura .vinculos, .wpDeportes .vinculos, .wpCanal .vinculos{
+	background:url('../../Imagenes/leer.png') no-repeat;	
+}
 
+/**********************************Fin Vida***************************/
