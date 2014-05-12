@@ -65,6 +65,13 @@
 	height:15px;
 }
 
+.MenuRastroNavegacion .Titulo a{
+	color: #c28954;
+}
+.MenuRastroNavegacion .Subtitulo a{
+	color: #000;
+}
+
 /*************************Fin esitlos Grles****************************************************/
 
 /*********************Mision, Vision, Objetivo*********************************/
