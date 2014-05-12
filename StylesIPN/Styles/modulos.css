@@ -5,7 +5,7 @@
 .zona_256, .zona_770, .zona_385, .zona_256 p, .zona_770 p, .zona_385 p{
 	border:none !important;
 }
-.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos{
+.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias{
 	position:relative;
 	width:100%;
 }
@@ -94,20 +94,20 @@
 
 /*****************************Acerca de******************************************/
 
-.Webpart01, .Webpart02, .Webpart03{
+.Webpart01, .Webpart02, .Webpart03, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias{
 		height:290px; /*¿Por definirse...?*/
 }
 .Webpart04{
 		height:350px; /*¿Por definirse...?*/
 }
 
-.Webpart01 .ContenedorImg,.Webpart02 .ContenedorImg,.Webpart03 .ContenedorImg{
+.Webpart01 .ContenedorImg,.Webpart02 .ContenedorImg,.Webpart03 .ContenedorImg, .wpSustenta .ContenedorImg, .wpDenuncia .ContenedorImg, .wpMujer .ContenedorImg, .wpAero .ContenedorImg, .wpClima .ContenedorImg, .wpTutorias .ContenedorImg{
 	top:0px ;
 	width:100%;
 	height:30%;
 }
 
-.Webpart01 .ContenedorImg{
+.Webpart01 .ContenedorImg {
 	background:url('../../IMAGENES/ima01.jpg') no-repeat;
 }
 
@@ -118,18 +118,36 @@
 .Webpart03 .ContenedorImg{
 	background:url('../../IMAGENES/ima03.jpg') no-repeat;
 }
-.Webpart01 .ContenedorTxt, .Webpart02 .ContenedorTxt, .Webpart03 .ContenedorTxt{
+.wpSustenta .ContenedorImg {
+	background:url('../../Imagenes/cps.jpg') no-repeat;
+}
+.wpDenuncia .ContenedorImg {
+	background:url('../../Imagenes/DenunciaSegura.jpg') no-repeat;
+}
+.wpMujer .ContenedorImg {
+	background:url('../../Imagenes/YoMujer.jpg') no-repeat;
+}
+.wpAero .ContenedorImg {
+	background:url('../../Imagenes/Aeroespacial.jpg') no-repeat;
+}
+.wpClima .ContenedorImg {
+	background:url('../../Imagenes/Proclimas.jpg') no-repeat;
+}
+.wpTutorias .ContenedorImg {
+	background:url('../../Imagenes/Tutorias.jpg') no-repeat;
+}
+.Webpart01 .ContenedorTxt, .Webpart02 .ContenedorTxt, .Webpart03 .ContenedorTxt, .wpSustenta .ContenedorTxt, .wpDenuncia .ContenedorTxt, .wpMujer .ContenedorTxt, .wpAero .ContenedorTxt, .wpClima .ContenedorTxt, .wpTutorias .ContenedorTxt{
 	padding:10px;
 	height:222px;
 	bottom:-18px;
 }
-.Webpart01 .Texto p, .Webpart02 .Texto p, .Webpart03 .Texto p{
+.Webpart01 .Texto p, .Webpart02 .Texto p, .Webpart03 .Texto p, .wpSustenta .Texto p, .wpDenuncia .Texto p, .wpMujer .Texto p, .wpAero .Texto p, .wpClima .Texto p, .wpTutorias .Texto p{
 	overflow:hidden;
 	top:30%;
 	bottom:20%;
 }
 
-.Webpart01 .ContenedorImg span,.Webpart02 .ContenedorImg span,.Webpart03 .ContenedorImg span{
+.Webpart01 .ContenedorImg span,.Webpart02 .ContenedorImg span,.Webpart03 .ContenedorImg span, .wpSustenta .ContenedorImg span, .wpDenuncia .ContenedorImg span, .wpMujer .ContenedorImg span, .wpAero .ContenedorImg span, .wpClima .ContenedorImg span, .wpTutorias .ContenedorImg span{
 	position:absolute;
 	float:left;
 	padding-top: 32px;
@@ -137,12 +155,14 @@
 	font-size: 18px;
 	width:160px;
 }
-
-.Webpart01 .vinculos{
+.wpSustenta .ContenedorImg span{
+	padding-top: 17px !important;
+}
+.Webpart01 .vinculos, .wpSustenta .vinculos, .wpDenuncia .vinculos, .wpMujer .vinculos{
 	background:url('../../IMAGENES/descargar.png') no-repeat;
 }
 
-.Webpart03 .vinculos{
+.Webpart03 .vinculos, .wpAero .vinculos, .wpClima .vinculos, .wpTutorias .vinculos{
 	background:url('../../IMAGENES/leer.png') no-repeat;
 }
 /**********************************Fin Acerca de************************************/
