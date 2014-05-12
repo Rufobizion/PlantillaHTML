@@ -137,27 +137,27 @@
 	background:url('../../Imagenes/Tutorias.jpg') no-repeat;
 }
 .wpGenero .ContenedorImg{
-	background:url('../../../../../Desktop/Sitio%20sin%20nombre%202/ProgramaGenero.jpg') no-repeat;
+	background:url('../../Imagenes/ProgramaGenero.jpg') no-repeat;
 }
 
 .wpViolentometro .ContenedorImg{
-	background:url('../../../../../Desktop/Sitio%20sin%20nombre%202/Violentometro.jpg') no-repeat;
+	background:url('../../Imagenes/Violentometro.jpg') no-repeat;
 }
 
 .wpCivil .ContenedorImg{
-	background:url('../../../../../Desktop/Sitio%20sin%20nombre%202/ProteccionCivil.jpg') no-repeat;
+	background:url('../../Imagenes/ProteccionCivil.jpg') no-repeat;
 }
 
 .wpPOI .ContenedorImg{
-	background:url('../../../../../Desktop/Sitio%20sin%20nombre%202/POI.jpg') no-repeat;
+	background:url('../../Imagenes/POI.jpg') no-repeat;
 }
 
 .wpCOFAA .ContenedorImg{
-	background:url('../../../../../Desktop/Sitio%20sin%20nombre%202/COFAA.jpg') no-repeat;
+	background:url('../../Imagenes/COFAA.jpg') no-repeat;
 }
 
 .wpDerechos .ContenedorImg{
-	background:url('../../../../../Desktop/Sitio%20sin%20nombre%202/DerechosPolitecnicos.jpg') no-repeat;
+	background:url('../../Imagenes/DerechosPolitecnicos.jpg') no-repeat;
 }
 
 .Webpart01 .ContenedorTxt, .Webpart02 .ContenedorTxt, .Webpart03 .ContenedorTxt, .wpSustenta .ContenedorTxt, .wpDenuncia .ContenedorTxt, .wpMujer .ContenedorTxt, .wpAero .ContenedorTxt, .wpClima .ContenedorTxt, .wpTutorias .ContenedorTxt, .wpGenero .ContenedorTxt, .wpViolentometro .ContenedorTxt, .wpCivil .ContenedorTxt, .wpPOI .ContenedorTxt, .wpCOFAA .ContenedorTxt, .wpDerechos .ContenedorTxt{
