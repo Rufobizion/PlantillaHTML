@@ -5,7 +5,7 @@
 .zona_256, .zona_770, .zona_385, .zona_256 p, .zona_770 p, .zona_385 p{
 	border:none !important;
 }
-.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias, .wpGenero, .wpViolentometro, .wpCivil, .wpPOI , .wpCOFAA, .wpDerechos,.wpCiencia, .wpCultura, .wpDeportes, .wpCanal, .wpNormatividad{
+.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias, .wpGenero, .wpViolentometro, .wpCivil, .wpPOI , .wpCOFAA, .wpDerechos,.wpCiencia, .wpCultura, .wpDeportes, .wpCanal, .wpUnidades, .wpNormatividad{
 	position:relative;
 	width:100%;
 }
@@ -108,7 +108,7 @@
 		height:350px; /*¿Por definirse...?*/
 }
 
-.Webpart01 .ContenedorImg,.Webpart02 .ContenedorImg,.Webpart03 .ContenedorImg, .wpSustenta .ContenedorImg, .wpDenuncia .ContenedorImg, .wpMujer .ContenedorImg, .wpAero .ContenedorImg, .wpClima .ContenedorImg, .wpTutorias .ContenedorImg, .wpGenero .ContenedorImg, .wpViolentometro .ContenedorImg, .wpCivil .ContenedorImg, .wpPOI .ContenedorImg, .wpCOFAA .ContenedorImg, .wpDerechos .ContenedorImg{
+.Webpart01 .ContenedorImg,.Webpart02 .ContenedorImg,.Webpart03 .ContenedorImg, .wpSustenta .ContenedorImg, .wpDenuncia .ContenedorImg, .wpMujer .ContenedorImg, .wpAero .ContenedorImg, .wpClima .ContenedorImg, .wpTutorias .ContenedorImg, .wpGenero .ContenedorImg, .wpViolentometro .ContenedorImg, .wpCivil .ContenedorImg, .wpPOI .ContenedorImg, .wpCOFAA .ContenedorImg, .wpDerechos .ContenedorImg, .wpUnidades li{
 	top:0px ;
 	width:100%;
 	height:30%;
