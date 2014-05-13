@@ -71,6 +71,11 @@
 .MenuRastroNavegacion .Subtitulo a{
 	color: #000;
 }
+aside{
+	 display: inline-block;
+	 float: left;
+	 width: 33%;
+	 }
 
 /*************************Fin esitlos Grles****************************************************/
 
@@ -391,14 +396,13 @@
 .wpCiencia .vinculos, .wpCultura .vinculos, .wpDeportes .vinculos, .wpCanal .vinculos{
 	background:url('../../Imagenes/leer.png') no-repeat;	
 }
+.wpUnidades .ContenedorTxt{
+	position: relative;
+}
 /*****************************Fin Vida Politécnica*****************************/
 
 /********************************Normatividad******************************/
-aside{
-	 display: inline-block;
-	 float: left;
-	 width: 33%;
-	 }
+
 
 /*****************************Fin Normatividad*****************************/
 
