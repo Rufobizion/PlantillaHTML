@@ -411,7 +411,7 @@ aside{
 /********************************Normatividad******************************/
 
 .wpNormatividad, .wpNormatividad1{
-	height:106px;
+	height:110px;
 	width:100%;
 }
 .wpNormatividad1 .ContenedorTxt{
@@ -439,7 +439,7 @@ aside{
 .wpNormatividad li{
 	float:left;
 	margin-right:15px;
-	margin-top:10px;
+	margin-top:15px;
 }
 
 
