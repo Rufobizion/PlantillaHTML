@@ -226,6 +226,10 @@ aside{
 	position:relative;
 	padding-bottom:0px;
 }
+.wpCrono .ContenedorTxt h2{
+	margin-left:5px;
+	margin-top:10px;
+}
 .wpDirectores .ContenedorTxt{
 	height:125px;
 	width:66%;
@@ -407,7 +411,7 @@ aside{
 /********************************Normatividad******************************/
 
 .wpNormatividad, .wpNormatividad1{
-	height:100px;
+	height:106px;
 	width:100%;
 }
 .wpNormatividad1 .ContenedorTxt{
@@ -429,6 +433,15 @@ aside{
 	width: 18%;
 	height: 30px;
 }
+.wpNormatividad ul{
+	width:100%
+}
+.wpNormatividad li{
+	float:left;
+	margin-right:15px;
+	margin-top:10px;
+}
+
 
 /*****************************Fin Normatividad*****************************/
 
