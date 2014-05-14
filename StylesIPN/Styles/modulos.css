@@ -110,7 +110,7 @@ aside{
 		height:290px; /*¿Por definirse...?*/
 }
 .Webpart04{
-		height:350px; /*¿Por definirse...?*/
+		height:365px; /*¿Por definirse...?*/
 }
 
 .Webpart01 .ContenedorImg,.Webpart02 .ContenedorImg,.Webpart03 .ContenedorImg, .wpSustenta .ContenedorImg, .wpDenuncia .ContenedorImg, .wpMujer .ContenedorImg, .wpAero .ContenedorImg, .wpClima .ContenedorImg, .wpTutorias .ContenedorImg, .wpGenero .ContenedorImg, .wpViolentometro .ContenedorImg, .wpCivil .ContenedorImg, .wpPOI .ContenedorImg, .wpCOFAA .ContenedorImg, .wpDerechos .ContenedorImg, .wpUnidades li{
@@ -186,10 +186,10 @@ aside{
 .Webpart01 .ContenedorImg span,.Webpart02 .ContenedorImg span,.Webpart03 .ContenedorImg span, .wpSustenta .ContenedorImg span, .wpDenuncia .ContenedorImg span, .wpMujer .ContenedorImg span, .wpAero .ContenedorImg span, .wpClima .ContenedorImg span, .wpTutorias .ContenedorImg span, .wpGenero .ContenedorImg span, .wpViolentometro .ContenedorImg span, .wpCivil .ContenedorImg span, .wpPOI .ContenedorImg span, .wpCOFAA .ContenedorImg span, .wpDerechos .ContenedorImg span, .wpNormatividad1 .ContenedorImg span{
 	position:absolute;
 	float:left;
-	padding-top: 25px;
-	padding-left: 5px;
+	padding-top: 30px;
+	padding-left: 10px;
 	font-size: 18px;
-	width:177px;
+	width:166px;
 }
 .wpSustenta .ContenedorImg span{
 	padding-top: 17px !important;
