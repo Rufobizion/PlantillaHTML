@@ -353,15 +353,14 @@ aside{
 /********************************Fin Hechos*****************************/
 /***********************************Elementos*****************************/
 .wpMascota{
-	height:259px;	
+	height:259px;
 }
 .wpMascota .ContenedorTxt{
 	width:64%;
 	height:250px;	
-
 }
 .wpMascota .ContenedorImg{
-	width: 35%;
+	width:33%;
 }
 .wpPorra{
 	height:338px;	
