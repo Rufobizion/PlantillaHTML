@@ -409,8 +409,12 @@ aside{
 
 /********************************Normatividad******************************/
 
-.wpNormatividad, .wpNormatividad1{
-	height:110px;
+.wpNormatividad{
+	height:113px;
+	width:100%;
+}
+.wpNormatividad1{
+	height:100px;
 	width:100%;
 }
 .wpNormatividad1 .ContenedorTxt{
