@@ -405,6 +405,20 @@ aside{
 .wpUnidades .ContenedorTxt{
 	position: relative;
 }
+
+.wpUnidades ul{
+	width:100%
+}
+.wpUnidades li{
+	width:31%;
+	float:left;
+	margin-right:15px;
+	margin-top:0px;
+}
+.wpUnidades{
+	height:135px;
+	width:100%;
+}
 /*****************************Fin Vida Politécnica*****************************/
 
 /********************************Normatividad******************************/
@@ -436,6 +450,7 @@ aside{
 	width: 18%;
 	height: 30px;
 }
+
 .wpNormatividad ul{
 	width:100%
 }
@@ -444,7 +459,6 @@ aside{
 	margin-right:15px;
 	margin-top:15px;
 }
-
 
 /*****************************Fin Normatividad*****************************/
 
