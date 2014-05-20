@@ -5,17 +5,39 @@
 .zona_256, .zona_770, .zona_385, .zona_256 p, .zona_770 p, .zona_385 p{
 	border:none !important;
 }
-.Webpart01, .Webpart02, .Webpart03, .Webpart04, .wpHistoria, .wpCrono, .wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias, .wpGenero, .wpViolentometro, .wpCivil, .wpPOI , .wpCOFAA, .wpDerechos,.wpCiencia, .wpCultura, .wpDeportes, .wpCanal, .wpUnidades, .wpNormatividad, .wpNormatividad1{
-	position:relative;
+
+.modulo01 {
+	float:left;
 	width:100%;
+	padding-bottom:5px;
+	border-bottom:1px solid #ccc;
+	min-height:123px;
+	max-height:370px;
 }
-.wpMision,.wpVision,.wpObjetivo, .wpPersonajes, .wpDirectores, .wpTecnica, .wpEscudo, .wpHimno, .wpHechos, .wpDecanato, .wpMascota, .wpPorra, .wpDecalogo, .wpElementos, .wpHistoricos, .wpCiencia, .wpCultura, .wpDeportes, .wpCanal{
-	border-bottom:1px solid #ccc !important;	
+.ContenedorImg {
+	width:30%;
+	float:left;
+	margin-right:2%;
 }
-.ContenedorTxt{
-	/*padding: 15px;*/
-	position:absolute;
-	right:0px;
+.ContenedorImg img{
+	min-height:123px;
+	width:100%
+}
+.der{
+	float:right;
+	margin-left:2%;
+	margin-right:inherit;
+}
+.ContenedorTxt {
+	float:left;
+	width:68%;
+	position:relative;
+}
+.descripcion {
+	width:100%;
+	min-height:80px;
+	max-height:316px;
+	overflow:hidden;
 }
 .ContenedorTxt h2{
 	font-family:Arial;
@@ -24,442 +46,53 @@
 	font-weight:bold;
 	margin-bottom:20px;
 }
-.wpTecnica .ContenedorTxt h2,.wpEscudo .ContenedorTxt h2, .wpHimno .ContenedorTxt h2, .wpHechos .ContenedorTxt h2, .wpDecanato .ContenedorTxt h2, .wpMascota .ContenedorTxt h2, .wpPorra .ContenedorTxt h2, .wpDecalogo .ContenedorTxt h2{
-	color:#000;
-	}
 .Texto p{
-    font-size: 13px;
+	top:30%;
+	bottom:20%;	
+	font-size: 13px;
 	font-family:Arial;
     line-height: 15px;
     text-align: justify;
 	border:none !important;
+	min-height:44px;
+	max-height:316px;
+	overflow:hidden;
 }
-.ContenedorImg{
-	float:left;
-	position:absolute;
+.descargar, .leer, .escuchar, .ver {
+	right:5px;
+	vertical-align:top;
+	float: right;
+	width: 80px;
+	height: 32px;
+	margin-top: 10px;
 }
-.ContenedorImgDer{
-	float:right;
-	position:absolute;
-	right:0px;
-}
-.leer, .descargar, .escuchar, .ver{
-	float:right;
-	position:absolute;
-	right:0px;
-	bottom:0px;
-	width:32px;
-	height:32px;
-}
-.leer span, .descargar span, .escuchar span, .ver span, .vinculos span{
+.descargar span, .leer span, .escuchar span, .ver span {
 	font-family:"Myriad Pro";
 	font-weight:bold;
 	color:#664759;
 	font-style:italic;
 	font-size:11px;
-	float: right;
+	padding-top: 13px;
 	position: absolute;
-	right: 0px;
-	top: 10px;
-	width:85px;
-	height:15px;
-}
-
-.MenuRastroNavegacion .Titulo a{
-	color: #c28954;
-}
-.MenuRastroNavegacion .Subtitulo a{
-	color: #000;
-}
-aside{
-	 display: inline-block;
-	 float: left;
-	 width: 33%;
-	 }
-
-/*************************Fin esitlos Grles****************************************************/
-
-/*********************Mision, Vision, Objetivo*********************************/
-
-.wpMision,.wpVision,.wpObjetivo{
-	height:244px;
-	padding-bottom:10px;
-}
-.wpMision .ContenedorTxt,.wpVision .ContenedorTxt, wpObjetivo .ContenedorTxt{
-	width:73%;
-	height:233px;
-}
-.wpVision .ContenedorTxt {
-	height:191px !important;
-	left:0px !important;
-}
-.wpMision .ContenedorImg{
-	width:25%;	
-}
-.wpVision .ContenedorImgDer{
-	width:25%;
-}
-.descargar{
-	background:url('../../Imagenes/descargar.png') no-repeat;	
-}
-/*********************Fin Mision, Vision, Objetivo********************************/
-
-/*****************************Acerca de******************************************/
-
-.Webpart01, .Webpart02, .Webpart03, .wpSustenta, .wpDenuncia, .wpMujer, .wpAero, .wpClima, .wpTutorias, .wpGenero, .wpViolentometro, .wpCivil, .wpPOI, .wpCOFAA, .wpDerechos{
-		height:301px; /*¿Por definirse...?*/
-}
-.Webpart04{
-		height:365px; /*¿Por definirse...?*/
-}
-
-.Webpart01 .ContenedorImg,.Webpart02 .ContenedorImg,.Webpart03 .ContenedorImg, .wpSustenta .ContenedorImg, .wpDenuncia .ContenedorImg, .wpMujer .ContenedorImg, .wpAero .ContenedorImg, .wpClima .ContenedorImg, .wpTutorias .ContenedorImg, .wpGenero .ContenedorImg, .wpViolentometro .ContenedorImg, .wpCivil .ContenedorImg, .wpPOI .ContenedorImg, .wpCOFAA .ContenedorImg, .wpDerechos .ContenedorImg, .wpUnidades li{
-	top:0px ;
-	width:100%;
-	height:30%;
-}
-
-.Webpart01 .ContenedorImg {
-	background:url('../../IMAGENES/ima01.jpg') no-repeat;
-}
-
-.Webpart02 .ContenedorImg{
-	background:url('../../IMAGENES/ima02.jpg') no-repeat;
-}
-
-.Webpart03 .ContenedorImg{
-	background:url('../../IMAGENES/ima03.jpg') no-repeat;
-}
-.wpSustenta .ContenedorImg {
-	background:url('../../Imagenes/cps.jpg') no-repeat;
-}
-.wpDenuncia .ContenedorImg {
-	background:url('../../Imagenes/DenunciaSegura.jpg') no-repeat;
-}
-.wpMujer .ContenedorImg {
-	background:url('../../Imagenes/YoMujer.jpg') no-repeat;
-}
-.wpAero .ContenedorImg {
-	background:url('../../Imagenes/Aeroespacial.jpg') no-repeat;
-}
-.wpClima .ContenedorImg {
-	background:url('../../Imagenes/Proclimas.jpg') no-repeat;
-}
-.wpTutorias .ContenedorImg {
-	background:url('../../Imagenes/Tutorias.jpg') no-repeat;
-}
-.wpGenero .ContenedorImg{
-	background:url('../../Imagenes/ProgramaGenero.jpg') no-repeat;
-}
-
-.wpViolentometro .ContenedorImg{
-	background:url('../../Imagenes/Violentometro.jpg') no-repeat;
-}
-
-.wpCivil .ContenedorImg{
-	background:url('../../Imagenes/ProteccionCivil.jpg') no-repeat;
-}
-
-.wpPOI .ContenedorImg{
-	background:url('../../Imagenes/POI.jpg') no-repeat;
-}
-
-.wpCOFAA .ContenedorImg{
-	background:url('../../Imagenes/COFAA.jpg') no-repeat;
-}
-
-.wpDerechos .ContenedorImg{
-	background:url('../../Imagenes/DerechosPolitecnicos.jpg') no-repeat;
-}
-
-.Webpart01 .ContenedorTxt, .Webpart02 .ContenedorTxt, .Webpart03 .ContenedorTxt, .wpSustenta .ContenedorTxt, .wpDenuncia .ContenedorTxt, .wpMujer .ContenedorTxt, .wpAero .ContenedorTxt, .wpClima .ContenedorTxt, .wpTutorias .ContenedorTxt, .wpGenero .ContenedorTxt, .wpViolentometro .ContenedorTxt, .wpCivil .ContenedorTxt, .wpPOI .ContenedorTxt, .wpCOFAA .ContenedorTxt, .wpDerechos .ContenedorTxt{
-	padding:10px;
-	height:222px;
-	bottom:-10px;
-}
-.Webpart01 .Texto p, .Webpart02 .Texto p, .Webpart03 .Texto p, .wpSustenta .Texto p, .wpDenuncia .Texto p, .wpMujer .Texto p, .wpAero .Texto p, .wpClima .Texto p, .wpTutorias .Texto p, .wpGenero .Texto p, .wpViolentometro .Texto p, .wpCivil .Texto p, .wpPOI .Texto p, .wpCOFAA .Texto p, .wpDerechos .Texto p{
-	overflow:hidden;
-	top:30%;
-	bottom:20%;
-}
-
-.Webpart01 .ContenedorImg span, .Webpart02 .ContenedorImg span, .Webpart03 .ContenedorImg span, .wpSustenta .ContenedorImg span, .wpDenuncia .ContenedorImg span, .wpMujer .ContenedorImg span, .wpAero .ContenedorImg span, .wpClima .ContenedorImg span, .wpTutorias .ContenedorImg span, .wpGenero .ContenedorImg span, .wpViolentometro .ContenedorImg span, .wpCivil .ContenedorImg span, .wpPOI .ContenedorImg span, .wpCOFAA .ContenedorImg span, .wpDerechos .ContenedorImg span, .wpNormatividad1 .ContenedorImg span{
-	position:absolute;
-	float:left;
-	padding-top: 30px;
-	padding-left: 10px;
-	font-size: 18px;
-	width:166px;
-}
-.wpSustenta .ContenedorImg span{
-	padding-top: 17px !important;
-}
-.Webpart02 ul{
-	margin-top:10px;
+	right:37px;
 }
 .descargar{
 	background:url('../../IMAGENES/descargar.png') no-repeat;
+	background-position:47px;
 }
-
 .leer{
 	background:url('../../IMAGENES/leer.png') no-repeat;
+	background-position:47px;	
 }
-/**********************************Fin Acerca de************************************/
-/***********************************Historia******************************/
-.wpHistoria, .wpCrono{
-	height:440px;
-}
-.wpDirectores{
-	height:136px;
-}
-.wpPersonajes{
-	height:170px;
-}
-.wpCrono{
-	border:1px solid #ccc;
-}
-.wpHistoria .ContenedorTxt{
-	height:440px;
-	width:100%;
-}
-.wpCrono .ContenedorTxt{
-	position:relative;
-	padding-bottom:0px;
-}
-.wpCrono .ContenedorTxt h2{
-	margin-left:5px;
-	margin-top:10px;
-}
-.wpDirectores .ContenedorTxt{
-	height:125px;
-	width:66%;
-}
-.wpPersonajes .ContenedorTxt{
-	height:159px;
-	width:65%;
-	left:0px;
-}
-.wpPersonajes .Texto p{
-	line-height:25px;
-}
-.wpCrono .ContenedorImg{
-	width:100%;
-	height:372px;
-	padding:0 15px 15px 15px;
-}
-.wpCrono .ContenedorImg img{
-	float:right;
-	margin-right:3px;
-}
-.wpDirectores .ContenedorImg{
-	width:32%;
-}
-.wpPersonajes .ContenedorImgDer{
-	width:33%;
-}
-.wpHistoria .leer, .wpDirectores .leer, .wpElementos .leer, .wpPersonajes .leer, .wpHistoricos .leer{
-	background:url('../../Imagenes/leer.png') no-repeat;	
-}
-.wpElementos, .wpDirectores, .wpPersonajes, .wpHistoricos{
-	padding-bottom:10px
-}
-
-.wpElementos{
-	height:145px;
-}
-.wpElementos .ContenedorTxt{
-	height:134px;
-	width:64%;
-	right:0px;
-}
-.wpElementos .ContenedorImg{
-	width:34%;
-}
-
-.wpHistoricos{
-	height:191px;
-}
-.wpHistoricos .ContenedorTxt{
-	height:180px;
-	width:64%;
-	left:0px;
-}
-.wpHistoricos .ContenedorImg{
-	width:34%;
-}
-
-/**********************************Fin Historia***************************/
-/***********************************Identidad*****************************/
-.wpTecnica{
-	height:215px;	
-}
-.wpTecnica .ContenedorTxt{
-	width:64%;
-	height:215px;	
-}
-.wpTecnica .ContenedorImg{
-	width: 33%;
-}
-.wpEscudo{
-	height:210px;	
-}
-.wpEscudo .ContenedorImgDer{
-	width:36%;
-}
-.wpEscudo .ContenedorTxt{
-	width:62%;
-	height:207px;
-	left:0px !important;	
-}
-.wpHimno{
-	height:210px;
-}
-.wpHimno .ContenedorTxt{
-	height:210px;
-}
-.wpHimno .escuchar{
+.escuchar{
 	background:url('../../Imagenes/escuchar.png')no-repeat;
+	background-position:47px;	
 }
-
-/********************************Fin Identidad*****************************/
-/***********************************Hechos*****************************/
-.wpHechos{
-	height:190px;	
-}
-.wpHechos .ContenedorTxt{
-	width:64%;
-	height:190px;	
-}
-.wpHechos .ContenedorImg{
-	width: 35%;
-}
-.wpDecanato{
-	height:171px;	
-}
-.wpDecanato .ContenedorTxt{
-	width:62%;
-	height:171px;
-	left:0px !important;	
-}
-.wpDecanato .ContenedorImgDer{
-	width:36%;
-}
-.wpHechos .leer{
-	background:url('../../Imagenes/leer.png') no-repeat;
-}
-.wpDecanato .ver{
+.ver{
 	background:url('../../Imagenes/ver.png') no-repeat;
-}
-/********************************Fin Hechos*****************************/
-/***********************************Elementos*****************************/
-.wpMascota{
-	height:259px;
-}
-.wpMascota .ContenedorTxt{
-	width:64%;
-	height:250px;	
-}
-.wpMascota .ContenedorImg{
-	width:33%;
-}
-.wpPorra{
-	height:338px;	
-}
-.wpPorra .ContenedorImgDer{
-	width:35%;
-}
-.wpPorra .ContenedorTxt{
-	width:63%;
-	height:331px;
-	left:0px !important;	
-}
-.wpDecalogo{
-	height:268px;
-}
-.wpDecalogo .ContenedorTxt{
-	width:100%;
-	height:265px;
-}
-.wpDecalogo .ContenedorTxt .Texto p{
-	line-height:20px;
-	font-style:italic;
-}
-/********************************Fin Elementos*****************************/
-/********************************Vida Politécnico*****************************/
-.wpCiencia, .wpCultura, .wpDeportes, .wpCanal{
-	height:190px;
-}
-.wpCiencia .ContenedorTxt, .wpCultura .ContenedorTxt, .wpDeportes .ContenedorTxt, .wpCanal .ContenedorTxt{
-	height:178px;
-	width:64%;
-}
-.wpCultura .ContenedorTxt, .wpCanal .ContenedorTxt{
-	left:0px;
-}
-.wpCiencia .ContenedorImg, .wpCultura .ContenedorImgDer, .wpDeportes .ContenedorImg, .wpCanal .ContenedorImgDer{
-	width:34%;
-}
-.wpCiencia .leer, .wpCultura .leer, .wpDeportes .leer, .wpCanal .leer{
-	background:url('../../Imagenes/leer.png') no-repeat;	
-}
-.wpUnidades .ContenedorTxt{
-	position: relative;
+	background-position:47px;	
 }
 
-.wpUnidades ul{
-	width:100%
+.izq{
+	min-height:102px;
 }
-.wpUnidades li{
-	width:31%;
-	float:left;
-	margin-right:15px;
-	margin-top:0px;
-}
-.wpUnidades{
-	height:135px;
-	width:100%;
-}
-/*****************************Fin Vida Politécnica*****************************/
-
-/********************************Normatividad******************************/
-
-.wpNormatividad{
-	height:113px;
-	width:100%;
-}
-.wpNormatividad1{
-	height:100px;
-	width:100%;
-}
-.wpNormatividad1 .ContenedorTxt{
-	left: 0px;
-	width: 66%;
-	height:100%
-}
-.wpNormatividad1 .Texto p{
-	line-height:20px;
-}
-.wpNormatividad1 .ContenedorImgDer{
-	width:32%;
-}
-.wpNormatividad1 .vinculos{
-	float: left;
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-	width: 18%;
-	height: 30px;
-}
-
-.wpNormatividad ul{
-	width:100%
-}
-.wpNormatividad li{
-	float:right;
-	margin-right:15px;
-	margin-top:15px;
-}
-
-/*****************************Fin Normatividad*****************************/
-
-
