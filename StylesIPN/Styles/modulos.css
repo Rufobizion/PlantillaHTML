@@ -94,3 +94,16 @@
 	background:url('../../Imagenes/ver.png') no-repeat;
 	background-position:57px;	
 }
+.wpUnidades ul{
+	width:100%
+}
+.wpUnidades li{
+	width:31%;
+	float:left;
+	margin-right:15px;
+	margin-top:0px;
+}
+.wpUnidades{
+	height:135px;
+	width:100%;
+}
