@@ -14,6 +14,7 @@
 	min-height:123px;
 	max-height:370px;
 }
+
 .ContenedorImg {
 	width:30%;
 	float:left;
@@ -21,6 +22,7 @@
 }
 .ContenedorImg img{
 	min-height:123px;
+	max-height:240px;
 	width:100%
 }
 .der{
@@ -91,8 +93,4 @@
 .ver{
 	background:url('../../Imagenes/ver.png') no-repeat;
 	background-position:47px;	
-}
-
-.izq{
-	min-height:102px;
 }
