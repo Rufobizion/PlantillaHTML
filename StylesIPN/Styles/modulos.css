@@ -61,10 +61,10 @@
 	overflow:hidden;
 }
 .descargar, .leer, .escuchar, .ver {
-	right:5px;
+	/*right:5px;*/
 	vertical-align:top;
 	float: right;
-	width: 80px;
+	width: 90px;
 	height: 32px;
 	margin-top: 10px;
 }
@@ -80,17 +80,17 @@
 }
 .descargar{
 	background:url('../../IMAGENES/descargar.png') no-repeat;
-	background-position:47px;
+	background-position:57px;
 }
 .leer{
 	background:url('../../IMAGENES/leer.png') no-repeat;
-	background-position:47px;	
+	background-position:57px;	
 }
 .escuchar{
 	background:url('../../Imagenes/escuchar.png')no-repeat;
-	background-position:47px;	
+	background-position:57px;	
 }
 .ver{
 	background:url('../../Imagenes/ver.png') no-repeat;
-	background-position:47px;	
+	background-position:57px;	
 }
