@@ -156,3 +156,33 @@
 	float:right;
 	margin-right:3px;
 }
+.tit{
+list-style-type: disc;
+color: rgb(83,8,39);
+font-weight: bold;
+font-size: 12px;
+line-height:1.6;
+margin-left: 15.2px;
+}
+.subtit{
+list-style-type: disc;
+color:#000;
+font-family:arial;
+font-size:12px;
+margin-left: 45px;
+line-height:1.5;
+}
+.titulo{
+font-size: 16px;
+color: #000;
+font-weight: bold;
+font-family: arial;
+}
+.medio{
+background-color:rgb(243,243,243);
+padding: 5px;
+margin-top: 22px;	
+}
+.ultimo{
+margin-top:27px;
+}
