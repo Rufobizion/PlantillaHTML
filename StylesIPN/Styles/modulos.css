@@ -15,15 +15,6 @@
 	max-height:370px;
 }
 
-.modulo01 .vinculos{
-	float: left;
-	position: absolute;
-	left: 0px;
-	bottom: 0px;
-	width: 18%;
-	height: 30px;
-}
-
 .modulo02 .ContenedorTxt{
 	float:left;
 	width:100%;
@@ -83,7 +74,7 @@
 	height: 32px;
 	margin-top: 10px;
 }
-.descargar span, .leer span, .escuchar span, .ver span, .vinculos span{
+.descargar span, .leer span, .escuchar span, .ver span{
 	font-family:"Myriad Pro";
 	font-weight:bold;
 	color:#664759;
@@ -109,6 +100,7 @@
 	background:url('../../Imagenes/ver.png') no-repeat;
 	background-position:57px;	
 }
+
 .wpUnidades ul{
 	width:100%
 }
@@ -165,14 +157,14 @@
 	min-height:300px;
 	max-height:370px;
 }
-.modulo03 #fondos{
+.modulo03 .fondos{
 	position:absolute;
 	top:0px ;
 	width:100%;
 	height:30%;
 }
-#fondos{
-	background-image:url('file:///C|/Users/Hugo%20D%C3%ADaz/Documents/GitHub/PlantillaHTML/Imagenes/ima01.jpg') no-repeat;
+.fondos{
+	background:url('../../Imagenes/ima01.jpg') no-repeat;
 }
 /*#fondo2{
 	background:url('../../Imagenes/ima02.jpg') no-repeat;
@@ -182,17 +174,17 @@
 }*/
 
 .modulo03 .ContenedorTxt{
-	width:100%;
-	padding:10px;
-	height:290px;
-	bottom:-10px;
+	width: 100%;
+	padding: 10px;
+	height: 70%;
+	top: 89px;
 }
 .modulo03 .Texto p{
 	overflow:hidden;
 	top:30%;
 	bottom:20%;
 }
-.modulo03 #fondos span{
+.modulo03 .fondos span{
 	position:absolute;
 	float:left;
 	padding-top: 30px;
@@ -206,7 +198,7 @@
 .modulo03 .descargar span, .modulo03 .leer span, .modulo03 .escuchar span, .modulo03 .ver span, .modulo03 .vinculos span{
 	right:47px;
 }
-
+/*-----------------------Termina Modulo03----------------------*/
 .tit{
 list-style-type: disc;
 color: rgb(83,8,39);
