@@ -280,6 +280,12 @@ body{
 	left: 195px;
 	text-shadow: 0px -2px 3px rgb(136, 136, 136);
 }
+.MenuRastroNavegacion .Titulo a{
+	color: #c28954;
+}
+.MenuRastroNavegacion .Subtitulo a{
+	color: #000;
+}
 #Contenedor {
 	width: 100%;
 	max-width: 970px;
