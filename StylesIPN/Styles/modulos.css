@@ -6,7 +6,7 @@
 	border:none !important;
 }
 
-.modulo01, .modulo02 {
+.modulo01, .modulo02{
 	float:left;
 	width:100%;
 	padding-bottom:5px;
@@ -134,10 +134,10 @@
 }
 
 .wpCrono{
-	height:440px;
-	border:1px solid #ccc;
 	position:relative;
 	width:100%;
+	height:440px;
+	border:1px solid #ccc;
 }
 .wpCrono .ContenedorTxt{
 	position:relative;
@@ -156,3 +156,113 @@
 	float:right;
 	margin-right:3px;
 }
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+/*-------------------------Modulo03--------------------------*/
+.modulo03{
+	position:relative;
+	float:left;
+	width:100%;
+	min-height:300px;
+	max-height:370px;
+}
+.modulo03 #fondos{
+	position:absolute;
+	top:0px ;
+	width:100%;
+	height:30%;
+}
+#fondos{
+	background-image:url('file:///C|/Users/Hugo%20D%C3%ADaz/Documents/GitHub/PlantillaHTML/Imagenes/ima01.jpg') no-repeat;
+}
+/*#fondo2{
+	background:url('../../Imagenes/ima02.jpg') no-repeat;
+}
+#fondo3{
+	background:url('../../Imagenes/ima03.jpg') no-repeat;
+}*/
+
+.modulo03 .ContenedorTxt{
+	width:100%;
+	padding:10px;
+	height:290px;
+	bottom:-10px;
+}
+.modulo03 .Texto p{
+	overflow:hidden;
+	top:30%;
+	bottom:20%;
+}
+.modulo03 #fondos span{
+	position:absolute;
+	float:left;
+	padding-top: 30px;
+	padding-left: 10px;
+	font-size: 18px;
+	width:166px;
+}
+.modulo03 ul{
+	margin-top:10px;
+}
+.modulo03 .descargar span, .modulo03 .leer span, .modulo03 .escuchar span, .modulo03 .ver span, .modulo03 .vinculos span{
+	right:47px;
+}
+=======
+=======
+>>>>>>> 41593e6ccd15880ef2bf47bd8b446311926c8396
+=======
+>>>>>>> 41593e6ccd15880ef2bf47bd8b446311926c8396
+=======
+>>>>>>> 41593e6ccd15880ef2bf47bd8b446311926c8396
+=======
+>>>>>>> 41593e6ccd15880ef2bf47bd8b446311926c8396
+.tit{
+list-style-type: disc;
+color: rgb(83,8,39);
+font-weight: bold;
+font-size: 12px;
+line-height:1.6;
+margin-left: 15.2px;
+}
+.subtit{
+list-style-type: disc;
+color:#000;
+font-family:arial;
+font-size:12px;
+margin-left: 45px;
+line-height:1.5;
+}
+.titulo{
+font-size: 16px;
+color: #000;
+font-weight: bold;
+font-family: arial;
+}
+.medio{
+background-color:rgb(243,243,243);
+padding: 5px;
+margin-top: 22px;	
+}
+.ultimo{
+margin-top:27px;
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+}
+>>>>>>> 41593e6ccd15880ef2bf47bd8b446311926c8396
+=======
+}
+>>>>>>> 41593e6ccd15880ef2bf47bd8b446311926c8396
+=======
+}
+>>>>>>> 41593e6ccd15880ef2bf47bd8b446311926c8396
+=======
+}
+>>>>>>> 41593e6ccd15880ef2bf47bd8b446311926c8396
+=======
+}
+>>>>>>> 41593e6ccd15880ef2bf47bd8b446311926c8396
