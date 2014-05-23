@@ -131,20 +131,25 @@
 	height:440px;
 	border:1px solid #ccc;
 }
-.wpCrono .ContenedorTxt{
+.ContenedorTxtSlider{
 	position:relative;
 	padding-bottom:0px;
 }
-.wpCrono .ContenedorTxt h2{
+.ContenedorTxtSlider h2{
+	font-family:Arial;
+	font-size:16px;
+	color:#c28954;
+	font-weight:bold;
+	margin-bottom:20px;
 	margin-left:5px;
 	margin-top:10px;
 }
-.wpCrono .ContenedorImg{
+.ContenedorImgSlider{
 	width:100%;
 	height:372px;
 	padding:0 15px 15px 15px;
 }
-.wpCrono .ContenedorImg img{
+.ContenedorImgSlider img{
 	float:right;
 	margin-right:3px;
 }
