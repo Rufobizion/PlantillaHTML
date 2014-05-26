@@ -1,0 +1,292 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1" />
+    <link rel="shortcut icon" href="StylesIPN/Imagenes/favicon.ico" />
+    <title>Instituto Politécnico Nacional - La técnica al servicio de la Patria</title>
+    <link href="../StylesIPN/Styles/Base.css" rel="stylesheet" type="text/css" />
+    <link href="../StylesIPN/Styles/Zonas.css" rel="stylesheet" type="text/css" />
+    <link href="../StylesIPN/Styles/modulos.css" rel="stylesheet" type="text/css" />
+    <script src="../StylesIPN/Scripts/Modernizr.js" type="text/jscript"></script>
+    <script src="../StylesIPN/Scripts/jquery.min.js" type="text/jscript"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js" type="text/jscript"></script>
+
+    <script type="text/javascript">
+        function  link1(){window.open('http://www.ipn.mx/Documents/Directorio.pdf');}
+        function  twt(){window.open('https://twitter.com/IPN_MX');}
+        function  face(){window.open('https://www.facebook.com/pages/Instituto-Polit%C3%A9cnico-Nacional-Oficial/257328147627744');}
+        function  google(){window.open('https://plus.google.com/b/103841476689221632363/103841476689221632363');}
+        function  yutu(){window.open('http://www.youtube.com/user/IPNoficial');}
+        function  rss(){window.open('http://www.ipn.mx/Paginas/rss.aspx');}
+        function  cgsi(){window.open('http://www.cgsi.ipn.mx');}
+        function  blog(){window.open('http://ipn-mx.blogspot.mx');}
+    </script>
+    
+    <script type="text/javascript">
+		/* MOBILE COLLAPSE MENU */
+		(function($) {
+		  $.fn.collapsable = function(options) {
+			// iterate and reformat each matched element
+			return this.each(function() {
+			  // cache this:
+			  var obj = $(this);
+			  var tree = obj.next('.MenuPrincipalContenido');
+			  obj.click(function(){
+				if( obj.is(':visible') ){tree.toggle();}
+			  });
+			  $(window).resize(function(){
+				 if ( $(window).width() <= 570 ){tree.attr('style','');};
+			  });
+			});
+		  };
+		})(jQuery);
+	</script>
+    
+    <script type="text/javascript">$(document).ready(function(){
+    $('.slide-trigger').collapsable();
+});
+</script>
+
+<!-- Menu vertical-->
+<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('.MenuVertical ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+</script>    
+</head>
+<body>
+	<div class="Cabecera">
+    	<div class="MenuAuxiliar">
+        	<ul> 
+            	<li><a href="#">English</a></li>
+      			<li><a href="#">Contacto</a></li>
+      			<li><a href="#">Calendario escolar</a></li>
+      			<li><a href="#">Instalaciones</a></li>
+     		 	<li><a href="#">Correo electrónico</a></li>
+      			<li><a href="#">Directorio de sitios</a></li>
+            </ul>
+    	</div>
+        <div class="CabeceraTitulo"> 
+        	<div class="CabeceraContenido">
+            <div class="LogoSEP">
+            </div>
+            <div class="LogoIPN">
+            	<div class="EscudoIPN"></div>
+            	<span><a href="/">INSTITUTO POLITÉCNICO NACIONAL
+                <span>"La Técnica al Servicio de la Patria"</span></a>
+                </span>                
+             </div>
+            </div>
+        </div>
+    
+	</div>
+    <div class="MenuPrincipal">
+    	 <h2 class="navheader slide-trigger"><span class="icmenu"></span> Menu <span></span> </h2>
+        	<ul class="MenuPrincipalContenido">   
+                <li><a accesskey="1" href="Index.html">Inicio</a></li>           
+                <li><a href="Acerca-de-IPN.html">Acerca de</a></li>
+      			<li><a href="#">Oferta educativa</a></li>
+     	 		<li><a href="#">Investigación</a></li>
+      			<li><a href="#">Apoyos a Estudiantes</a></li>
+      			<li><a href="#">Vinculación</a></li>      
+      			<li><a href="#">Trámites y Servicios</a></li>
+                <li><a href="#">Recursos</a></li>
+                <li><a href="#">Transparencia</a></li>
+            </ul>
+    </div>
+<!-- Contenido 1--> 
+<!-- Rastro de Navegacion 1-->
+<div class="RastroNavegacion">
+    	<div class="MenuRastroNavegacion">
+        	<span>
+        		<span>
+            		<a title="Inicio" href="Index.html">Inicio</a>
+            	</span>
+            	<span> / </span>
+                <span>
+                    <a title="Acerca de" href="Acerca-de-IPN.html">Acerca del Instituto Politécnico Nacional</a>
+                </span>
+                <span> / </span>
+        		<span class="Titulo">
+                	<a title="Estructura Orgánica" href="Estructura.html">Estructura Orgánica</a>
+                </span>
+            </span>
+        </div>
+	<div class="TituloPagina">
+		<h1>Estructura</h1>
+	</div>
+</div>
+<!-- ================= Custom html ================= -->
+<div id="Contenedor"><!-- Contenedor-->
+	<div id="ContenedorPrincipal"><!-- ContenedorPrincipal-->
+        <div class="MenuVertical"> <!--Contenedor-->
+        	<ul>
+                <li><a href="Mision-y-Vision.html">Misión/Visión</a>
+                </li>
+                <li><a href="Historia.html">Historia</a>
+                </li>
+            	<li><a href="Identidad.html">Identidad Politécnica</a>
+                </li>
+                <li><a href="Estructura.html">Estructura Orgánica</a>
+                </li>
+                <li><a href="#">Instalaciones</a>
+                </li>
+				<li><a href="Normatividad.html">Normatividad</a>
+                </li>
+                <li><a href="VidaPolitecnica.html">Vida Politécnica</a>
+                </li>
+            </ul>
+             <a href="#" id="pull">Menu Secundario</a>
+      	</div>
+       
+       
+        <div class="Contenido">
+
+<div class="zona_770">
+	<div>
+    <h2 class="titulo">De Investigación Científica y Tecnológica</h2><br />
+    </div>
+    <div>
+    <ol>
+    <li class="subtit">Centro de Desarrollo de Productos Bióticos (CEPROBI) <a href="#">ceprobi.ipn.mx</a></li>
+    <li class="subtit">Centro Interdisciplinario de Ciencias Marinas(CICIMAR) <a href="#">cicimar.ipn.mx</a></li>
+    <li class="subtit">Centro Interdisciplinario de Investigación para el Desarrollo Integral Regional (CIIDIR) Unidad Durango <a href="#">ciidirdurango.ipn.mx</a></li>
+    <li class="subtit">Centro Interdisciplinario de Investigación para el Desarrollo Integral Regional (CIIDIR) Unidad Michoacán <a href="#">ciidirmich.ipn.mx</a></li>
+    <li class="subtit">Centro Interdisciplinario de Investigación para el Desarrollo Integral Regional (CIIDIR) Unidad Oaxaca <a href="#">ciidiroaxaca.ipn.mx</a></li>
+    <li class="subtit">Centro Interdisciplinario de Investigación para el Desarrollo Integral Regional (CIIDIR) Unidad Sinaloa <a href="#">ciidirsinaloa.ipn.mx</a></li>
+    <li class="subtit">Centro Interdisciplinario de Investigaciones y Estudios sobre Medio Ambiente y Desarrollo (CIIEMAD) <a href="#">ciiemad.ipn.mx</a></li>
+    <li class="subtit">Centro de Investigación en Computación (CIC) <a href="#">cic.ipn.mx</a></li>
+    <li class="subtit">Centro de Investigaciones Económicas, Administrativas y Sociales (CIECAS) <a href="#">ciecas.ipn.mx</a></li>
+    <li class="subtit">Centro de Biotecnología Genómica (CBG) <a href="#">cbg.ipn.mx</a></li>
+    <li class="subtit">Centro de Investigación en Ciencia Aplicada y Tecnología Avanzada (CICATA) Unidad Legaria <a href="#">cicata.ipn.mx</a></li>
+    <li class="subtit">Centro de Investigación en Ciencia Aplicada y Tecnología Avanzada (CICATA) Unidad Querétaro <a href="#">cicataqro.ipn.mx</a></li>
+    <li class="subtit">Centro de Investigación en Ciencia Aplicada y Tecnología Avanzada (CICATA) Unidad Altamira <a href="#">cicataaltamira.ipn.mx</a></li>
+    <li class="subtit">Centro de Investigación en Biotecnología Aplicada (CIBA) Unidad Tlaxcala <a href="#">cibatlaxcala.ipn.mx</a></li>
+    <li class="subtit">Centro de Investigación y Desarrollo en Tecnología Digital (CITEDI) <a href="#">citedi.ipn.mx</a></li>
+    <li class="subtit">Centro de Innovación y Desarrollo Tecnológico en Cómputo (CIDETEC) <a href="#">cidetec.ipn.mx</a></li>
+    <li class="subtit">Centro de Investigación e Innovación Tecnológica (CIITEC) <a href="#">ciitec.ipn.mx</a></li>
+    <li class="subtit">Centro Mexicano para la Producción más Limpia (CMP+L) <a href="#">cmpl.ipn.mx</a></li>
+    </ol>
+    </div>
+</div>	
+<div class="zona_770">
+	<div>
+    <h2 class="titulo">De Educación Continua</h2><br />
+    </div>
+    <div>
+    <ol>
+    <li class="subtit">Centro de Educación Continua Unidad Allende <a href="#">cecuallende.ipn.mx</a></li>
+    <li class="subtit">Centro de Educación Continua Unidad Campeche <a href="#">cecucampeche.ipn.mx</a></li>
+    <li class="subtit">Centro de Educación Continua Unidad Cancún <a href="#">cecuc.ipn.mx</a></li>
+    <li class="subtit">Centro de Educación Continua Unidad Culiacán <a href="#">cecuculiacan.ipn.mx</a></li>
+    <li class="subtit">Centro de Educación Continua Unidad Mazatlán <a href="#">cecmazatlan.ipn.mx</a></li>
+    <li class="subtit">Centro de Educación Continua Unidad Mochis <a href="#">cecumochis.ipn.mx</a></li>
+    <li class="subtit">Centro de Educación Continua Unidad Morelia <a href="#">cecumorelia.ipn.mx</a></li>
+    <li class="subtit">Centro de Educación Continua Unidad Oaxaca <a href="#">cecoax.ipn.mx</a></li>
+    <li class="subtit">Centro de Educación Continua Unidad Reynosa <a href="#">cecureynosa.ipn.mx</a></li>
+    <li class="subtit">Centro de Educación Continua Unidad Tampico <a href="#">cecutampico.ipn.mx</a></li>
+    <li class="subtit">Centro de Educación Continua Unidad Tijuana <a href="#">cecuti.ipn.mx</a></li>
+    <li class="subtit">Centro de Educación Continua Unidad Tlaxcala <a href="#">cecutlax.ipn.mx</a></li>
+    </ol>
+    </div>
+</div>	
+<div class="zona_770">
+	<div>
+    <h2 class="titulo">De Apoyo a la Investigación, al Desarrollo y Fomento Tecnológico y Empresarial</h2><br />
+    </div>
+    <div>
+    <ol>
+    <li class="subtit">Centro de Incubación de Empresas de Base Tecnológica (Poli-Incuba) <a href="#">ciebt.ipn.mx</a></li>
+    <li class="subtit">Unidad Politécnica para el Desarrollo y la Competitividad Empresarial (Poliempresarial) <a href="#">updce.ipn.mx</a></li>
+    <li class="subtit">Unidad de Desarrollo Tecnológico (Technopoli) <a href="#">technopoli.ipn.mx</a></li>
+    <li class="subtit">Centro de Desarrollo Aeroespacial (CDA) <a href="#">cda.ipn.mx</a></li>
+    <li class="subtit">Centro de Nanociencias y Micro y Nanotecnologías <a href="#">nanocentro.ipn.mx</a></li>
+    <li class="subtit">Unidad Incubadora de Empresas de Base Tecnológica "Hidalgo" </li>
+    <li class="subtit">Unidad Incubadora de Empresas de Base Tecnológica "Morelos" </li>
+    </ol>
+    </div>
+</div>
+<div class="zona_770">
+	<div>
+    <h2 class="titulo">Sección de Estudios de Posgrado e Investigación</h2><br />
+    </div>
+    <div>
+    <ol>
+    <li class="subtit">SEPI Escuela Nacional de Ciencias Biológicas <a href="#">sepi.encb.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Nacional de Medicina y Homeopatía <a href="#">enmh.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Superior de Comercio y Administración Unidad Santo Tomás <a href="#">sepi.escasto.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Superior de Comercio y Administración Unidad Tepepan <a href="#">sepi.escatep.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Superior de Cómputo <a href="#">sepi.escom.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Superior de Economía <a href="#">sepi.ese.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Superior de Físico y Matemáticas <a href="#">sepi.esfm.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Superior de Ingeniería Mecánica y Eléctrica (ESIME) Unidad Azcapotzalco <a href="#">sepi.esimeazc.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Superior de Ingeniería Mecánica y Eléctrica (ESIME) Unidad Culhuacán <a href="#">posgrados.esimecu.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Superior de Ingeniería Mecánica y Eléctrica (ESIME) Unidad Ticomán <a href="#">esimetic.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Superior de Ingeniería Mecánica y Eléctrica (ESIME) Unidad Zacatenco <a href="#">sepi.esimez.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Superior de Ingeniería Química e Industrias Extractivas <a href="#">sepi.esiqie.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Superior de Ingeniería y Arquitectura Unidad Tecamachalco <a href="#">sepi.esiatec.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Superior de Ingeniería y Arquitectura Unidad Zacatenco <a href="#">sepi.esiaz.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Superior de Medicina <a href="#">sepi.esm.ipn.mx</a></li>
+    <li class="subtit">SEPI Escuela Superior de Turismo <a href="#">sepi.est.ipn.mx</a></li>
+    <li class="subtit">SEPI Unidad Profesional Interdisciplinaria de Biotecnología <a href="#">biotecnologia.upibi.ipn.mx</a></li>
+    <li class="subtit">SEPI Unidad Profesional Interdisciplinaria de Ingeniería y Ciencias Sociales y Administrativas <a href="#">sepi.upiicsa.ipn.mx</a></li>
+    <li class="subtit">SEPI Unidad Profesional Interdisciplinaria en Ingeniería y Tecnologías Avanzadas <a href="#">sepi.upiita.ipn.mx</a></li>
+    </ol>
+    </div>
+</div>
+  	</div><!--Fin del Contenido-->
+  </div> <!-- Fin del ContenedorPrincipal-->
+  
+	<div class="mediosSociales"><!-- Medios Sociales-->
+        <div class="canalOnce">
+            <ul>
+                <li>
+                    <a class="onceTV" href="http://oncetv-ipn.net/"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="sociales"><!--Inicio Redes Sociales-->
+			<ul>
+				<li class="face"><a href="javascript:face();"><span>Facebook</span></a></li>
+				<li class="twt"><a href="javascript:twt();"><span>Twitter</span></a></li>
+				<li class="gplus"><a href="javascript:google();"><span>Google +</span></a></li>
+				<li class="yutu"><a href="javascript:yutu();"><span>Youtube</span></a></li>
+				<li class="blog"><a href="javascript:blog();"><span>Blog</span></a></li>
+				<li class="rss"><a href="javascript:rss();"><span>RSS</span></a></li>
+			</ul>
+		</div>
+    </div><!-- Fin de Medios Sociales-->
+	
+    <div class="PiePagina"><!--Pie de Página-->
+		<div class="menupie">
+			<ul>
+				<li><a href="http://www.ipn.mx/Paginas/Encuesta.aspx">Encuesta de Satisfacción</a></li>
+				<li><a href="http://www.ipn.mx/Paginas/Mapa-del-sitio.aspx">Mapa de Sitio</a></li>		
+			</ul>
+		</div>
+	</div>
+</div><!-- Fin del Contenedor-->
+<div id="Footer"><!--Inicio Footer-->
+	<div class="contFooter"><!--Inicio ContenedorFooter-->
+		<div class="direccion"><p><a href="">Instituto Politécnico Nacional</a>D.R. Instituto Politécnico Nacional (IPN), Av. Luis Enrique Erro S/N, Unidad Profesional Adolfo López Mateos, Zacatenco, Delegación Gustavo A. Madero, C.P. 07738, México, Distrito Federal, 2009-2013.</p>
+		<p class="derechos">Esta página es una obra intelectual protegida por la Ley Federal del Derecho de Autor, puede ser reproducida con fines no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica; su uso para otros fines, requiere autorización previa y por escrito de la Directora General del Instituto.</p>
+		</div><!--Fin Dirección-->
+	</div><!--Fin ContenedorFooter-->
+</div>
+</body>
+</html>
