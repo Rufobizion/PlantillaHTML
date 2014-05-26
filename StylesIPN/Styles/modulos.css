@@ -212,7 +212,7 @@ font-size: 12px;
 line-height:1.6;
 margin-left: 15.2px;
 }
-.subtit{
+.subtit, .lista{
 list-style-type: disc;
 color:#000;
 font-family:arial;
@@ -233,5 +233,17 @@ margin-top: 22px;
 }
 .ultimo{
 margin-top:27px;
-
+}
+.columna{
+column-count: 3;
+column-gap: 40px;
+/*Firefox*/
+-moz-column-count: 3;
+-moz-column-gap: 40px;
+/*Safari y Chrome*/
+-webkit-column-count: 2;
+-webkit-column-gap: 40px;c
+}
+.lista{
+border-bottom: 1px dotted #ccc;
 }
