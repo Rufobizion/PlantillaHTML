@@ -615,18 +615,9 @@ display:block;
 
 
 @media only screen and (max-width: 960px){
-
-.MenuVertical {
-	   display:block;
-	   position:static;
-	   height:100%; *height:100%; _height:100%;
-	   width:18%; *width:18%; _width:18%;
+ .MenuVertical { display:block;  position:static; height:100%; *height:100%; _height:100%; width:18%; *width:18%; _width:18%; }
+ #Contenedor .Contenido { width:82%; *width:82%; _width:82%; }
 }
-
-#Contenedor .Contenido {
-	width:82%; *width:82%; _width:82%;
-}
-
 
 @media only screen and(max-width:930px){
 	.Parte02_cp{ right:25px;}
@@ -648,109 +639,29 @@ display:block;
 
 @media only screen and (max-width:640px){
 	.MenuPrincipalContenido ul li{width: 98%;/* display: table; */}
-	
-	
 	.RastroNavegacion .MenuRastroNavegacion {	height: 50px;	}
-	
 	.RastroNavegacion .MenuRastroNavegacion span span { display:none;}
-
 	.RastroNavegacion .TituloPagina h1 {font-size: 17px; bottom: 10px; left: 55%; }
-
-	
 	.Cabecera .CabeceraTitulo .LogoSEP { display:none;}	
-	
     .derechos{display:none;}
     .EscudoIPN{margin-right: 10px;}
-	
 	 .slide-trigger { display: block; text-align:center; line-height:30px; font-size:12px; height:30px;  background: #3F0722; color: white; border: none; }
-
      .no-js .slide-trigger { display: none; }
-
     .MenuPrincipal { background: #3F0722; }	
     .slide-trigger{ display: block; }
-	
-.slide-trigger .icmenu {
-	background-image: url(../Imagenes/nav-icon.png);
-
- /* background-position: 0 12px;*/
-  display: block;
-  float: left;
-  margin-top: 3px;
-  margin-left:38px;
-  height: 22px;
-  *height: 22px;
-  _height: 22px;
-  width: 22px;
-  *width: 22px;
-  _width: 22px;
-}
-	
-	
+	.slide-trigger .icmenu {background-image: url(../Imagenes/nav-icon.png); display: block; float: left;  margin-top: 3px; margin-left:38px; height: 22px; *height: 22px; _height: 22px; width: 22px;
+  *width: 22px; _width: 22px; }
 	.MenuPrincipalContenido  { display: none; background:#ffffff;}
-	
     .MenuPrincipalContenido li{  float: none; width:49%; display:inline-block; background:#FFF; }  		  		
 	.MenuPrincipalContenido li a { border-bottom: 1px solid #fff; }
-
-		
-	.MenuVertical {
-		width:100%;
-		*width:100%;
-		-width:100%;
-	   display:block;
-	   position:static;
-		border-bottom: 0;
-/*		width:100%;*/
-		min-height:30px;
-/*		display:none;*/
-	}
-	.MenuVertical ul {
-		display: none;
-		height: auto;
-		margin-top: 0px;
-		background:#c2c2c2;
-	}
-	.MenuVertical li {
-		width:49%;
-    	*width:49%;
-	    _width:49%;
-		display:inline-block;
-		background:#c2c2c2;
-		border-bottom: none;
-
-	}
-	
-	.MenuVertical li a{
-		text-align:center;
-		height:30px;
-	}
-		
-	
-	.MenuVertical a#pull {
-		display: block;
-		background-color:#c2c2c2;
-		width: 100%;
-		*width: 100%;
-		_width: 100%;
-		position: relative;
-		text-align:center;
-		line-height: 30px;
-		color:#333;
-	}
-	.MenuVertical a#pull:after {
-	content: "";
-	width: 100%;
-	height: 30px;
-	position: absolute;
-	right: -55px;
-	top: 5px;
-	background-image: url(../Imagenes/nav-icon2.png);
-	background-repeat: no-repeat;
-	}
-   
-   #Contenedor .Contenido {
-	width:100%;
-}
-   
+	.MenuVertical {	width:100%;	*width:100%; -width:100%; display:block; position:static; border-bottom: 0;	min-height:30px;	}
+	.MenuVertical ul { display: none; height: auto;	margin-top: 0px; background:#c2c2c2;	}
+	.MenuVertical li { width:49%; *width:49%; _width:49%; display:inline-block;	background:#c2c2c2;	border-bottom: none; }
+	.MenuVertical li a{	text-align:center; height:30px;	}
+	.MenuVertical a#pull {display: block; background-color:#c2c2c2;	width: 100%; *width: 100%;_width: 100%;	position: relative;	text-align:center; line-height: 30px; color:#333;	}
+	.MenuVertical a#pull:after { content: ""; width: 100%; height: 30px; position: absolute; right: -55px; top: 5px; background-image: url(../Imagenes/nav-icon2.png); background-repeat: no-repeat;}
+    #Contenedor .Contenido { width:100%;}
+  
 }
 
 @media only screen and (max-width: 480px){
