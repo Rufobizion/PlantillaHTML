@@ -116,7 +116,6 @@
 	width:100%;
 }
 
-
 .wpNormatividad ul{
 	width:100%
 }
@@ -248,6 +247,13 @@ column-gap: 40px;
 /*Safari y Chrome*/
 -webkit-column-count: 2;
 -webkit-column-gap: 40px;c
+}
+.wpEscuelas h2{
+	font-family:Arial;
+	font-size:16px;
+	color:#c28954;
+	font-weight:bold;
+	margin-bottom:20px;
 }
 
 .lista{
