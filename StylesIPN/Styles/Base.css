@@ -593,13 +593,9 @@ display:block;
 
 .Parte01 { padding:0px; }
 .Parte01 p{ border:none !important }
-
 .Parte01img { position: relative ! important; float: left ! important; padding: 10px ! important; }
-
 .Parte01cp { position: relative ! important; }
-
 .Parte01cp p {text-align: justify; line-height: 17px ! important;}
-
 
 .Parte02 { width:100%; height:230px; clear:both; position:relative;}
 /*.Parte02 p{ border:none !important }*/
@@ -615,8 +611,8 @@ display:block;
 
 
 @media only screen and (max-width: 960px){
- .MenuVertical { display:block;  position:static; height:100%; *height:100%; _height:100%; width:18%; *width:18%; _width:18%; }
- #Contenedor .Contenido { width:82%; *width:82%; _width:82%; }
+ .MenuVertical { display:block;  position:static;/* height:100%;*/ width:18%; }
+ #Contenedor .Contenido { width:82%; }
 }
 
 @media only screen and(max-width:930px){
@@ -626,14 +622,14 @@ display:block;
 	}
 @media only screen and (max-width:827px){
 	.Parte02_cp{right:0px;}
-	.LeerMas { width: 75%; *width: 75%; -width: 75%; height: 13%; *height: 13%; _height: 13%; top: 200px; right: 15px; }
+	.LeerMas { width: 75%; height: 13%; top: 200px; right: 15px; }
 	.LeerMas a {top: 9px; right: 0px; margin-right: 10px; line-height:12px;} 
 }
 @media only screen and (max-width:715px){
 	.Parte02 { height:100%; }
 	.Parte02_img { display:none; }
 	.Parte02_cp{ width:100%}
-	.LeerMas { width: 100%; *width: 100%; -width: 100%;  top:200px; right: inherit; }
+	.LeerMas { width: 100%;  top:200px; right: inherit; }
 	
 }
 
@@ -649,14 +645,13 @@ display:block;
      .no-js .slide-trigger { display: none; }
     .MenuPrincipal { background: #3F0722; }	
     .slide-trigger{ display: block; }
-	.slide-trigger .icmenu {background-image: url(../../Imagenes/nav-icon.png); display: block; float: left;  margin-top: 3px; margin-left:38px; height: 22px; *height: 22px; _height: 22px; width: 22px;
-  *width: 22px; _width: 22px; }
+	.slide-trigger .icmenu {background-image: url(../../Imagenes/nav-icon.png); display: block; float: left;  margin-top: 3px; margin-left:38px; height: 22px; width: 22px; }
 	.MenuPrincipalContenido  { display: none; background:#ffffff;}
     .MenuPrincipalContenido li{  float: none; width:49%; display:inline-block; background:#FFF; }  		  		
 	.MenuPrincipalContenido li a { border-bottom: 1px solid #fff; }
-	.MenuVertical {	width:100%;	*width:100%; -width:100%; display:block; position:static; border-bottom: 0;	min-height:30px;	}
+	.MenuVertical {	width:100%; display:block; position:static; border-bottom: 0;	min-height:30px;	}
 	.MenuVertical ul { display: none; height: auto;	margin-top: 0px; background:#c2c2c2;	}
-	.MenuVertical li { width:49%; *width:49%; _width:49%; display:inline-block;	background:#c2c2c2;	border-bottom: none; }
+	.MenuVertical li { width:49%; display:inline-block;	background:#c2c2c2;	border-bottom: none; }
 	.MenuVertical li a{	text-align:center; height:30px;	}
 	.MenuVertical a#pull {display: block; background-color:#c2c2c2;	width: 100%; *width: 100%;_width: 100%;	position: relative;	text-align:center; line-height: 30px; color:#333;	}
 	.MenuVertical a#pull:after { content: ""; width: 100%; height: 30px; position: absolute; right: -55px; top: 5px; background-image: url(../../Imagenes/nav-icon2.png); background-repeat: no-repeat;}
