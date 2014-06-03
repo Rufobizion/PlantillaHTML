@@ -69,11 +69,13 @@
 }
 .descargar, .leer, .escuchar, .ver {
 	/*right:5px;*/
-	vertical-align:top;
+	/*vertical-align:top;*/
 	float: right;
-	width: 90px;
-	height: 32px;
+	position:absolute;
+	/*width: 90px;*/
+	/*height: 32px;*/
 	margin-top: 10px;
+	
 }
 .descargar span, .leer span, .escuchar span, .ver span{
 	font-family:"Myriad Pro";
@@ -87,11 +89,11 @@
 }
 .descargar{
 	background:url('../../IMAGENES/descargar.png') no-repeat;
-	background-position:57px;
+	/*background-position:57px;*/
 }
 .leer{
 	background:url('../../IMAGENES/leer.png') no-repeat;
-	background-position:57px;	
+	/*background-position:57px;*/	
 }
 .escuchar{
 	background:url('../../Imagenes/escuchar.png')no-repeat;
@@ -201,6 +203,12 @@
 }
 .modulo03 .descargar span, .modulo03 .leer span, .modulo03 .escuchar span, .modulo03 .ver span, .modulo03 .vinculos span{
 	right:47px;
+}
+.modulo03 .descargar, .modulo03 .leer{
+	width: 14%;
+	height: 11%;
+	right: 0px;
+	bottom: 0px;
 }
 /*-----------------------Termina Modulo03----------------------*/
 .tit{
