@@ -72,8 +72,8 @@
 	/*vertical-align:top;*/
 	float: right;
 	position:absolute;
-	/*width: 90px;*/
-	/*height: 32px;*/
+	width: 90px;
+	height: 32px;
 	margin-top: 10px;
 	
 }
@@ -89,11 +89,11 @@
 }
 .descargar{
 	background:url('../../IMAGENES/descargar.png') no-repeat;
-	/*background-position:57px;*/
+	background-position:57px;
 }
 .leer{
 	background:url('../../IMAGENES/leer.png') no-repeat;
-	/*background-position:57px;*/	
+	background-position:57px;
 }
 .escuchar{
 	background:url('../../Imagenes/escuchar.png')no-repeat;
