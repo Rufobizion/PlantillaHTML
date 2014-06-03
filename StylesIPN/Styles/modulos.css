@@ -10,43 +10,66 @@
 }
 
 .modulo01, .modulo02{
-	float:left;
+	/*float:left;*/
+	position: relative; /*se modifico*/
 	width:100%;
 	padding-bottom:5px;
 	border-bottom:1px solid #ccc;
 	min-height:123px;
 	max-height:370px;
+	overflow: hidden; /*se modifico*/
 }
 
 .modulo02 .ContenedorTxt{
 	width:100%;
 }
+.modulo02 .descargar, .modulo02 .leer, .modulo02 .escuchar, .modulo02 .ver{
+	margin-top: 10px;
+	position: relative;
+	float: right;
+}
 
 .ContenedorImg {
-	width:30%;
+	position: static; /*se modifico*/
+	overflow:hidden; /*se modifico*/
+	width:30%; /*se modifico antes 30%*/
 	float:left;
-	margin-right:2%;
+	height:100%;
+	/*margin-right:2%;*/
+	padding-right:15px; /*se modifico*/
 }
 .ContenedorImg img{
-	min-height:123px;
-	max-height:240px;
+	/*min-height:123px;*/
+	/*max-height:240px;*/
 	width:100%
 }
 .der{
 	float:right;
-	margin-left:2%;
-	margin-right:inherit;
+	/*margin-left:2%;*/
+	/*margin-right:inherit;*/
+	padding-right: 0px; /*se modifico*/
+	padding-left: 15px; /*se modifico*/
+}
+.modulo01 .der .descargar, .modulo01 .der .leer, .modulo01 .der .ver, .modulo01 .der .escuchar {
+	right: 30%;
 }
 .ContenedorTxt {
-	float:left;
-	width:68%;
-	position:relative;
+	/*float:left;*/
+	/*width:68%;*/
+	/*position:relative;*/
+	text-align: justify;
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+	float: left;
+	width: 70%;
 }
 .descripcion {
 	width:100%;
 	min-height:80px;
 	max-height:316px;
 	overflow:hidden;
+	
 }
 .ContenedorTxt h2{
 	font-family:Arial;
@@ -70,11 +93,19 @@
 .descargar, .leer, .escuchar, .ver {
 	/*right:5px;*/
 	/*vertical-align:top;*/
-	float: right;
-	position:absolute;
-	width: 90px;
-	height: 32px;
-	margin-top: 10px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	/*float: right;*/
+	/*position:absolute;*/
+	/*width: 90px;*/
+	/*height: 32px;*/
+	/*margin-top: 10px;*/
+	height: 33px;
+	z-index: 1;
+	position: absolute;
+	bottom: 5px;
+	right: 0;
 	
 }
 .descargar span, .leer span, .escuchar span, .ver span{
@@ -90,18 +121,22 @@
 .descargar{
 	background:url('../../IMAGENES/descargar.png') no-repeat;
 	background-position:57px;
+	width: 90px; /*se modifico*/
 }
 .leer{
 	background:url('../../IMAGENES/leer.png') no-repeat;
 	background-position:57px;
+	width: 90px; /*se modifico*/
 }
 .escuchar{
 	background:url('../../Imagenes/escuchar.png')no-repeat;
-	background-position:57px;	
+	background-position:57px;
+	width: 90px; /*se modifico*/	
 }
 .ver{
 	background:url('../../Imagenes/ver.png') no-repeat;
-	background-position:57px;	
+	background-position:57px;
+	width: 90px; /*se modifico*/	
 }
 
 .wpUnidades ul{
@@ -209,6 +244,7 @@
 	height: 11%;
 	right: 0px;
 	bottom: 0px;
+	background-position:0px;
 }
 /*-----------------------Termina Modulo03----------------------*/
 .tit{
