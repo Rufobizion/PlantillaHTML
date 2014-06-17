@@ -139,21 +139,20 @@
 	width: 90px; /*se modifico*/	
 }
 
-.wpUnidades ul{
+/*.wpUnidades ul{
 	width:100%
-}
+}*/
 .wpUnidades li{
 	width:31%;
 	float:left;
 	margin-right:15px;
 	margin-top:0px;
 }
-.wpUnidades{
-	height:135px;
+/*.wpUnidades{
 	width:100%;
-}
-
-.wpNormatividad ul{
+}*/
+.wpNormatividad ul, .wpUnidades ul{
+	position:relative;
 	width:100%
 }
 .wpNormatividad li{
@@ -312,4 +311,12 @@ border-bottom: 1px dotted #ccc;
 		min-height: 123px;
 		max-height: 100%;
 	}
+	.modulo01 .ContenedorImg img{display:none;}
+	.modulo01 .ContenedorTxt{width:100%;}
+	.modulo01 .der .leer, .modulo01 .leer{right:-33px;}
+	.modulo01 .descripcion{min-height:170px;}
+	
+	.wpUnidades .ContenedorTxt{width:100%; float:none;}
+	.wpUnidades li{width:0;	float:none;	margin-top:10px;}
+	.wpUnidades li img{width:260px;	padding-left:10px; padding-right:10px;}
 }

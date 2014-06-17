@@ -691,7 +691,8 @@ display:block;
 .RastroNavegacion .TituloPagina h1 { bottom: 10px; left: 30%; font-size: 16px; }
 .EscudoIPN{float: none;margin: 2px auto; width: 40px; height: 60px; }
 
-.MenuPrincipalContenido li{ width:48%;}  		
+.MenuPrincipalContenido li{ width:48%;}  
+
 
 }
 @media print {
