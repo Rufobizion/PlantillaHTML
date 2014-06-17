@@ -313,10 +313,14 @@ border-bottom: 1px dotted #ccc;
 	}
 	.modulo01 .ContenedorImg img{display:none;}
 	.modulo01 .ContenedorTxt{width:100%;}
-	.modulo01 .der .leer, .modulo01 .leer{right:-33px;}
-	.modulo01 .descripcion{min-height:170px;}
+	.modulo01 .der .leer, .modulo01 .leer , .modulo02 .der .leer, .modulo02 .leer,.modulo01 .der .descargar, .modulo01 .descargar{right:0px;}
+	.modulo01 .ContenedorTxt{min-height:170px;}
+	.modulo01 .leer, .modulo02 .leer, .modulo01 .descargar, .modulo01 .escuchar, .modulo02 .escuchar, .modulo01 .ver{text-indent:inherit; background:inherit;}
+	.modulo01 .leer span, .modulo02 .leer span, .modulo01 .descargar span, .modulo01 .escuchar span, .modulo02 .escuchar span, .modulo01 .ver span{right:0px;}
 	
 	.wpUnidades .ContenedorTxt{width:100%; float:none;}
 	.wpUnidades li{width:0;	float:none;	margin-top:10px;}
 	.wpUnidades li img{width:260px;	padding-left:10px; padding-right:10px;}
+	
+	.wpCrono{height:345px;}
 }
