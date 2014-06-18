@@ -23,6 +23,9 @@
 .modulo02 .ContenedorTxt{
 	width:100%;
 }
+.modulo02 .descripcion{
+	max-height:316px;
+}
 .modulo02 .descargar, .modulo02 .leer, .modulo02 .escuchar, .modulo02 .ver{
 	margin-top: 10px;
 	position: relative;
@@ -56,18 +59,18 @@
 .ContenedorTxt {
 	/*float:left;*/
 	/*width:68%;*/
-	/*position:relative;*/
 	text-align: justify;
 	position: relative;
-	height: 100%;
-	overflow: hidden;
+	/*height: 100%;
+	overflow: hidden;*/
 	float: left;
 	width: 70%;
 }
 .descripcion {
 	width:100%;
 	min-height:80px;
-	max-height:316px;
+	/*max-height:316px;*/
+	max-height:186px;
 	overflow:hidden;
 	
 }
@@ -86,9 +89,9 @@
     line-height: 15px;
     text-align: justify;
 	border:none !important;
-	min-height:44px;
+	/*min-height:44px;
 	max-height:316px;
-	overflow:hidden;
+	overflow:hidden;*/
 }
 .descargar, .leer, .escuchar, .ver {
 	/*right:5px;*/
@@ -102,7 +105,8 @@
 	/*height: 32px;*/
 	/*margin-top: 10px;*/
 	height: 33px;
-	z-index: 1;
+	/*z-index: 1;*/
+	z-index:3;
 	position: absolute;
 	bottom: 5px;
 	right: 0;
@@ -312,10 +316,12 @@ border-bottom: 1px dotted #ccc;
 		max-height: 100%;
 	}
 	.modulo01 .ContenedorImg img{display:none;}
-	.modulo01 .ContenedorTxt{width:100%;}
+	.modulo01 .ContenedorTxt{width:100%; height:270px;}
+	.modulo02 .ContenedorTxt{width:100%; height:390px;}
+	.modulo01 .descripcion{max-height:260px;}
+	.modulo02 .descripcion{max-height:360px;}
 	.modulo01 .der .leer, .modulo01 .leer , .modulo02 .der .leer, .modulo02 .leer,.modulo01 .der .descargar, .modulo01 .descargar{right:0px;}
-	.modulo01 .ContenedorTxt{min-height:170px;}
-	.modulo01 .leer, .modulo02 .leer, .modulo01 .descargar, .modulo01 .escuchar, .modulo02 .escuchar, .modulo01 .ver{text-indent:inherit; background:inherit;}
+	.modulo01 .leer, .modulo02 .leer, .modulo01 .descargar, .modulo01 .escuchar, .modulo02 .escuchar, .modulo01 .ver{text-indent:inherit; background:inherit; /*bottom:-5px;*/}
 	.modulo01 .leer span, .modulo02 .leer span, .modulo01 .descargar span, .modulo01 .escuchar span, .modulo02 .escuchar span, .modulo01 .ver span{right:0px;}
 	
 	.wpUnidades .ContenedorTxt{width:100%; float:none;}
