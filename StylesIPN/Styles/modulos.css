@@ -148,24 +148,18 @@
 /*.wpUnidades ul{
 	width:100%
 }*/
-.wpUnidades li{
+/*.wpUnidades li{
 	width:31%;
 	float:left;
 	margin-right:15px;
 	margin-top:0px;
-}
+}*/
 /*.wpUnidades{
 	width:100%;
 }*/
-.wpNormatividad ul, .wpUnidades ul{
-	position:relative;
+/*.wpNormatividad ul, .wpUnidades ul{
 	width:100%
-}
-.wpNormatividad li{
-	float:right;
-	margin-right:15px;
-	margin-top:15px;
-}
+}*/
 
 .wpCrono{
 	position:relative;
@@ -220,6 +214,7 @@
 	background:url('../../Imagenes/ima03.jpg') no-repeat;
 }
 .modulo03 .ContenedorTxt{
+	position:absolute;
 	width: 100%;
 	padding: 10px;
 	height: 70%;
@@ -245,13 +240,29 @@
 	right:47px;
 }
 .modulo03 .descargar, .modulo03 .leer{
+	position:absolute;
 	width: 14%;
 	height: 11%;
 	right: 0px;
 	bottom: 0px;
 	background-position:0px;
 }
-/*-----------------------Termina Modulo03----------------------*/
+/**************************************************************/
+/*-----------------------Inicia Modulo04----------------------*/
+.modulo04{
+	position:relative;
+	width:100%;
+}
+.modulo04 li{
+	float:left;
+	margin-right:15px;
+	margin-top:15px;
+}
+.modulo04 li img{
+	width:235px;
+	max-height:95px;
+}
+/**************************************************************/
 .tit{
 list-style-type: disc;
 color: rgb(83,8,39);
@@ -317,18 +328,11 @@ border-bottom: 1px dotted #ccc;
 		min-height: 123px;
 		max-height: 100%;
 	}
-	.modulo01 .ContenedorImg img{display:none;}
-	.modulo01 .ContenedorTxt{width:100%; height:270px;}
-	.modulo02 .ContenedorTxt{width:100%; height:390px;}
-	.modulo01 .descripcion{max-height:260px;}
-	.modulo02 .descripcion{max-height:360px;}
-	.modulo01 .der .leer, .modulo01 .leer , .modulo02 .der .leer, .modulo02 .leer,.modulo01 .der .descargar, .modulo01 .descargar{right:0px;}
-	.modulo01 .leer, .modulo02 .leer, .modulo01 .descargar, .modulo01 .escuchar, .modulo02 .escuchar, .modulo01 .ver{text-indent:inherit; background:inherit; /*bottom:-5px;*/}
-	.modulo01 .leer span, .modulo02 .leer span, .modulo01 .descargar span, .modulo01 .escuchar span, .modulo02 .escuchar span, .modulo01 .ver span{right:0px;}
+	.modulo01 .ContenedorImg img, .modulo02 .ContenedorImg img{display:none;}
+	.modulo01 .leer, .modulo02 .leer, .modulo01 .descargar, .modulo02 .descargar, .modulo01 .escuchar, .modulo02 .escuchar, .modulo01 .ver, .modulo02 .ver{text-indent:inherit; background:inherit;}
+	.modulo01 .leer span, .modulo02 .leer span, .modulo01 .descargar span, .modulo02 .descargar span, .modulo01 .escuchar span, .modulo02 .escuchar span, .modulo01 .ver span, .modulo02 .ver span{right:0px;}
 	
 	.wpUnidades .ContenedorTxt{width:100%; float:none;}
 	.wpUnidades li{width:0;	float:none;	margin-top:10px;}
 	.wpUnidades li img{width:260px;	padding-left:10px; padding-right:10px;}
-	
-	.wpCrono{height:345px;}
 }
