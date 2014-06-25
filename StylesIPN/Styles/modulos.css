@@ -335,4 +335,6 @@ border-bottom: 1px dotted #ccc;
 	.wpUnidades .ContenedorTxt{width:100%; float:none;}
 	.wpUnidades li{width:0;	float:none;	margin-top:10px;}
 	.wpUnidades li img{width:260px;	padding-left:10px; padding-right:10px;}
+	
+	.modulo04 li{margin:15px 15px 0 15px;}
 }
