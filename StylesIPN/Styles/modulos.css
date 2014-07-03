@@ -23,15 +23,14 @@
 .modulo02 .ContenedorTxt{
 	width:100%;
 }
-.modulo02 .descripcion{
+/*.modulo02 .descripcion{
 	max-height:316px;
-}
+}*/
 .modulo02 .descargar, .modulo02 .leer, .modulo02 .escuchar, .modulo02 .ver{
 	margin-top: 10px;
 	position: relative;
 	float: right;
 }
-
 .ContenedorImg {
 	/*position: static;*/ /*se modifico*/
 	/*overflow:hidden;*/ /*se modifico*/
@@ -261,6 +260,37 @@
 .modulo04 li img{
 	width:235px;
 	max-height:95px;
+}
+/**************************************************************/
+/*------------------------Inicia Modulo06---------------------*/
+.moduloB{
+	max-width:750px;
+	margin:20px;
+	float:left;
+}
+.moduloB .ContenedorImg{
+	width:70%; 
+	position:relative;
+	padding-right:0px; 
+}
+.moduloB .ContenedorImg img{
+	height:168px; 
+}
+.moduloB .ContenedorTxt h2{
+	text-align:center;
+}
+.moduloB .descargar span, .moduloB .leer span, .moduloB .escuchar span, .moduloB .ver span{
+	width:99%;/*Se agrega a la Webpart*/
+	font-family:"Myriad Pro"; /*Se agrega a la Webpart*/
+	text-align:center; /*Se agrega a la Webpart*/
+	padding-top: 35px; /*Se agrega a la Webpart*/
+	right:0px; /*Se agrega a la Webpart*/
+	top:65px; /*Se agrega a la Webpart*/
+}
+.moduloB .descargar{
+	background-position:center;
+	width: 26%; /*se modifico*/
+	height:168px; /*Se agrega a la Webpart*/
 }
 /**************************************************************/
 .tit{
