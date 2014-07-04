@@ -676,7 +676,7 @@ display:block;
 	.MenuVertical a#pull {display: block; background-color:#c2c2c2;	width: 100%; *width: 100%;_width: 100%;	position: relative;	text-align:center; line-height: 30px; color:#333;	}
 	.MenuVertical a#pull:after { content: ""; width: 100%; height: 30px; position: absolute; right: -55px; top: 5px; background-image: url(../../Imagenes/nav-icon2.png); background-repeat: no-repeat;}
     #Contenedor .Contenido { width:100%;}
-  
+	
 }
 
 @media only screen and (max-width: 480px){

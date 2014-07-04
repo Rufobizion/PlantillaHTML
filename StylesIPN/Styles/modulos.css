@@ -262,19 +262,21 @@
 	max-height:95px;
 }
 /**************************************************************/
-/*------------------------Inicia Modulo06---------------------*/
+/*------------------------Inicia ModuloB----------------------*/
 .moduloB{
-	max-width:750px;
-	margin:20px;
+	max-width:100%;
 	float:left;
 }
 .moduloB .ContenedorImg{
-	width:70%; 
+	width:74.3%; 
 	position:relative;
 	padding-right:0px; 
 }
 .moduloB .ContenedorImg img{
 	height:168px; 
+}
+.moduloB .ContenedorTxt{
+	padding:10px;
 }
 .moduloB .ContenedorTxt h2{
 	text-align:center;
@@ -289,10 +291,10 @@
 }
 .moduloB .descargar{
 	background-position:center;
-	width: 26%; /*se modifico*/
+	width: 25.7%; /*se modifico*/
 	height:168px; /*Se agrega a la Webpart*/
 }
-/**************************************************************/
+/***************************************************************/
 .tit{
 list-style-type: disc;
 color: rgb(83,8,39);
@@ -349,6 +351,11 @@ column-gap: 40px;
 .lista{
 border-bottom: 1px dotted #ccc;
 }
+@media only screen and (max-width:640px){
+	.moduloB .ContenedorImg{width:100%}
+	.moduloB .descargar{background-position:57px; width:90px; height:35px;}
+	.moduloB .descargar span{width:100%; height:35px; padding-top:15px; right:0px; top:0px; text-align:inherit;}
+
 @media screen and (max-width: 320px){
 	.modulo01, .modulo02 {
 		float: left;
@@ -359,12 +366,13 @@ border-bottom: 1px dotted #ccc;
 		max-height: 100%;
 	}
 	.modulo01 .ContenedorImg img, .modulo02 .ContenedorImg img{display:none;}
-	.modulo01 .leer, .modulo02 .leer, .modulo01 .descargar, .modulo02 .descargar, .modulo01 .escuchar, .modulo02 .escuchar, .modulo01 .ver, .modulo02 .ver{text-indent:inherit; background:inherit;}
-	.modulo01 .leer span, .modulo02 .leer span, .modulo01 .descargar span, .modulo02 .descargar span, .modulo01 .escuchar span, .modulo02 .escuchar span, .modulo01 .ver span, .modulo02 .ver span{right:0px;}
+	.modulo01 .leer, .modulo01 .descargar, .modulo01 .escuchar, .modulo01 .ver, .modulo02 .leer, .modulo02 .descargar, .modulo02 .escuchar, .modulo02 .ver, .moduloB .leer, .moduloB .descargar, .moduloB .escuchar, .moduloB .ver{text-indent:inherit; background:inherit;}
+	.modulo01 .leer span, .modulo01 .descargar span, .modulo01 .escuchar span, .modulo01 .ver span, .modulo02 .leer span, .modulo02 .descargar span, .modulo02 .escuchar span, .modulo02 .ver span, .moduloB .leer span, .moduloB .descargar span, .moduloB .escuchar span, .moduloB .ver span{right:0px;}
 	
 	.wpUnidades .ContenedorTxt{width:100%; float:none;}
 	.wpUnidades li{width:0;	float:none;	margin-top:10px;}
 	.wpUnidades li img{width:260px;	padding-left:10px; padding-right:10px;}
 	
 	.modulo04 li{margin:15px 15px 0 15px;}
+	.moduloB .descargar span{width:60%;}
 }
