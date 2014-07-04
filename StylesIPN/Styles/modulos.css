@@ -9,70 +9,29 @@
 	height:360px;
 }
 
-.modulo01, .modulo02{
-	/*float:left;*/
-	position: relative; /*se modifico*/
+.modulo01, .modulo02, .moduloB2{
+	position: relative;
 	width:100%;
 	padding-bottom:5px;
 	border-bottom:1px solid #ccc;
-	min-height:123px;
-	max-height:370px;
-	overflow: hidden; /*se modifico*/
-}
-
-.modulo02 .ContenedorTxt{
-	width:100%;
-}
-/*.modulo02 .descripcion{
-	max-height:316px;
-}*/
-.modulo02 .descargar, .modulo02 .leer, .modulo02 .escuchar, .modulo02 .ver{
-	margin-top: 10px;
-	position: relative;
-	float: right;
+	overflow: hidden;
 }
 .ContenedorImg {
-	/*position: static;*/ /*se modifico*/
-	/*overflow:hidden;*/ /*se modifico*/
-	width:30%; /*se modifico antes 30%*/
+	width:30%; 
 	float:left;
-	/*height:100%;*/
-	/*margin-right:2%;*/
-	padding-right:15px; /*se modifico*/
+	padding-right:15px;
 }
 .ContenedorImg img{
-	/*min-height:123px;*/
-	/*max-height:240px;*/
 	width:100%
 }
 .der{
 	float:right;
-	/*margin-left:2%;*/
-	/*margin-right:inherit;*/
-	padding-right: 0px; /*se modifico*/
-	padding-left: 15px; /*se modifico*/
-}
-.modulo01 .der .descargar, .modulo01 .der .leer, .modulo01 .der .ver, .modulo01 .der .escuchar {
-	right: 30%;
+	padding-right: 0px;
+	padding-left: 15px;
 }
 .ContenedorTxt {
-	/*float:left;*/
-	/*width:68%;*/
 	text-align: justify;
-	/*position: relative;*/
-	/*height: 100%;
-	overflow: hidden;*/
-	/*float: left;*/
-	/*width: 70%;*/
 	width:100%
-}
-.descripcion {
-	/*width:100%;
-	min-height:80px;
-	max-height:316px;
-	max-height:186px;
-	overflow:hidden;*/
-	
 }
 .ContenedorTxt h2{
 	font-family:Arial;
@@ -89,29 +48,14 @@
     line-height: 15px;
     text-align: justify;
 	border:none !important;
-	/*min-height:44px;
-	max-height:316px;
-	overflow:hidden;*/
 }
 .descargar, .leer, .escuchar, .ver {
-	/*right:5px;*/
-	/*vertical-align:top;*/
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
-	/*float: right;*/
-	/*position:absolute;*/
-	/*width: 90px;*/
-	/*height: 32px;*/
-	/*margin-top: 10px;*/
 	height: 33px;
-	/*z-index: 1;*/
-	/*z-index:3;*/
 	position: relative;
-	float:right
-	/*bottom: 5px;*/
-	/*right: 0;*/
-	
+	float:right;
 }
 .descargar span, .leer span, .escuchar span, .ver span{
 	font-family:"Myriad Pro";
@@ -126,40 +70,23 @@
 .descargar{
 	background:url('../../IMAGENES/descargar.png') no-repeat;
 	background-position:57px;
-	width: 90px; /*se modifico*/
+	width: 90px;
 }
 .leer{
 	background:url('../../IMAGENES/leer.png') no-repeat;
 	background-position:57px;
-	width: 90px; /*se modifico*/
+	width: 90px;
 }
 .escuchar{
 	background:url('../../Imagenes/escuchar.png')no-repeat;
 	background-position:57px;
-	width: 90px; /*se modifico*/	
+	width: 90px;	
 }
 .ver{
 	background:url('../../Imagenes/ver.png') no-repeat;
 	background-position:57px;
-	width: 90px; /*se modifico*/	
+	width: 90px;
 }
-
-/*.wpUnidades ul{
-	width:100%
-}*/
-/*.wpUnidades li{
-	width:31%;
-	float:left;
-	margin-right:15px;
-	margin-top:0px;
-}*/
-/*.wpUnidades{
-	width:100%;
-}*/
-/*.wpNormatividad ul, .wpUnidades ul{
-	width:100%
-}*/
-
 .wpCrono{
 	position:relative;
 	width:100%;
@@ -188,7 +115,21 @@
 	float:right;
 	margin-right:3px;
 }
-
+/*-------------------------Modulo01--------------------------*/
+.modulo01 .der .descargar, .modulo01 .der .leer, .modulo01 .der .ver, .modulo01 .der .escuchar {
+	right: 30%;
+}
+/*-----------------------------------------------------------*/
+/*-------------------------Modulo02--------------------------*/
+.modulo02 .ContenedorTxt{
+	width:100%;
+}
+.modulo02 .descargar, .modulo02 .leer, .modulo02 .escuchar, .modulo02 .ver{
+	margin-top: 10px;
+	position: relative;
+	float: right;
+}
+/*-----------------------------------------------------------*/
 /*-------------------------Modulo03--------------------------*/
 .modulo03{
 	position:relative;
@@ -240,10 +181,10 @@
 }
 .modulo03 .descargar, .modulo03 .leer{
 	position:absolute;
-	width: 14%;
-	height: 11%;
-	right: 0px;
-	bottom: 0px;
+	width:14%;
+	height:11%;
+	right:10px;
+	bottom:10px;
 	background-position:0px;
 }
 /**************************************************************/
@@ -264,7 +205,7 @@
 /**************************************************************/
 /*------------------------Inicia ModuloB----------------------*/
 .moduloB{
-	max-width:100%;
+	width:100%;
 	float:left;
 }
 .moduloB .ContenedorImg{
@@ -282,19 +223,36 @@
 	text-align:center;
 }
 .moduloB .descargar span, .moduloB .leer span, .moduloB .escuchar span, .moduloB .ver span{
-	width:99%;/*Se agrega a la Webpart*/
-	font-family:"Myriad Pro"; /*Se agrega a la Webpart*/
-	text-align:center; /*Se agrega a la Webpart*/
-	padding-top: 35px; /*Se agrega a la Webpart*/
-	right:0px; /*Se agrega a la Webpart*/
-	top:65px; /*Se agrega a la Webpart*/
+	width:99%;
+	font-family:"Myriad Pro";
+	text-align:center;
+	padding-top: 35px;
+	right:0px;
+	top:65px;
 }
 .moduloB .descargar{
 	background-position:center;
-	width: 25.7%; /*se modifico*/
-	height:168px; /*Se agrega a la Webpart*/
+	width: 25.7%;
+	height:168px;
 }
 /***************************************************************/
+/*------------------------Inicia ModuloB2----------------------*/
+.moduloB2 .ContenedorImg{
+	width:100%;
+	padding:0px;
+	float:inherit;
+}
+.moduloB2 .ContenedorImg img{
+	max-height:124px;
+}
+.moduloB2 .ContenedorTxt{
+	padding:10px;
+}
+.moduloB2 h2{
+	width:100%;
+	text-align:center;
+}
+/*-------------------------------------------------------------*/
 .tit{
 list-style-type: disc;
 color: rgb(83,8,39);
@@ -365,9 +323,9 @@ border-bottom: 1px dotted #ccc;
 		min-height: 123px;
 		max-height: 100%;
 	}
-	.modulo01 .ContenedorImg img, .modulo02 .ContenedorImg img{display:none;}
-	.modulo01 .leer, .modulo01 .descargar, .modulo01 .escuchar, .modulo01 .ver, .modulo02 .leer, .modulo02 .descargar, .modulo02 .escuchar, .modulo02 .ver, .moduloB .leer, .moduloB .descargar, .moduloB .escuchar, .moduloB .ver{text-indent:inherit; background:inherit;}
-	.modulo01 .leer span, .modulo01 .descargar span, .modulo01 .escuchar span, .modulo01 .ver span, .modulo02 .leer span, .modulo02 .descargar span, .modulo02 .escuchar span, .modulo02 .ver span, .moduloB .leer span, .moduloB .descargar span, .moduloB .escuchar span, .moduloB .ver span{right:0px;}
+	.modulo01 .ContenedorImg img, .modulo02 .ContenedorImg img, .moduloB2 .ContenedorImg img{display:none;}
+	.modulo01 .leer, .modulo01 .descargar, .modulo01 .escuchar, .modulo01 .ver, .modulo02 .leer, .modulo02 .descargar, .modulo02 .escuchar, .modulo02 .ver, .moduloB .leer, .moduloB .descargar, .moduloB .escuchar, .moduloB .ver, .moduloB2 .leer, .moduloB2 .descargar, .moduloB2 .escuchar, .moduloB2 .ver{text-indent:inherit; background:inherit;}
+	.modulo01 .leer span, .modulo01 .descargar span, .modulo01 .escuchar span, .modulo01 .ver span, .modulo02 .leer span, .modulo02 .descargar span, .modulo02 .escuchar span, .modulo02 .ver span, .moduloB .leer span, .moduloB .descargar span, .moduloB .escuchar span, .moduloB .ver span, .moduloB2 .leer span, .moduloB2 .descargar span, .moduloB2 .escuchar span, .moduloB2 .ver span{right:0px;}
 	
 	.wpUnidades .ContenedorTxt{width:100%; float:none;}
 	.wpUnidades li{width:0;	float:none;	margin-top:10px;}
