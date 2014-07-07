@@ -176,16 +176,10 @@
 .modulo03 ul{
 	margin-top:10px;
 }
-.modulo03 .descargar span, .modulo03 .leer span, .modulo03 .escuchar span, .modulo03 .ver span, .modulo03 .vinculos span{
-	right:47px;
-}
 .modulo03 .descargar, .modulo03 .leer{
 	position:absolute;
-	width:14%;
-	height:11%;
 	right:10px;
 	bottom:10px;
-	background-position:0px;
 }
 /**************************************************************/
 /*-----------------------Inicia Modulo04----------------------*/
@@ -313,6 +307,10 @@ border-bottom: 1px dotted #ccc;
 	.moduloB .ContenedorImg{width:100%}
 	.moduloB .descargar{background-position:57px; width:90px; height:35px;}
 	.moduloB .descargar span{width:100%; height:35px; padding-top:15px; right:0px; top:0px; text-align:inherit;}
+	
+	.zona_256{max-width:300px}
+	.modulo04 li img{width:280px}
+	.f1, .f2, .f3{background-repeat:round}
 
 @media screen and (max-width: 320px){
 	.modulo01, .modulo02 {
@@ -331,6 +329,9 @@ border-bottom: 1px dotted #ccc;
 	.wpUnidades li{width:0;	float:none;	margin-top:10px;}
 	.wpUnidades li img{width:260px;	padding-left:10px; padding-right:10px;}
 	
-	.modulo04 li{margin:15px 15px 0 15px;}
 	.moduloB .descargar span{width:60%;}
+	
+	.zona_256{max-width:280px}
+	.modulo04 li img{width:260px}
+	.f1, .f2, .f3{background-repeat:round}
 }
