@@ -176,7 +176,7 @@
 .modulo03 ul{
 	margin-top:10px;
 }
-.modulo03 .descargar, .modulo03 .leer{
+.modulo03 .descargar, .modulo03 .leer, .modulo03 .escuchar, .modulo03 .ver{
 	position:absolute;
 	right:10px;
 	bottom:10px;
@@ -311,7 +311,7 @@ border-bottom: 1px dotted #ccc;
 	.zona_256{max-width:300px}
 	.modulo04 li img{width:280px}
 	.f1, .f2, .f3{background-repeat:round}
-
+}
 @media screen and (max-width: 320px){
 	.modulo01, .modulo02 {
 		float: left;
@@ -331,7 +331,7 @@ border-bottom: 1px dotted #ccc;
 	
 	.moduloB .descargar span{width:60%;}
 	
-	.zona_256{max-width:280px}
-	.modulo04 li img{width:260px}
+	.zona_256{max-width:290px}
+	.modulo04 li img{width:270px}
 	.f1, .f2, .f3{background-repeat:round}
 }
