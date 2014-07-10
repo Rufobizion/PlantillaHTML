@@ -203,7 +203,7 @@
 	float:left;
 }
 .moduloB .ContenedorImg{
-	width:74.3%; 
+	width:90%; 
 	position:relative;
 	padding-right:0px; 
 }
@@ -217,7 +217,7 @@
 	text-align:center;
 }
 .moduloB .descargar span, .moduloB .leer span, .moduloB .escuchar span, .moduloB .ver span{
-	width:99%;
+	width:100%;
 	font-family:"Myriad Pro";
 	text-align:center;
 	padding-top: 35px;
@@ -226,7 +226,7 @@
 }
 .moduloB .descargar{
 	background-position:center;
-	width: 25.7%;
+	width: 10%;
 	height:168px;
 }
 /***************************************************************/
