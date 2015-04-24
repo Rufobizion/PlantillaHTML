@@ -1,7 +1,75 @@
 @charset "utf-8";
 /* CSS Document */
 /*********************Estilos Grles**********************/
-
+.HomeagendaPolitecnica{
+	background: none repeat scroll 0 0 #F9F8F8;
+	float: left;
+	width: 100%;
+	position: relative;
+}
+.HomeagendaPolitecnica h2 a {
+    background: #DDDDE2;
+    border-left: 10px solid #363554;
+    color: #363554;
+    display: block;
+    padding: 10px;
+    font-size: 12px;
+    width: 100%;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.5);
+}
+.HomeagendaPolitecnica ul{margin-top:10px;}
+.HomeagendaPolitecnica ul li {
+    border-bottom: 1px dotted #CCCCCC;
+    display: table;
+    margin: 0 auto 3px;
+    width: 95%;
+}
+.HomeagendaPolitecnica li .Tipo {
+    display: block;
+    font-size: 11px;
+    text-align: right;
+}
+.HomeagendaPolitecnica ul li .Fecha {
+    color: #FF9933;
+    display: block;
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    width: 30%;
+    margin-bottom: 5px;
+}
+.HomeagendaPolitecnica ul li .Fecha span {
+    display: block;
+    font-size: 12px;
+    color: #FF9933;
+}
+.HomeagendaPolitecnica ul li .Actividad{width: 65%;display: table;float: right;}
+.HomeagendaPolitecnica ul li .Actividad a {
+    clear: right;
+    color: #363554;
+    display: block;
+    float: left;
+    padding: 2px 5px;
+    font-weight: bold;
+}
+.HomeagendaPolitecnica .ConsultaMas {
+    background: url("../../Imagenes/AgendaVerMas.png") no-repeat scroll left top #DDDDE2;
+    bottom: 0;
+    height: 55px;
+    position: relative;
+    width: 100%;
+}
+.HomeagendaPolitecnica .ConsultaMas a {
+    color: #363554;
+    display: block;
+    font-size: 0.96em;
+    padding-left: 40px;
+    padding-top: 12px;
+    text-shadow: 0 1px 1px #FFFFFF;
+}
+.HomeagendaPolitecnica .ConsultaMas a span {
+    font-weight: bold;
+}
 .zona_256, .zona_770, .zona_385, .zona_256 p, .zona_770 p, .zona_385 p{
 	border:none !important;
 }
